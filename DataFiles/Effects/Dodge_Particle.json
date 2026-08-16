@@ -1,0 +1,153 @@
+{
+    "header": {
+        "createdAt": "2026-03-15T02:31:00",
+        "modifiedAt": "2026-03-15T02:31:00",
+        "toolType": "VFX_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "SystemName": "Dodge_Particle",
+            "AutoPlay": false,
+            "Loop": false,
+            "TotalDuration": 1.600000023841858,
+            "Effects": [
+                {
+                    "ParticleEffectName": "particles",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 1.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "Effects/T_FX_GEZSampleRadialGradient01",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.0,
+                        0.5
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "",
+                    "AlphaMaskTextureName": "",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle_Dust",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": true,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.0,
+                        8.82618236541748,
+                        150.0,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": false,
+                    "RadialRotation": false,
+                    "NumInstance": 150,
+                    "Size": [
+                        0.029999999329447746,
+                        0.029999999329447746
+                    ],
+                    "Speed": [
+                        0.30000001192092896,
+                        0.5
+                    ],
+                    "LifeTime": [
+                        1.100000023841858,
+                        1.100000023841858
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.5
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0
+                    ],
+                    "Center": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Range": [
+                        0.5,
+                        1.0,
+                        0.5
+                    ],
+                    "Pivot": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 0,
+                    "MaskFrameCountX": 0,
+                    "MaskFrameCountY": 0,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 1.0,
+                    "ShakeStrength": 0.5,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshScaleRatio": 0.0,
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "SubEmitters": []
+                }
+            ]
+        }
+    ]
+}

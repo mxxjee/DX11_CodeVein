@@ -1,0 +1,305 @@
+{
+    "header": {
+        "createdAt": "2026-03-12T03:18:25",
+        "modifiedAt": "2026-03-12T03:18:25",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "NPC_Dialogue",
+            "BaseType": "NPC_DIALOGUE",
+            "UIType": "DEFAULT",
+            "ZOrder": 4,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "Transform": {
+                "Pos": [
+                    804.0,
+                    777.0,
+                    0.0
+                ],
+                "Size": [
+                    565.0,
+                    187.0
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                565.0,
+                187.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Render",
+                    "ComData": {
+                        "Interatable": false
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "Name_Back",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 1,
+                    "Parent": "NPC_Dialogue",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            -13.281999588012695,
+                            -18.996999740600586,
+                            0.0
+                        ],
+                        "Size": [
+                            36.10619354248047,
+                            15.777999877929688
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        204.0,
+                        29.504859924316406
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Intensity": 1.0,
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_LoadWallpaper_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "Clip": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Text_Name",
+                    "BaseType": "TEXT",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "NPC_Dialogue",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            -31.504425048828125,
+                            -27.593570709228516,
+                            0.0
+                        ],
+                        "Size": [
+                            11.504425048828125,
+                            34.75935745239258
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        65.0,
+                        65.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "Font_Shine_Bold",
+                                "InnerText": "무라사메",
+                                "TextColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": false,
+                                "UseAlphaBlend": true,
+                                "UseSpacing": false,
+                                "OffSetScale": [
+                                    0.009999999776482582,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Text_Desc",
+                    "BaseType": "TEXT",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 3,
+                    "Parent": "NPC_Dialogue",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            -32.11800003051758,
+                            -6.64300012588501,
+                            0.0
+                        ],
+                        "Size": [
+                            12.38938045501709,
+                            37.43315505981445
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        70.0,
+                        70.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "A2Z_5_Medium",
+                                "InnerText": "새로운 무기를 추가했어!",
+                                "TextColor": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": false,
+                                "UseAlphaBlend": false,
+                                "UseSpacing": false,
+                                "OffSetScale": [
+                                    0.009999999776482582,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        }
+                    ],
+                    "Children": []
+                }
+            ]
+        }
+    ]
+}

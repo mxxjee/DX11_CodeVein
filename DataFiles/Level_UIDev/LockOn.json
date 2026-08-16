@@ -1,0 +1,85 @@
+{
+    "header": {
+        "createdAt": "2026-03-03T17:46:05",
+        "modifiedAt": "2026-03-03T17:46:05",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "LockOn",
+            "BaseType": "LOCKON",
+            "UIType": "DEFAULT",
+            "ZOrder": 2,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "Transform": {
+                "Pos": [
+                    800.0,
+                    450.0,
+                    0.0
+                ],
+                "Size": [
+                    100.0,
+                    100.0
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                100.0,
+                100.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Intensity": 1.0,
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "Textures/LockOnSite",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": "",
+                        "Clip": [
+                            0.0,
+                            0.0
+                        ],
+                        "RenderMode": "RENDER_NORMAL"
+                    }
+                }
+            ],
+            "Children": []
+        }
+    ]
+}

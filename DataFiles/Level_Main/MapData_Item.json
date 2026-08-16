@@ -1,0 +1,108 @@
+{
+    "data": [
+        {
+            "LayerName": "Layer_Item",
+            "PrototypeName": "Prototype_GameObject_Item",
+            "ObjectKey": "Model/Map_Static/Item/Item_Debug",
+            "WorldMatrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -276.6211242675781,
+                -27.27400016784668,
+                21.612396240234375,
+                1.0
+            ],
+            "ExtraData": {
+                "ItemID": 5000
+            }
+        },
+        {
+            "LayerName": "Layer_Item",
+            "PrototypeName": "Prototype_GameObject_Item",
+            "ObjectKey": "Model/Map_Static/Item/Item_Debug",
+            "WorldMatrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -253.51583862304688,
+                -21.106000900268555,
+                66.03114318847656,
+                1.0
+            ],
+            "ExtraData": {
+                "ItemID": 5009
+            }
+        },
+        {
+            "LayerName": "Layer_Item",
+            "PrototypeName": "Prototype_GameObject_Item",
+            "ObjectKey": "Model/Map_Static/Item/Item_Debug",
+            "WorldMatrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -215.3369903564453,
+                -8.965999603271484,
+                47.34626770019531,
+                1.0
+            ],
+            "ExtraData": {
+                "ItemID": 5011
+            }
+        },
+        {
+            "LayerName": "Layer_Item",
+            "PrototypeName": "Prototype_GameObject_Item_Box",
+            "ObjectKey": "Model/Map_Static/Item/ItemBox_Body",
+            "WorldMatrix": [
+                -0.0174524188041687,
+                0.0,
+                -0.9998480081558228,
+                0.0,
+                0.0,
+                1.0000019073486328,
+                0.0,
+                2.9802322387695313e-08,
+                0.9998480081558228,
+                0.0,
+                -0.0174524188041687,
+                0.0,
+                -249.5547637939453,
+                -21.175382614135742,
+                87.3380126953125,
+                1.0
+            ],
+            "ExtraData": {
+                "ItemID": 1006
+            }
+        }
+    ]
+}

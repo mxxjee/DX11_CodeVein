@@ -1,0 +1,3522 @@
+[
+    {
+        "MeshName": "SM_TowerSenRL3Top_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14703.436279296875,
+            "Y": 290.53516387939453,
+            "Z": -10018.344116210938
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071102261543274,
+            "Z": -0.0,
+            "W": 0.7071033716201782
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerSenRL3Top_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15105.342102050781,
+            "Y": 290.53516387939453,
+            "Z": -10018.344116210938
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071017622947693,
+            "Z": 0.0,
+            "W": 0.7071118354797363
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerPillarCenterA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268426060676575,
+            "Z": 0.0,
+            "W": 0.9238792061805725
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerPillarCenterA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268426060676575,
+            "Z": 0.0,
+            "W": 0.9238792061805725
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerPillarCenterA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268426060676575,
+            "Z": 0.0,
+            "W": 0.9238792061805725
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerPillarCenterA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268426060676575,
+            "Z": 0.0,
+            "W": 0.9238792061805725
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.3826819360256195,
+            "Z": 0.0,
+            "W": 0.9238801598548889
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSCenter_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.198486328125,
+            "Y": 3700.0,
+            "Z": -11710.15625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerWallLDeco",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071065306663513,
+            "Z": -0.0,
+            "W": 0.7071070671081543
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpiralStairSB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.555688738822937,
+            "Z": -0.0,
+            "W": 0.8313904404640198
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpiralStairSB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.555688738822937,
+            "Z": -0.0,
+            "W": 0.8313904404640198
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071053385734558,
+            "Z": 0.0,
+            "W": 0.707108199596405
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.92387855052948,
+            "Z": 0.0,
+            "W": 0.38268575072288513
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 2.1020557596784784e-06
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.923880398273468,
+            "Z": -0.0,
+            "W": 0.38268133997917175
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071084380149841,
+            "Z": -0.0,
+            "W": 0.7071051001548767
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3826856017112732,
+            "Z": -0.0,
+            "W": 0.9238786101341248
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -2.1457663024193607e-06,
+            "Z": -0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_FloorS_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15104.010009765625,
+            "Y": 500.0,
+            "Z": -13200.8056640625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0199999809265137
+        }
+    },
+    {
+        "MeshName": "SM_FenceAend01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14717.782592773438,
+            "Y": 499.84374046325684,
+            "Z": -13200.8056640625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0199999809265137
+        }
+    },
+    {
+        "MeshName": "SM_FloorS_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14703.155517578125,
+            "Y": 500.0,
+            "Z": -10224.75814819336
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_FloorS_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14703.155517578125,
+            "Y": 500.0,
+            "Z": -9812.757873535156
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_FenceA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15103.155517578125,
+            "Y": 500.0,
+            "Z": -9400.758361816406
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_FenceA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15103.155517578125,
+            "Y": 500.0,
+            "Z": -9812.757873535156
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_FenceA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14703.155517578125,
+            "Y": 500.0,
+            "Z": -10224.75814819336
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_SpiralStairSBottom_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.555688738822937,
+            "Z": -0.0,
+            "W": 0.8313904404640198
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpiralStairSBottom_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.555688738822937,
+            "Z": -0.0,
+            "W": 0.8313904404640198
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -16193.1640625,
+            "Y": 1899.9296188354492,
+            "Z": -12246.601867675781
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.8313890695571899,
+            "Z": -0.0,
+            "W": 0.5556907653808594
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15434.065246582031,
+            "Y": 1899.9296188354492,
+            "Z": -10413.961029052734
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.19498324394226074,
+            "Z": -0.0,
+            "W": 0.9808065891265869
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14360.527038574219,
+            "Y": 1899.9296188354492,
+            "Z": -13005.6640625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.9808076024055481,
+            "Z": 0.0,
+            "W": 0.1949779987335205
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15434.068298339844,
+            "Y": 1899.9296188354492,
+            "Z": -13005.6640625
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9808056950569153,
+            "Z": -0.0,
+            "W": 0.1949876993894577
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_PillerL03_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14668.873596191406,
+            "Y": 1100.0,
+            "Z": -11155.641174316406
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9329352378845215,
+            "Z": -0.0,
+            "W": 0.3600442111492157
+        },
+        "Scale": {
+            "X": 0.5299999713897705,
+            "Y": 1.0,
+            "Z": 0.5299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_PillerL03_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14668.870544433594,
+            "Y": 1100.0,
+            "Z": -12264.29672241211
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.024539407342672348,
+            "Z": -0.0,
+            "W": 0.9996988773345947
+        },
+        "Scale": {
+            "X": 0.5299999713897705,
+            "Y": 1.0,
+            "Z": 0.5299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_PillerL03_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14344.151306152344,
+            "Y": 1100.0,
+            "Z": -11480.35888671875
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7242453098297119,
+            "Z": -0.0,
+            "W": 0.6895423531532288
+        },
+        "Scale": {
+            "X": 0.5299999713897705,
+            "Y": 1.0,
+            "Z": 0.5299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_PillerL03_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14344.151306152344,
+            "Y": 1100.0,
+            "Z": -11939.578247070312
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.40510690212249756,
+            "Z": -0.0,
+            "W": 0.9142693281173706
+        },
+        "Scale": {
+            "X": 0.5299999713897705,
+            "Y": 1.0,
+            "Z": 0.5299999713897705
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15452.311706542969,
+            "Y": 2700.0,
+            "Z": -11939.765930175781
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.8313887715339661,
+            "Z": -0.0,
+            "W": 0.5556912422180176
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15127.592468261719,
+            "Y": 2700.0,
+            "Z": -12264.483642578125
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9808056950569153,
+            "Z": -0.0,
+            "W": 0.1949876993894577
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15452.311706542969,
+            "Y": 2700.0,
+            "Z": -11480.547332763672
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.5556876063346863,
+            "Z": -0.0,
+            "W": 0.8313911557197571
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15127.589416503906,
+            "Y": 2700.0,
+            "Z": -11155.828094482422
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.19498515129089355,
+            "Z": -0.0,
+            "W": 0.9808061718940735
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14668.37158203125,
+            "Y": 2700.0,
+            "Z": -11155.828094482422
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.19497692584991455,
+            "Z": 0.0,
+            "W": 0.9808078408241272
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14343.644714355469,
+            "Y": 2700.0,
+            "Z": -11480.547332763672
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.5556767582893372,
+            "Z": 0.0,
+            "W": 0.8313984274864197
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15452.311706542969,
+            "Y": 300.0,
+            "Z": -11939.765930175781
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.8313887715339661,
+            "Z": -0.0,
+            "W": 0.5556912422180176
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15127.592468261719,
+            "Y": 300.0,
+            "Z": -12264.483642578125
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9808056950569153,
+            "Z": -0.0,
+            "W": 0.1949876993894577
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15452.311706542969,
+            "Y": 300.0,
+            "Z": -11480.547332763672
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.5556876063346863,
+            "Z": -0.0,
+            "W": 0.8313911557197571
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15127.589416503906,
+            "Y": 300.0,
+            "Z": -11155.828094482422
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.19498515129089355,
+            "Z": -0.0,
+            "W": 0.9808061718940735
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorDecoL01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14668.37158203125,
+            "Y": 300.0,
+            "Z": -11155.828094482422
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.19497692584991455,
+            "Z": 0.0,
+            "W": 0.9808078408241272
+        },
+        "Scale": {
+            "X": 0.6000000238418579,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14703.779602050781,
+            "Y": 500.0,
+            "Z": -13315.773010253906
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence02_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14701.922607421875,
+            "Y": 500.0,
+            "Z": -9909.382629394531
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence03_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15102.108764648438,
+            "Y": 500.0,
+            "Z": -10127.227020263672
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0132786201211275e-06,
+            "Z": -0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071060538291931,
+            "Z": -0.0,
+            "W": 0.7071075439453125
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071060538291931,
+            "Z": -0.0,
+            "W": 0.7071075439453125
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.38268306851387024,
+            "Z": -0.0,
+            "W": 0.9238796830177307
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.38268306851387024,
+            "Z": -0.0,
+            "W": 0.9238796830177307
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 7.748600978629838e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 7.748600978629838e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268426060676575,
+            "Z": 0.0,
+            "W": 0.9238792061805725
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071073651313782,
+            "Z": 0.0,
+            "W": 0.7071061730384827
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071060538291931,
+            "Z": -0.0,
+            "W": 0.7071075439453125
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3826848268508911,
+            "Z": -0.0,
+            "W": 0.9238789677619934
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3826824128627777,
+            "Z": -0.0,
+            "W": 0.9238799214363098
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.445678710938,
+            "Y": 2100.0,
+            "Z": -11709.99984741211
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.8477435332897585e-06,
+            "Z": -0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 7.748600978629838e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268107175827026,
+            "Z": 0.0,
+            "W": 0.9238805174827576
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071056962013245,
+            "Z": 0.0,
+            "W": 0.7071078419685364
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.92387855052948,
+            "Z": 0.0,
+            "W": 0.38268575072288513
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.9238796830177307,
+            "Z": 0.0,
+            "W": 0.3826830983161926
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 1.8636372942637536e-06
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 9.099629210140847e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.923880398273468,
+            "Z": -0.0,
+            "W": 0.38268133997917175
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071073651313782,
+            "Z": 0.0,
+            "W": 0.7071061730384827
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.707107663154602,
+            "Z": -0.0,
+            "W": 0.7071059346199036
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268426060676575,
+            "Z": 0.0,
+            "W": 0.9238792061805725
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.517395019531,
+            "Y": 2099.81632232666,
+            "Z": -11709.92202758789
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071060538291931,
+            "Z": -0.0,
+            "W": 0.7071075439453125
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.514343261719,
+            "Y": 2099.81632232666,
+            "Z": -11709.819793701172
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.38268306851387024,
+            "Z": -0.0,
+            "W": 0.9238796830177307
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.340393066406,
+            "Y": 2099.81632232666,
+            "Z": -11709.99984741211
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 9.099629210140847e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.445678710938,
+            "Y": 2099.81632232666,
+            "Z": -11709.99984741211
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9238786697387695,
+            "Z": -0.0,
+            "W": 0.38268551230430603
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3826848268508911,
+            "Z": -0.0,
+            "W": 0.9238789677619934
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.445678710938,
+            "Y": 1300.0,
+            "Z": -11709.99984741211
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.8477435332897585e-06,
+            "Z": -0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268107175827026,
+            "Z": 0.0,
+            "W": 0.9238805174827576
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071056962013245,
+            "Z": 0.0,
+            "W": 0.7071078419685364
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.92387855052948,
+            "Z": 0.0,
+            "W": 0.38268575072288513
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 1.8636372942637536e-06
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.923880398273468,
+            "Z": -0.0,
+            "W": 0.38268133997917175
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.707107663154602,
+            "Z": -0.0,
+            "W": 0.7071059346199036
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.923879086971283,
+            "Z": -0.0,
+            "W": 0.38268452882766724
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071060538291931,
+            "Z": -0.0,
+            "W": 0.7071075439453125
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3826824128627777,
+            "Z": -0.0,
+            "W": 0.9238799214363098
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 7.748600978629838e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.9238796830177307,
+            "Z": 0.0,
+            "W": 0.3826830983161926
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 9.099629210140847e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071073651313782,
+            "Z": 0.0,
+            "W": 0.7071061730384827
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268426060676575,
+            "Z": 0.0,
+            "W": 0.9238792061805725
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071060538291931,
+            "Z": -0.0,
+            "W": 0.7071075439453125
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3826824128627777,
+            "Z": -0.0,
+            "W": 0.9238799214363098
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 7.748600978629838e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.9238796830177307,
+            "Z": 0.0,
+            "W": 0.3826830983161926
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 9.099629210140847e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071073651313782,
+            "Z": 0.0,
+            "W": 0.7071061730384827
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268426060676575,
+            "Z": 0.0,
+            "W": 0.9238792061805725
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerWallL",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -1100.0,
+            "Z": -11710.031127929688
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.9238799214363098,
+            "Z": 0.0,
+            "W": 0.3826824426651001
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerWallL",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -1900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071073651313782,
+            "Z": 0.0,
+            "W": 0.7071061730384827
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9238795042037964,
+            "Z": -0.0,
+            "W": 0.3826834261417389
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071060538291931,
+            "Z": -0.0,
+            "W": 0.7071075439453125
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.38268306851387024,
+            "Z": -0.0,
+            "W": 0.9238796830177307
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 7.748600978629838e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3826848268508911,
+            "Z": -0.0,
+            "W": 0.9238789677619934
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.445678710938,
+            "Y": 500.0,
+            "Z": -11709.99984741211
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.8477435332897585e-06,
+            "Z": -0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268107175827026,
+            "Z": 0.0,
+            "W": 0.9238805174827576
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071056962013245,
+            "Z": 0.0,
+            "W": 0.7071078419685364
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.92387855052948,
+            "Z": 0.0,
+            "W": 0.38268575072288513
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSC_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 1.8636372942637536e-06
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.923880398273468,
+            "Z": -0.0,
+            "W": 0.38268133997917175
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.707107663154602,
+            "Z": -0.0,
+            "W": 0.7071059346199036
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3826848268508911,
+            "Z": -0.0,
+            "W": 0.9238789677619934
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSB_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.8477435332897585e-06,
+            "Z": -0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.38268107175827026,
+            "Z": 0.0,
+            "W": 0.9238805174827576
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071056962013245,
+            "Z": 0.0,
+            "W": 0.7071078419685364
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.92387855052948,
+            "Z": 0.0,
+            "W": 0.38268575072288513
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 1.8636372942637536e-06
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.923880398273468,
+            "Z": -0.0,
+            "W": 0.38268133997917175
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.707107663154602,
+            "Z": -0.0,
+            "W": 0.7071059346199036
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9238795042037964,
+            "Z": -0.0,
+            "W": 0.3826834261417389
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071060538291931,
+            "Z": -0.0,
+            "W": 0.7071075439453125
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.38268306851387024,
+            "Z": -0.0,
+            "W": 0.9238796830177307
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerFloorSA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 7.748600978629838e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerWallL",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.445678710938,
+            "Y": -2700.0,
+            "Z": -11709.99984741211
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.9238799214363098,
+            "Z": 0.0,
+            "W": 0.3826824426651001
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_TowerWallLA_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 1.7444280047129723e-06
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerWallL",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 1300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.707107663154602,
+            "Z": 0.0,
+            "W": 0.7071058750152588
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerWallS",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -1100.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14435.081481933594,
+            "Y": 500.0,
+            "Z": -13027.772521972656
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9397086501121521,
+            "Z": -0.0,
+            "W": 0.341976135969162
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence02_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15331.222534179688,
+            "Y": 500.0,
+            "Z": -13010.008239746094
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.4617479741573334,
+            "Z": -0.0,
+            "W": 0.8870111703872681
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence02_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15135.223388671875,
+            "Y": 2100.0,
+            "Z": -12194.007873535156
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9238795042037964,
+            "Z": -0.0,
+            "W": 0.3826834261417389
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15404.2236328125,
+            "Y": 2900.0,
+            "Z": -11418.00765991211
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.1736491620540619,
+            "Z": 0.0,
+            "W": 0.984807550907135
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence02_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15234.222412109375,
+            "Y": 2900.0,
+            "Z": -12171.00830078125
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.5735782980918884,
+            "Z": -0.0,
+            "W": 0.8191507458686829
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence04_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15310.223388671875,
+            "Y": 2905.9999465942383,
+            "Z": -12091.007995605469
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.5735760927200317,
+            "Z": -0.0,
+            "W": 0.819152295589447
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpLamp01d_st10a1",
+        "ObjectName": "SM_SpLamp01d_st10a1",
+        "Translation": {
+            "X": -15420.004272460938,
+            "Y": 819.9999809265137,
+            "Z": -11487.103271484375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7660985589027405,
+            "Z": -0.0,
+            "W": 0.6427231431007385
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpLamp01b_st10a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15341.22314453125,
+            "Y": 734.9999904632568,
+            "Z": -11501.007843017578
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7660985589027405,
+            "Z": 0.0,
+            "W": 0.6427231431007385
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpLamp01d_st10a1",
+        "ObjectName": "SM_SpLamp01d_st10a1",
+        "Translation": {
+            "X": -15422.344970703125,
+            "Y": 819.9999809265137,
+            "Z": -11921.939086914062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.6086857914924622,
+            "Z": -0.0,
+            "W": 0.793411374092102
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpLamp01b_st10a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15345.074462890625,
+            "Y": 734.9999904632568,
+            "Z": -11901.219177246094
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.6086857914924622,
+            "Z": 0.0,
+            "W": 0.793411374092102
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpLamp01d_st10a1",
+        "ObjectName": "SM_SpLamp01d_st10a1",
+        "Translation": {
+            "X": -14681.819152832031,
+            "Y": 23.000000417232513,
+            "Z": -11188.155364990234
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.996186375617981,
+            "Z": -0.0,
+            "W": 0.08725068718194962
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpLamp01b_st10a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14695.7275390625,
+            "Y": -62.00000047683716,
+            "Z": -11266.937255859375
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.996186375617981,
+            "Z": -0.0,
+            "W": 0.08725068718194962
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpLamp01d_st10a1",
+        "ObjectName": "SM_SpLamp01d_st10a1",
+        "Translation": {
+            "X": -15117.979431152344,
+            "Y": 23.000000417232513,
+            "Z": -11193.437194824219
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.996187686920166,
+            "Z": -0.0,
+            "W": 0.08723583817481995
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpLamp01b_st10a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15104.074096679688,
+            "Y": -62.00000047683716,
+            "Z": -11272.21908569336
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.996187686920166,
+            "Z": 0.0,
+            "W": 0.08723583817481995
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14626.040649414062,
+            "Y": 501.6171932220459,
+            "Z": -13079.039001464844
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7660738825798035,
+            "Z": -0.0,
+            "W": 0.642752468585968
+        },
+        "Scale": {
+            "X": 1.2000000476837158,
+            "Y": 1.2000000476837158,
+            "Z": 1.2000000476837158
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15273.236083984375,
+            "Y": 500.0,
+            "Z": -13045.304870605469
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.46175408363342285,
+            "Z": -0.0,
+            "W": 0.887008011341095
+        },
+        "Scale": {
+            "X": 0.800000011920929,
+            "Y": 0.800000011920929,
+            "Z": 0.800000011920929
+        }
+    },
+    {
+        "MeshName": "SM_SpTreeFence01_st07a1",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15173.355102539062,
+            "Y": 500.0,
+            "Z": -13090.742492675781
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.6427626609802246,
+            "Z": -0.0,
+            "W": 0.7660653591156006
+        },
+        "Scale": {
+            "X": 0.800000011920929,
+            "Y": 0.800000011920929,
+            "Z": 0.800000011920929
+        }
+    },
+    {
+        "MeshName": "SM_SlaveVampire_NoMantle_DeadBody_Sleep_B",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15669.20166015625,
+            "Y": 500.39844512939453,
+            "Z": -12377.507781982422
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.1399999856948853,
+            "Y": 1.1399999856948853,
+            "Z": 1.1399999856948853
+        }
+    },
+    {
+        "MeshName": "SM_SlaveVampire_DeadBodyIdle_Sleep_F",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15199.10888671875,
+            "Y": 500.39844512939453,
+            "Z": -12463.616943359375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7372771501541138,
+            "Z": 0.0,
+            "W": 0.6755903959274292
+        },
+        "Scale": {
+            "X": 1.1399999856948853,
+            "Y": 1.1399999856948853,
+            "Z": 1.1399999856948853
+        }
+    },
+    {
+        "MeshName": "SM_SlaveVampire_NoMantle_DeadBody_Lean",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14671.83837890625,
+            "Y": 500.93750953674316,
+            "Z": -13012.898254394531
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.1399999856948853,
+            "Y": 1.1399999856948853,
+            "Z": 1.1399999856948853
+        }
+    },
+    {
+        "MeshName": "SM_SlaveVampire_NoMantle_DeadBody_Sit",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14309.687805175781,
+            "Y": 500.39844512939453,
+            "Z": -12143.733978271484
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.42265966534614563,
+            "Z": -0.0,
+            "W": 0.9062885046005249
+        },
+        "Scale": {
+            "X": 1.1399999856948853,
+            "Y": 1.1399999856948853,
+            "Z": 1.1399999856948853
+        }
+    },
+    {
+        "MeshName": "SM_SlaveVampire_NoMantle_DeadBody_Sleep_F",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -13736.512756347656,
+            "Y": 500.39844512939453,
+            "Z": -12289.156341552734
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.1399999856948853,
+            "Y": 1.1399999856948853,
+            "Z": 1.1399999856948853
+        }
+    },
+    {
+        "MeshName": "SM_SlaveVampire_NoMantle_DeadBody_Sleep_B",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15109.947204589844,
+            "Y": 500.39844512939453,
+            "Z": -12975.477600097656
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.3419855833053589,
+            "Z": -0.0,
+            "W": 0.9397051930427551
+        },
+        "Scale": {
+            "X": 1.1399999856948853,
+            "Y": 1.1399999856948853,
+            "Z": 1.1399999856948853
+        }
+    },
+    {
+        "MeshName": "SM_SlaveVampire_DeadBodyIdle_Sleep_F",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14784.370422363281,
+            "Y": 500.0,
+            "Z": -13390.101623535156
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.1399999856948853,
+            "Y": 1.1399999856948853,
+            "Z": 1.1399999856948853
+        }
+    },
+    {
+        "MeshName": "SM_SlaveHalberd_Object",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15218.978881835938,
+            "Y": 621.5663909912109,
+            "Z": -13038.226318359375
+        },
+        "Rotation": {
+            "X": -0.011748969554901123,
+            "Y": -0.7751332521438599,
+            "Z": -0.3051930367946625,
+            "W": 0.5530710816383362
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SlaveSword_Object",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15049.856567382812,
+            "Y": 500.79689025878906,
+            "Z": -13437.257385253906
+        },
+        "Rotation": {
+            "X": -0.664462685585022,
+            "Y": -0.664462685585022,
+            "Z": 0.2418455332517624,
+            "W": 0.2418455332517624
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SlaveBayonet_Object",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -13712.629699707031,
+            "Y": 525.8633136749268,
+            "Z": -12283.367156982422
+        },
+        "Rotation": {
+            "X": -0.5599101781845093,
+            "Y": 0.799815833568573,
+            "Z": 0.17721396684646606,
+            "W": -0.12405803799629211
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SlaveHalberd_Object",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15406.199645996094,
+            "Y": 500.39844512939453,
+            "Z": -12482.508087158203
+        },
+        "Rotation": {
+            "X": 0.7379257082939148,
+            "Y": -0.6748819351196289,
+            "Z": -4.6824254695820855e-07,
+            "W": 4.805177127309435e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerFloorS_1101",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 3700.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerFloorS_1101",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 2900.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerFloorS_1101",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": 500.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerFloorS_1101",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.372436523438,
+            "Y": -300.0,
+            "Z": -11709.969329833984
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerFloorS_1301",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.297668457031,
+            "Y": 3700.0,
+            "Z": -11709.898376464844
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerFloorS_1301",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.297668457031,
+            "Y": 2100.0,
+            "Z": -11709.898376464844
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_TowerFloorS_1301",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14897.297668457031,
+            "Y": 1300.0,
+            "Z": -11709.898376464844
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerS_A",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14344.233703613281,
+            "Y": 2900.0,
+            "Z": -11480.35888671875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerS_B",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14344.223022460938,
+            "Y": 2100.0,
+            "Z": -11480.35888671875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerS_A",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14344.223022460938,
+            "Y": 1300.0,
+            "Z": -11480.35888671875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerS_A",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14344.223022460938,
+            "Y": 500.0,
+            "Z": -11480.35888671875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerS_B",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -14344.223022460938,
+            "Y": -300.0,
+            "Z": -11480.35888671875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerL_A",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -16191.00341796875,
+            "Y": 2900.0,
+            "Z": -11174.13330078125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerL_A",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -16191.00341796875,
+            "Y": 2100.0,
+            "Z": -11174.13330078125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerL_B",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -16191.00341796875,
+            "Y": 1300.0,
+            "Z": -11174.13330078125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerL_B",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -16191.00341796875,
+            "Y": 500.0,
+            "Z": -11174.13330078125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_WB_PillerL_A",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -16191.00341796875,
+            "Y": -300.0,
+            "Z": -11174.13330078125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_FloorS",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15103.338623046875,
+            "Y": 1300.0,
+            "Z": -13174.8046875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MERGED_FloorS",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": -15103.338623046875,
+            "Y": 2100.0,
+            "Z": -13174.8046875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 2.3841845120387006e-07,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    }
+]

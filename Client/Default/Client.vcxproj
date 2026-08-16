@@ -1,0 +1,1314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Both|Win32">
+      <Configuration>Debug_Both</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Both|x64">
+      <Configuration>Debug_Both</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Convex|Win32">
+      <Configuration>Debug_Convex</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Convex|x64">
+      <Configuration>Debug_Convex</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Triangle|Win32">
+      <Configuration>Debug_Triangle</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Triangle|x64">
+      <Configuration>Debug_Triangle</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5aae0fab-5e89-4369-aa88-09f495c9ca40}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Both|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableFuzzer>false</EnableFuzzer>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableFuzzer>false</EnableFuzzer>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableFuzzer>false</EnableFuzzer>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableFuzzer>false</EnableFuzzer>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableFuzzer>false</EnableFuzzer>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Both|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>../Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">
+    <OutDir>../Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">
+    <OutDir>../Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">
+    <OutDir>../Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>../Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Both|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../Public\;../../EngineSDK/Include;../IMGUI\;../../EngineSDK/Include/DirectXTK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Client_Define.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Library/;../../EngineSDK/Include/PhysX/;../../EngineSDK/Library/PhysX/Debug/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTKd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../Public\;../../EngineSDK/Include;../IMGUI\;../../EngineSDK/Include/DirectXTK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Client_Define.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Library/;../../EngineSDK/Include/PhysX/;../../EngineSDK/Library/PhysX/Debug/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTKd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../Public\;../../EngineSDK/Include;../IMGUI\;../../EngineSDK/Include/DirectXTK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Client_Define.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Library/;../../EngineSDK/Include/PhysX/;../../EngineSDK/Library/PhysX/Debug/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTKd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../Public\;../../EngineSDK/Include;../IMGUI\;../../EngineSDK/Include/DirectXTK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Client_Define.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Library/;../../EngineSDK/Include/PhysX/;../../EngineSDK/Library/PhysX/Debug/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTKd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;IMGUI_API=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../Public\;../../EngineSDK/Include;../IMGUI\;../../EngineSDK/Include/DirectXTK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Client_Define.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../EngineSDK/Library/PhysX/release/;../../EngineSDK/Include/PhysX/;../../EngineSDK/Library/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <EntryPointName>main</EntryPointName>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Camera_Customize.h" />
+    <ClInclude Include="..\Public\Cinematic_EventShape.h" />
+    <ClInclude Include="..\Public\Companion_State.h" />
+    <ClInclude Include="..\Public\CustomizingManager.h" />
+    <ClInclude Include="..\Public\DamageType.h" />
+    <ClInclude Include="..\Public\Giant_Vampire.h" />
+    <ClInclude Include="..\Public\Homing_Heal.h" />
+    <ClInclude Include="..\Public\Giant_WhiteDevil.h" />
+    <ClInclude Include="..\Public\IMGUI_MonsterEditor.h" />
+    <ClInclude Include="..\Public\IndraCoil_Thunder.h" />
+    <ClInclude Include="..\Public\Level_Customize.h" />
+    <ClInclude Include="..\Public\Monkey_Devil.h" />
+    <ClInclude Include="..\Public\Monster_Hit_Defines.h" />
+    <ClInclude Include="..\Public\Mstate_Awake_Idle.h" />
+    <ClInclude Include="..\Public\MState_PhaseChange.h" />
+    <ClInclude Include="..\Public\MState_Cinematic.h" />
+    <ClInclude Include="..\Public\MState_Down.h" />
+    <ClInclude Include="..\Public\MState_Evade.h" />
+    <ClInclude Include="..\Public\MState_Hit.h" />
+    <ClInclude Include="..\Public\MState_Repel.h" />
+    <ClInclude Include="..\Public\MState_Special0.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\MState_Stun.h" />
+    <ClInclude Include="..\Public\Player_Custom.h" />
+    <ClInclude Include="..\Public\Player_Injection.h" />
+    <ClInclude Include="..\Public\Projectile_Effect.h" />
+    <ClInclude Include="..\Public\Projectile_WolfHomingIce.h" />
+    <ClInclude Include="..\Public\UIObj_BossDead.h" />
+    <ClInclude Include="..\Public\UIObj_ColorSelector.h" />
+    <ClInclude Include="..\Public\UIObj_CustomizeGrid.h" />
+    <ClInclude Include="..\Public\UIObj_CustomizeSelector.h" />
+    <ClInclude Include="..\Public\UIObj_CustomizingInfo.h" />
+    <ClInclude Include="..\Public\UIObj_CustomMenu.h" />
+    <ClInclude Include="..\Public\UIObj_CustomMenuButton.h" />
+    <ClInclude Include="..\Public\Projectile_Direct.h" />
+    <ClInclude Include="..\Public\Projectile_Homing.h" />
+    <ClInclude Include="..\Public\Player_Ladder.h" />
+    <ClInclude Include="..\Public\UIObj_Ending.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIObj_ItemGrid.h" />
+    <ClInclude Include="..\Public\UIObj_MeshSelector.h" />
+    <ClInclude Include="..\Public\UIObj_PaletteArea.h" />
+    <ClInclude Include="..\Public\UIObj_PaletteDisplay.h" />
+    <ClInclude Include="..\Public\UIObj_TextureSelector.h" />
+    <ClInclude Include="..\Public\UIObj_ValueSelector.h" />
+    <ClInclude Include="..\Public\UIObj_VerticalSlider.h" />
+    <ClInclude Include="..\Public\UIObj_Window_LevelUp.h" />
+    <ClInclude Include="..\Public\UIObj_Window_Palette.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\UISoundUtil.h" />
+    <ClInclude Include="..\Public\WolfGhost_Attack.h" />
+    <ClInclude Include="..\Public\IMGUI_TransitionTable.h" />
+    <ClInclude Include="..\Public\MState_Far0.h" />
+    <ClInclude Include="..\Public\Bayonet_Bullet.h" />
+    <ClInclude Include="..\Public\Camera_Cinematic.h" />
+    <ClInclude Include="..\Public\Camera_NPC.h" />
+    <ClInclude Include="..\Public\DialogueManager.h" />
+    <ClInclude Include="..\public\GodRayMesh.h" />
+    <ClInclude Include="..\public\GodRayObject.h" />
+    <ClInclude Include="..\public\GodRaySun.h" />
+    <ClInclude Include="..\public\Item.h" />
+    <ClInclude Include="..\Public\Item_Box.h" />
+    <ClInclude Include="..\Public\MState_Awake.h" />
+    <ClInclude Include="..\Public\MState_Dead.h" />
+    <ClInclude Include="..\Public\MState_Melee0.h" />
+    <ClInclude Include="..\Public\BasicMesh.h" />
+    <ClInclude Include="..\Public\BasicParticle.h" />
+    <ClInclude Include="..\Public\BasicTrail.h" />
+    <ClInclude Include="..\Public\Basic_Class.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossBase.h" />
+    <ClInclude Include="..\Public\Camera_Free.h" />
+    <ClInclude Include="..\Public\Camera_Object.h" />
+    <ClInclude Include="..\Public\Camera_Player.h" />
+    <ClInclude Include="..\Public\Client_Define.h" />
+    <ClInclude Include="..\Public\Client_Function.h" />
+    <ClInclude Include="..\Public\Client_Macro.h" />
+    <ClInclude Include="..\Public\Client_Macro_Component.h" />
+    <ClInclude Include="..\Public\Client_Macro_GameObject.h" />
+    <ClInclude Include="..\Public\Decal_Blood.h" />
+    <ClInclude Include="..\Public\GhostKnight_Halberd.h" />
+    <ClInclude Include="..\Public\IInteractable.h" />
+    <ClInclude Include="..\Public\IMGUI_Base.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\IMGUI_Main.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\IMGUI_GameObject.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\IMGUI_UIDebug.h" />
+    <ClInclude Include="..\Public\InteractionManager.h" />
+    <ClInclude Include="..\Public\InventoryManager.h" />
+    <ClInclude Include="..\Public\Drum.h" />
+    <ClInclude Include="..\Public\ItemComponent.h" />
+    <ClInclude Include="..\Public\ItemManager.h" />
+    <ClInclude Include="..\Public\Ladder.h" />
+    <ClInclude Include="..\Public\Level_Base.h" />
+    <ClInclude Include="..\Public\Level_Church.h" />
+    <ClInclude Include="..\Public\Level_Client.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Load.h" />
+    <ClInclude Include="..\Public\Level_Logo.h" />
+    <ClInclude Include="..\Public\Level_Main.h" />
+    <ClInclude Include="..\Public\Level_Player.h" />
+    <ClInclude Include="..\Public\Level_Sample.h" />
+    <ClInclude Include="..\Public\Level_UIDev.h" />
+    <ClInclude Include="..\Public\Loader.h" />
+    <ClInclude Include="..\Public\MainApp.h" />
+    <ClInclude Include="..\Public\MinimapManager.h" />
+    <ClInclude Include="..\Public\MinimapRenderComponent.h" />
+    <ClInclude Include="..\Public\MapSeal.h" />
+    <ClInclude Include="..\Public\MinionBase.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterState.h" />
+    <ClInclude Include="..\Public\Monster_Awake.h" />
+    <ClInclude Include="..\Public\Monster_Battle.h" />
+    <ClInclude Include="..\Public\Monster_Boss_Story_CutScene.h" />
+    <ClInclude Include="..\Public\Monster_Copy.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Dead.h" />
+    <ClInclude Include="..\Public\Monster_Boss_Change_Phase.h" />
+    <ClInclude Include="..\Public\Monster_Boss_Intro.h" />
+    <ClInclude Include="..\Public\Monster_EventShape.h" />
+    <ClInclude Include="..\Public\Monster_AttackNormal.h" />
+    <ClInclude Include="..\Public\Monster_AttackStrong.h" />
+    <ClInclude Include="..\Public\Monster_Hit.h" />
+    <ClInclude Include="..\Public\Monster_Idle.h" />
+    <ClInclude Include="..\Public\Monster_Dodge.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Attack_Combo.h" />
+    <ClInclude Include="..\Public\Monster_Olv_JumpAttack.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Phase2_Ketsugi.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Phase2_PowerfulAttack.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Phase2_PowerfulComA.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Phase2_SP2.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Phase2_StrongComA.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Phase2_StrongComB.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Phase2_TripleAttack.h" />
+    <ClInclude Include="..\Public\Monster_Olv_Smash.h" />
+    <ClInclude Include="..\Public\Monster_Patrol.h" />
+    <ClInclude Include="..\Public\Monster_Run.h" />
+    <ClInclude Include="..\Public\Monster_SD_PatrolEscape.h" />
+    <ClInclude Include="..\Public\Monster_SD_PatrolTurn.h" />
+    <ClInclude Include="..\Public\Monster_Test.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h" />
+    <ClInclude Include="..\Public\Monster_Turn.h" />
+    <ClInclude Include="..\Public\Monster_Walk.h" />
+    <ClInclude Include="..\Public\Monster_Weapon.h" />
+    <ClInclude Include="..\Public\MState.h" />
+    <ClInclude Include="..\Public\MState_Battle.h" />
+    <ClInclude Include="..\Public\MState_Melee1.h" />
+    <ClInclude Include="..\Public\MState_Run.h" />
+    <ClInclude Include="..\Public\MState_TransitionEvaluator.h" />
+    <ClInclude Include="..\Public\MState_TransitionTable.h" />
+    <ClInclude Include="..\Public\MState_TransitionTypes.h" />
+    <ClInclude Include="..\Public\MState_Turn.h" />
+    <ClInclude Include="..\Public\MState_Walk.h" />
+    <ClInclude Include="..\Public\MT_Utils.h" />
+    <ClInclude Include="..\Public\NPC.h" />
+    <ClInclude Include="..\Public\MWeapon_Bayonet.h" />
+    <ClInclude Include="..\Public\MWeapon_GreatSword.h" />
+    <ClInclude Include="..\Public\MWeapon_Halberd.h" />
+    <ClInclude Include="..\Public\MWeapon_Hammer.h" />
+    <ClInclude Include="..\Public\MWeapon_Sword.h" />
+    <ClInclude Include="..\Public\NPC_Murasame.h" />
+    <ClInclude Include="..\Public\MState_Idle.h" />
+    <ClInclude Include="..\Public\Parser_UITool.h" />
+    <ClInclude Include="..\Public\Player.h" />
+    <ClInclude Include="..\Public\PlayerStatus.h" />
+    <ClInclude Include="..\Public\Player_AttackDodgeB.h" />
+    <ClInclude Include="..\Public\Player_AttackDodgeF.h" />
+    <ClInclude Include="..\Public\Player_AttackNormal.h" />
+    <ClInclude Include="..\Public\Player_AttackParry.h" />
+    <ClInclude Include="..\Public\Player_AttackStrong.h" />
+    <ClInclude Include="..\Public\Player_AttackStrongCharge.h" />
+    <ClInclude Include="..\Public\Player_AttackStrongStart.h" />
+    <ClInclude Include="..\Public\Player_BackStab.h" />
+    <ClInclude Include="..\Public\Player_BackStep.h" />
+    <ClInclude Include="..\Public\Player_BloodWeapon.h" />
+    <ClInclude Include="..\Public\Player_Body.h" />
+    <ClInclude Include="..\Public\Player_CheckPoint.h" />
+    <ClInclude Include="..\Public\Player_Damage.h" />
+    <ClInclude Include="..\Public\Player_DamageBlow.h" />
+    <ClInclude Include="..\Public\Player_DamageEnd.h" />
+    <ClInclude Include="..\Public\Player_Dash.h" />
+    <ClInclude Include="..\Public\Player_Death.h" />
+    <ClInclude Include="..\Public\Player_GuardBreak.h" />
+    <ClInclude Include="..\Public\Player_GuardEnd.h" />
+    <ClInclude Include="..\Public\Player_GuardHit.h" />
+    <ClInclude Include="..\Public\Player_GuardLoop.h" />
+    <ClInclude Include="..\Public\Player_GuardStart.h" />
+    <ClInclude Include="..\Public\Player_GuardWalk.h" />
+    <ClInclude Include="..\Public\Player_Hair.h" />
+    <ClInclude Include="..\Public\Player_Head.h" />
+    <ClInclude Include="..\Public\Player_Idle.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_MasterRig.h" />
+    <ClInclude Include="..\Public\Player_OpenBox.h" />
+    <ClInclude Include="..\Public\Player_Outer.h" />
+    <ClInclude Include="..\Public\Player_PickItem.h" />
+    <ClInclude Include="..\Public\Player_Roll.h" />
+    <ClInclude Include="..\Public\Player_Run.h" />
+    <ClInclude Include="..\Public\Player_Skill.h" />
+    <ClInclude Include="..\Public\Player_SpecialAttack.h" />
+    <ClInclude Include="..\Public\Player_SpecialSuck.h" />
+    <ClInclude Include="..\Public\Player_UpperDummy.h" />
+    <ClInclude Include="..\Public\Player_UseItem.h" />
+    <ClInclude Include="..\Public\Player_Walk.h" />
+    <ClInclude Include="..\Public\Player_Weapon.h" />
+    <ClInclude Include="..\Public\Player_WeaponChange.h" />
+    <ClInclude Include="..\Public\PoolingManager.h" />
+    <ClInclude Include="..\Public\Projectile.h" />
+    <ClInclude Include="..\Public\PWeapon_Bayonet.h" />
+    <ClInclude Include="..\Public\PWeapon_GreatSword.h" />
+    <ClInclude Include="..\Public\PWeapon_Halberd.h" />
+    <ClInclude Include="..\Public\PWeapon_Hammer.h" />
+    <ClInclude Include="..\Public\PWeapon_Sword.h" />
+    <ClInclude Include="..\Public\SampleModel.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\SampleParent.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Collision.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_ComputeShader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Event.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Event_Parent.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Event_Target.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Parsing.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Pars_Maptool.h" />
+    <ClInclude Include="..\Public\Sample_Pars_Shader.h" />
+    <ClInclude Include="..\Public\Sample_StaticObj.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_StructuredBuffer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\SavePoint.h" />
+    <ClInclude Include="..\Public\ShopManager.h" />
+    <ClInclude Include="..\Public\SimpleMath_Sample.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillManager.h" />
+    <ClInclude Include="..\Public\Skill_Base.h" />
+    <ClInclude Include="..\Public\Skill_Enchant.h" />
+    <ClInclude Include="..\Public\Skill_IndraCoil.h" />
+    <ClInclude Include="..\Public\Skill_KangRyong.h" />
+    <ClInclude Include="..\Public\Skill_RadiantBarrel.h" />
+    <ClInclude Include="..\Public\Skill_RoyalHeart.h" />
+    <ClInclude Include="..\Public\Skill_ShadowAssault.h" />
+    <ClInclude Include="..\Public\Skill_StrikeRiser.h" />
+    <ClInclude Include="..\Public\Skill_Yeomgeom.h" />
+    <ClInclude Include="..\Public\Sky_Sphere.h" />
+    <ClInclude Include="..\Public\Slave_Devil.h" />
+    <ClInclude Include="..\Public\Slave_Vampire.h" />
+    <ClInclude Include="..\Public\St01_BossOliver.h" />
+    <ClInclude Include="..\Public\St01_Slime.h" />
+    <ClInclude Include="..\Public\UIObj_Focus_NPCMenu.h" />
+    <ClInclude Include="..\Public\UIObj_Haze.h" />
+    <ClInclude Include="..\Public\UIObj_BitmapFont.h" />
+    <ClInclude Include="..\Public\UIObj_Blur.h" />
+    <ClInclude Include="..\Public\UIObj_BossName.h" />
+    <ClInclude Include="..\Public\UIObj_FadeScreen.h" />
+    <ClInclude Include="..\Public\UIObj_FocusMenu.h" />
+    <ClInclude Include="..\Public\UIObj_GlowButton.h" />
+    <ClInclude Include="..\Public\UIObj_HpBar.h" />
+    <ClInclude Include="..\Public\UIObj_LoadingCube.h" />
+    <ClInclude Include="..\Public\UIObj_LoadingScreen.h" />
+    <ClInclude Include="..\Public\UIObj_LockOn.h" />
+    <ClInclude Include="..\Public\UIObj_ManaInfo.h" />
+    <ClInclude Include="..\Public\UIObj_NpcDialogue.h" />
+    <ClInclude Include="..\Public\UIObj_Npc_ChoiceMenu.h" />
+    <ClInclude Include="..\Public\UIObj_PopUp_MapTitle.h" />
+    <ClInclude Include="..\Public\UIObj_Minimap.h" />
+    <ClInclude Include="..\Public\UIObj_MonsterStatus.h" />
+    <ClInclude Include="..\Public\UIObj_PopUp_Interaction.h" />
+    <ClInclude Include="..\Public\UIObj_PopUp_ItemGet.h" />
+    <ClInclude Include="..\Public\UIObj_PopUp_SavePoint.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIObj_QuickSlot.h" />
+    <ClInclude Include="..\Public\UIObj_SavePoint_Slot.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIObj_SceneSelectMenu.h" />
+    <ClInclude Include="..\Public\UIObj_SceneSlot.h" />
+    <ClInclude Include="..\Public\UIObj_Selector.h" />
+    <ClInclude Include="..\Public\UIObj_ShopCategory.h" />
+    <ClInclude Include="..\Public\UIObj_ShopSlot.h" />
+    <ClInclude Include="..\Public\UIObj_ShopSlotGrid.h" />
+    <ClInclude Include="..\Public\UIObj_ShortCutMenu.h" />
+    <ClInclude Include="..\Public\UIObj_ShortCutQuickSlot.h" />
+    <ClInclude Include="..\Public\UIObj_SkillDesc.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIObj_SlotGrid_Shortcut.h" />
+    <ClInclude Include="..\Public\UIObj_SubDesc.h" />
+    <ClInclude Include="..\Public\UIObj_Text.h" />
+    <ClInclude Include="..\Public\UIObj_GuardBar.h" />
+    <ClInclude Include="..\Public\UIObj_Cursor.h" />
+    <ClInclude Include="..\Public\StaticObject.h" />
+    <ClInclude Include="..\Public\UIObj_PlayerHUD.h" />
+    <ClInclude Include="..\Public\UIObj_ProgressBar.h" />
+    <ClInclude Include="..\Public\UIObj_Slot.h" />
+    <ClInclude Include="..\Public\UIObj_SlotGrid.h" />
+    <ClInclude Include="..\Public\UIObj_Stamina.h" />
+    <ClInclude Include="..\Public\UIObj_SubWindow.h" />
+    <ClInclude Include="..\Public\UIObj_Window_Bloodcode.h" />
+    <ClInclude Include="..\Public\UIObj_Window_Inventory.h" />
+    <ClInclude Include="..\Public\UIObj_Window_NeedInfo.h" />
+    <ClInclude Include="..\Public\UIObj_Window_PlayerMenu.h" />
+    <ClInclude Include="..\Public\UIObj_Window_Shop.h" />
+    <ClInclude Include="..\Public\UIObj_Window_ShopDesc.h" />
+    <ClInclude Include="..\Public\UIObj_Window_ShopSubDesc.h" />
+    <ClInclude Include="..\Public\UIObj_Window_Title.h" />
+    <ClInclude Include="..\Public\VFX_Parsing.h" />
+    <ClInclude Include="..\Public\WolfGhost.h" />
+    <ClInclude Include="..\Public\Yakumo.h" />
+    <ClInclude Include="..\Public\Yakumo_AttackDodgeB.h" />
+    <ClInclude Include="..\Public\Yakumo_AttackDodgeF.h" />
+    <ClInclude Include="..\Public\Yakumo_AttackNormal.h" />
+    <ClInclude Include="..\Public\Yakumo_AttackStrong.h" />
+    <ClInclude Include="..\Public\Yakumo_BackStep.h" />
+    <ClInclude Include="..\Public\Yakumo_Buddy.h" />
+    <ClInclude Include="..\Public\Yakumo_Damage.h" />
+    <ClInclude Include="..\Public\Yakumo_DamageBlow.h" />
+    <ClInclude Include="..\Public\Yakumo_DamageEnd.h" />
+    <ClInclude Include="..\Public\Yakumo_Dash.h" />
+    <ClInclude Include="..\Public\Yakumo_Death.h" />
+    <ClInclude Include="..\Public\Yakumo_GiftHeal.h" />
+    <ClInclude Include="..\Public\Yakumo_Idle.h" />
+    <ClInclude Include="..\Public\Yakumo_Roll.h" />
+    <ClInclude Include="..\Public\Yakumo_Run.h" />
+    <ClInclude Include="..\Public\Yakumo_SpecialAttack.h" />
+    <ClInclude Include="..\Public\Yakumo_Walk.h" />
+    <ClInclude Include="..\Public\Yakumo_Weapon.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\Camera_Customize.cpp" />
+    <ClCompile Include="..\Private\Cinematic_EventShape.cpp" />
+    <ClCompile Include="..\Private\Companion_State.cpp" />
+    <ClCompile Include="..\Private\CustomizingManager.cpp" />
+    <ClCompile Include="..\Private\Giant_Vampire.cpp" />
+    <ClCompile Include="..\Private\Homing_Heal.cpp" />
+    <ClCompile Include="..\Private\Giant_WhiteDevil.cpp" />
+    <ClCompile Include="..\Private\IMGUI_MonsterEditor.cpp" />
+    <ClCompile Include="..\Private\IndraCoil_Thunder.cpp" />
+    <ClCompile Include="..\Private\Level_Customize.cpp" />
+    <ClCompile Include="..\Private\Monkey_Devil.cpp" />
+    <ClCompile Include="..\Private\Mstate_Awake_Idle.cpp" />
+    <ClCompile Include="..\Private\MState_PhaseChange.cpp" />
+    <ClCompile Include="..\Private\MState_Cinematic.cpp" />
+    <ClCompile Include="..\Private\MState_Down.cpp" />
+    <ClCompile Include="..\Private\MState_Evade.cpp" />
+    <ClCompile Include="..\Private\MState_Hit.cpp" />
+    <ClCompile Include="..\Private\MState_Repel.cpp" />
+    <ClCompile Include="..\Private\MState_Special0.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\MState_Stun.cpp" />
+    <ClCompile Include="..\Private\Player_Custom.cpp" />
+    <ClCompile Include="..\Private\Player_Injection.cpp" />
+    <ClCompile Include="..\Private\Projectile_Effect.cpp" />
+    <ClCompile Include="..\Private\Projectile_WolfHomingIce.cpp" />
+    <ClCompile Include="..\Private\UIObj_BossDead.cpp" />
+    <ClCompile Include="..\Private\UIObj_ColorSelector.cpp" />
+    <ClCompile Include="..\Private\UIObj_CustomizeGrid.cpp" />
+    <ClCompile Include="..\Private\UIObj_CustomizeSelector.cpp" />
+    <ClCompile Include="..\Private\UIObj_CustomizingInfo.cpp" />
+    <ClCompile Include="..\Private\UIObj_CustomMenu.cpp" />
+    <ClCompile Include="..\Private\UIObj_CustomMenuButton.cpp" />
+    <ClCompile Include="..\Private\Projectile_Direct.cpp" />
+    <ClCompile Include="..\Private\Projectile_Homing.cpp" />
+    <ClCompile Include="..\Private\Player_Ladder.cpp" />
+    <ClCompile Include="..\Private\UIObj_Ending.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIObj_ItemGrid.cpp" />
+    <ClCompile Include="..\Private\UIObj_MeshSelector.cpp" />
+    <ClCompile Include="..\Private\UIObj_PaletteArea.cpp" />
+    <ClCompile Include="..\Private\UIObj_PaletteDisplay.cpp" />
+    <ClCompile Include="..\Private\UIObj_TextureSelector.cpp" />
+    <ClCompile Include="..\Private\UIObj_ValueSelector.cpp" />
+    <ClCompile Include="..\Private\UIObj_VerticalSlider.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_LevelUp.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_Palette.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\WolfGhost_Attack.cpp" />
+    <ClCompile Include="..\Private\IMGUI_TransitionTable.cpp" />
+    <ClCompile Include="..\Private\MState_Far0.cpp" />
+    <ClCompile Include="..\Private\Camera_Cinematic.cpp" />
+    <ClCompile Include="..\Private\Camera_NPC.cpp" />
+    <ClCompile Include="..\Private\DialogueManager.cpp" />
+    <ClCompile Include="..\private\GodRayMesh.cpp" />
+    <ClCompile Include="..\private\GodRayObject.cpp" />
+    <ClCompile Include="..\private\GodRaySun.cpp" />
+    <ClCompile Include="..\Private\Bayonet_Bullet.cpp" />
+    <ClCompile Include="..\Private\Item.cpp" />
+    <ClCompile Include="..\Private\Item_Box.cpp" />
+    <ClCompile Include="..\Private\MState_Awake.cpp" />
+    <ClCompile Include="..\Private\MState_Dead.cpp" />
+    <ClCompile Include="..\Private\MState_Melee0.cpp" />
+    <ClCompile Include="..\Private\BasicMesh.cpp" />
+    <ClCompile Include="..\Private\BasicParticle.cpp" />
+    <ClCompile Include="..\Private\BasicTrail.cpp" />
+    <ClCompile Include="..\Private\Basic_Class.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossBase.cpp" />
+    <ClCompile Include="..\Private\Camera_Free.cpp" />
+    <ClCompile Include="..\Private\Camera_Object.cpp" />
+    <ClCompile Include="..\Private\Camera_Player.cpp" />
+    <ClCompile Include="..\Private\Decal_Blood.cpp" />
+    <ClCompile Include="..\Private\GhostKnight_Halberd.cpp" />
+    <ClCompile Include="..\Private\IInteractable.cpp" />
+    <ClCompile Include="..\Private\IMGUI_Base.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\IMGUI_Main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\IMGUI_GameObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\IMGUI_UIDebug.cpp" />
+    <ClCompile Include="..\Private\InteractionManager.cpp" />
+    <ClCompile Include="..\Private\InventoryManager.cpp" />
+    <ClCompile Include="..\Private\Drum.cpp" />
+    <ClCompile Include="..\Private\ItemComponent.cpp" />
+    <ClCompile Include="..\Private\ItemManager.cpp" />
+    <ClCompile Include="..\Private\Ladder.cpp" />
+    <ClCompile Include="..\Private\Level_Base.cpp" />
+    <ClCompile Include="..\Private\Level_Church.cpp" />
+    <ClCompile Include="..\Private\Level_Client.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Load.cpp" />
+    <ClCompile Include="..\Private\Level_Logo.cpp" />
+    <ClCompile Include="..\Private\Level_Main.cpp" />
+    <ClCompile Include="..\Private\Level_Player.cpp" />
+    <ClCompile Include="..\Private\Level_Sample.cpp" />
+    <ClCompile Include="..\Private\Level_UIDev.cpp" />
+    <ClCompile Include="..\Private\Loader.cpp" />
+    <ClCompile Include="..\Private\Loader_Sample.cpp" />
+    <ClCompile Include="..\Private\MainApp.cpp" />
+    <ClCompile Include="..\Private\MinimapManager.cpp" />
+    <ClCompile Include="..\Private\MinimapRenderComponent.cpp" />
+    <ClCompile Include="..\Private\MapSeal.cpp" />
+    <ClCompile Include="..\Private\MinionBase.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterState.cpp" />
+    <ClCompile Include="..\Private\Monster_Awake.cpp" />
+    <ClCompile Include="..\Private\Monster_Battle.cpp" />
+    <ClCompile Include="..\Private\Monster_Boss_Story_CutScene.cpp" />
+    <ClCompile Include="..\Private\Monster_Copy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Dead.cpp" />
+    <ClCompile Include="..\Private\Monster_Boss_Change_Phase.cpp" />
+    <ClCompile Include="..\Private\Monster_Boss_Intro.cpp" />
+    <ClCompile Include="..\Private\Monster_EventShape.cpp" />
+    <ClCompile Include="..\Private\Monster_AttackNormal.cpp" />
+    <ClCompile Include="..\Private\Monster_AttackStrong.cpp" />
+    <ClCompile Include="..\Private\Monster_Hit.cpp" />
+    <ClCompile Include="..\Private\Monster_Idle.cpp" />
+    <ClCompile Include="..\Private\Monster_Dodge.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Attack_Combo.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_JumpAttack.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Phase2_Ketsugi.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Phase2_PowerfulAttack.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Phase2_PowerfulComA.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Phase2_SP2.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Phase2_StrongComA.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Phase2_StrongComB.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Phase2_TripleAttack.cpp" />
+    <ClCompile Include="..\Private\Monster_Olv_Smash.cpp" />
+    <ClCompile Include="..\Private\Monster_Patrol.cpp" />
+    <ClCompile Include="..\Private\Monster_Run.cpp" />
+    <ClCompile Include="..\Private\Monster_SD_PatrolEscape.cpp" />
+    <ClCompile Include="..\Private\Monster_SD_PatrolTurn.cpp" />
+    <ClCompile Include="..\Private\Monster_Test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp" />
+    <ClCompile Include="..\Private\Monster_Turn.cpp" />
+    <ClCompile Include="..\Private\Monster_Walk.cpp" />
+    <ClCompile Include="..\Private\Monster_Weapon.cpp" />
+    <ClCompile Include="..\Private\MState.cpp" />
+    <ClCompile Include="..\Private\MState_Battle.cpp" />
+    <ClCompile Include="..\Private\MState_Melee1.cpp" />
+    <ClCompile Include="..\Private\MState_Run.cpp" />
+    <ClCompile Include="..\Private\MState_TransitionEvaluator.cpp" />
+    <ClCompile Include="..\Private\MState_TransitionTable.cpp" />
+    <ClCompile Include="..\Private\MState_Turn.cpp" />
+    <ClCompile Include="..\Private\MState_Walk.cpp" />
+    <ClCompile Include="..\Private\MT_Utils.cpp" />
+    <ClCompile Include="..\Private\NPC.cpp" />
+    <ClCompile Include="..\Private\MWeapon_Bayonet.cpp" />
+    <ClCompile Include="..\Private\MWeapon_GreatSword.cpp" />
+    <ClCompile Include="..\Private\MWeapon_Halberd.cpp" />
+    <ClCompile Include="..\Private\MWeapon_Hammer.cpp" />
+    <ClCompile Include="..\Private\MWeapon_Sword.cpp" />
+    <ClCompile Include="..\Private\NPC_Murasame.cpp" />
+    <ClCompile Include="..\Private\MState_Idle.cpp" />
+    <ClCompile Include="..\Private\Parser_UITool.cpp" />
+    <ClCompile Include="..\Private\Player.cpp" />
+    <ClCompile Include="..\Private\PlayerStatus.cpp" />
+    <ClCompile Include="..\Private\Player_AttackDodgeB.cpp" />
+    <ClCompile Include="..\Private\Player_AttackDodgeF.cpp" />
+    <ClCompile Include="..\Private\Player_AttackNormal.cpp" />
+    <ClCompile Include="..\Private\Player_AttackParry.cpp" />
+    <ClCompile Include="..\Private\Player_AttackStrong.cpp" />
+    <ClCompile Include="..\Private\Player_AttackStrongCharge.cpp" />
+    <ClCompile Include="..\Private\Player_AttackStrongStart.cpp" />
+    <ClCompile Include="..\Private\Player_BackStab.cpp" />
+    <ClCompile Include="..\Private\Player_BackStep.cpp" />
+    <ClCompile Include="..\Private\Player_BloodWeapon.cpp" />
+    <ClCompile Include="..\Private\Player_Body.cpp" />
+    <ClCompile Include="..\Private\Player_CheckPoint.cpp" />
+    <ClCompile Include="..\Private\Player_Damage.cpp" />
+    <ClCompile Include="..\Private\Player_DamageBlow.cpp" />
+    <ClCompile Include="..\Private\Player_DamageEnd.cpp" />
+    <ClCompile Include="..\Private\Player_Dash.cpp" />
+    <ClCompile Include="..\Private\Player_Death.cpp" />
+    <ClCompile Include="..\Private\Player_GuardBreak.cpp" />
+    <ClCompile Include="..\Private\Player_GuardEnd.cpp" />
+    <ClCompile Include="..\Private\Player_GuardHit.cpp" />
+    <ClCompile Include="..\Private\Player_GuardLoop.cpp" />
+    <ClCompile Include="..\Private\Player_GuardStart.cpp" />
+    <ClCompile Include="..\Private\Player_GuardWalk.cpp" />
+    <ClCompile Include="..\Private\Player_Hair.cpp" />
+    <ClCompile Include="..\Private\Player_Head.cpp" />
+    <ClCompile Include="..\Private\Player_Idle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_MasterRig.cpp" />
+    <ClCompile Include="..\Private\Player_OpenBox.cpp" />
+    <ClCompile Include="..\Private\Player_Outer.cpp" />
+    <ClCompile Include="..\Private\Player_PickItem.cpp" />
+    <ClCompile Include="..\Private\Player_Roll.cpp" />
+    <ClCompile Include="..\Private\Player_Run.cpp" />
+    <ClCompile Include="..\Private\Player_Skill.cpp" />
+    <ClCompile Include="..\Private\Player_SpecialAttack.cpp" />
+    <ClCompile Include="..\Private\Player_SpecialSuck.cpp" />
+    <ClCompile Include="..\Private\Player_UpperDummy.cpp" />
+    <ClCompile Include="..\Private\Player_UseItem.cpp" />
+    <ClCompile Include="..\Private\Player_Walk.cpp" />
+    <ClCompile Include="..\Private\Player_Weapon.cpp" />
+    <ClCompile Include="..\Private\Player_WeaponChange.cpp" />
+    <ClCompile Include="..\Private\PoolingManager.cpp" />
+    <ClCompile Include="..\Private\Projectile.cpp" />
+    <ClCompile Include="..\Private\PWeapon_Bayonet.cpp" />
+    <ClCompile Include="..\Private\PWeapon_GreatSword.cpp" />
+    <ClCompile Include="..\Private\PWeapon_Halberd.cpp" />
+    <ClCompile Include="..\Private\PWeapon_Hammer.cpp" />
+    <ClCompile Include="..\Private\PWeapon_Sword.cpp" />
+    <ClCompile Include="..\Private\SampleModel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\SampleParent.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Collision.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_ComputeShader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Event.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Event_Parent.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Event_Target.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Parsing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Pars_Maptool.cpp" />
+    <ClCompile Include="..\Private\Sample_Pars_Shader.cpp" />
+    <ClCompile Include="..\Private\Sample_StaticObj.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_StructuredBuffer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\SavePoint.cpp" />
+    <ClCompile Include="..\Private\ShopManager.cpp" />
+    <ClCompile Include="..\Private\SimpleMath_Sample.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillManager.cpp" />
+    <ClCompile Include="..\Private\Skill_Base.cpp" />
+    <ClCompile Include="..\Private\Skill_Enchant.cpp" />
+    <ClCompile Include="..\Private\Skill_IndraCoil.cpp" />
+    <ClCompile Include="..\Private\Skill_KangRyong.cpp" />
+    <ClCompile Include="..\Private\Skill_RadiantBarrel.cpp" />
+    <ClCompile Include="..\Private\Skill_RoyalHeart.cpp" />
+    <ClCompile Include="..\Private\Skill_ShadowAssault.cpp" />
+    <ClCompile Include="..\Private\Skill_StrikeRiser.cpp" />
+    <ClCompile Include="..\Private\Skill_Yeomgeom.cpp" />
+    <ClCompile Include="..\Private\Sky_Sphere.cpp" />
+    <ClCompile Include="..\Private\Slave_Devil.cpp" />
+    <ClCompile Include="..\Private\Slave_Vampire.cpp" />
+    <ClCompile Include="..\Private\St01_BossOliver.cpp" />
+    <ClCompile Include="..\Private\St01_Slime.cpp" />
+    <ClCompile Include="..\Private\UIObj_Focus_NPCMenu.cpp" />
+    <ClCompile Include="..\Private\UIObj_Haze.cpp" />
+    <ClCompile Include="..\Private\UIObj_BitmapFont.cpp" />
+    <ClCompile Include="..\Private\UIObj_Blur.cpp" />
+    <ClCompile Include="..\Private\UIObj_BossName.cpp" />
+    <ClCompile Include="..\Private\UIObj_FadeScreen.cpp" />
+    <ClCompile Include="..\Private\UIObj_FocusMenu.cpp" />
+    <ClCompile Include="..\Private\UIObj_GlowButton.cpp" />
+    <ClCompile Include="..\Private\UIObj_HpBar.cpp" />
+    <ClCompile Include="..\Private\UIObj_LoadingCube.cpp" />
+    <ClCompile Include="..\Private\UIObj_LoadingScreen.cpp" />
+    <ClCompile Include="..\Private\UIObj_LockOn.cpp" />
+    <ClCompile Include="..\Private\UIObj_ManaInfo.cpp" />
+    <ClCompile Include="..\Private\UIObj_NpcDialogue.cpp" />
+    <ClCompile Include="..\Private\UIObj_Npc_ChoiceMenu.cpp" />
+    <ClCompile Include="..\Private\UIObj_PopUp_MapTitle.cpp" />
+    <ClCompile Include="..\Private\UIObj_Minimap.cpp" />
+    <ClCompile Include="..\Private\UIObj_MonsterStatus.cpp" />
+    <ClCompile Include="..\Private\UIObj_PopUp_Interaction.cpp" />
+    <ClCompile Include="..\Private\UIObj_PopUp_ItemGet.cpp" />
+    <ClCompile Include="..\Private\UIObj_PopUp_SavePoint.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIObj_QuickSlot.cpp" />
+    <ClCompile Include="..\Private\UIObj_SavePoint_Slot.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIObj_SceneSelectMenu.cpp" />
+    <ClCompile Include="..\Private\UIObj_SceneSlot.cpp" />
+    <ClCompile Include="..\Private\UIObj_Selector.cpp" />
+    <ClCompile Include="..\Private\UIObj_ShopCategory.cpp" />
+    <ClCompile Include="..\Private\UIObj_ShopSlot.cpp" />
+    <ClCompile Include="..\Private\UIObj_ShopSlotGrid.cpp" />
+    <ClCompile Include="..\Private\UIObj_ShortCutMenu.cpp" />
+    <ClCompile Include="..\Private\UIObj_ShortCutQuickSlot.cpp" />
+    <ClCompile Include="..\Private\UIObj_SkillDesc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIObj_SlotGrid_Shortcut.cpp" />
+    <ClCompile Include="..\Private\UIObj_SubDesc.cpp" />
+    <ClCompile Include="..\Private\UIObj_Text.cpp" />
+    <ClCompile Include="..\Private\UIObj_GuardBar.cpp" />
+    <ClCompile Include="..\Private\UIObj_Cursor.cpp" />
+    <ClCompile Include="..\Private\StaticObject.cpp" />
+    <ClCompile Include="..\Private\UIObj_PlayerHUD.cpp" />
+    <ClCompile Include="..\Private\UIObj_ProgressBar.cpp" />
+    <ClCompile Include="..\Private\UIObj_Slot.cpp" />
+    <ClCompile Include="..\Private\UIObj_SlotGrid.cpp" />
+    <ClCompile Include="..\Private\UIObj_Stamina.cpp" />
+    <ClCompile Include="..\Private\UIObj_SubWindow.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_Bloodcode.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_Inventory.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_NeedInfo.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_PlayerMenu.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_Shop.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_ShopDesc.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_ShopSubDesc.cpp" />
+    <ClCompile Include="..\Private\UIObj_Window_Title.cpp" />
+    <ClCompile Include="..\Private\VFX_Parsing.cpp" />
+    <ClCompile Include="..\Private\WolfGhost.cpp" />
+    <ClCompile Include="..\Private\Yakumo.cpp" />
+    <ClCompile Include="..\Private\Yakumo_AttackDodgeB.cpp" />
+    <ClCompile Include="..\Private\Yakumo_AttackDodgeF.cpp" />
+    <ClCompile Include="..\Private\Yakumo_AttackNormal.cpp" />
+    <ClCompile Include="..\Private\Yakumo_AttackStrong.cpp" />
+    <ClCompile Include="..\Private\Yakumo_BackStep.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Buddy.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Damage.cpp" />
+    <ClCompile Include="..\Private\Yakumo_DamageBlow.cpp" />
+    <ClCompile Include="..\Private\Yakumo_DamageEnd.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Dash.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Death.cpp" />
+    <ClCompile Include="..\Private\Yakumo_GiftHeal.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Idle.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Roll.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Run.cpp" />
+    <ClCompile Include="..\Private\Yakumo_SpecialAttack.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Walk.cpp" />
+    <ClCompile Include="..\Private\Yakumo_Weapon.cpp" />
+    <ClCompile Include="..\Private\폐기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Client_Define.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\Shader\Sampler_Define.hlsli" />
+    <None Include="..\..\Shader\Shader_Buffer.hlsli" />
+    <None Include="..\Public\cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Shader\CShader_Bone.hlsl" />
+    <FxCompile Include="..\..\Shader\CShader_Double.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_MeshEffect.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_Minimap.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_NonLight_Sample.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_PlayerAnimMesh.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_SkySphere.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_VtxBlendMesh.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_VtxCube.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_VtxInstance.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Both|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Triangle|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Convex|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxMesh.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_VtxNorTex.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_VtxPosTex.hlsl">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main</EntryPointName>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPosTex_Particle.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_VtxPos_Particle.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_AnimMesh.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_WolfGhost.hlsl" />
+    <FxCompile Include="..\Shader\Shader_BossAnimMesh.hlsl" />
+    <FxCompile Include="..\Shader\Shader_Deferred.hlsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

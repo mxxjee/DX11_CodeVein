@@ -1,0 +1,543 @@
+{
+    "header": {
+        "createdAt": "2026-03-23T11:59:09",
+        "modifiedAt": "2026-03-23T11:59:09",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "ItemGrid",
+            "BaseType": "ITEMGRID",
+            "UIType": "DEFAULT",
+            "ZOrder": 6,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": true,
+            "MaskProgress": false,
+            "UIDataStr": "failed to wstring",
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": true,
+            "ShaderPass": 16,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "RenderGroup": "RENDERGROUP::UI",
+            "Transform": {
+                "Pos": [
+                    1224.0,
+                    435.0,
+                    0.0
+                ],
+                "Size": [
+                    392.5,
+                    410.6000061035156
+                ],
+                "RotationY": 0.0,
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                392.5,
+                410.6000061035156
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            0.50,
+                            0.50,
+                            0.50,
+                            1.0
+                        ],
+                        "Intensity": 1.0,
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "TGSThankYou/T_ThankYouWallpaper_UI_TGS",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": "",
+                        "Clip": [
+                            0.0,
+                            0.0
+                        ],
+                        "RenderMode": "RENDER_BLUR",
+                        "ProtoTexLevel": 0
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "Grid",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 7,
+                    "Parent": "ItemGrid",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "MaskProgress": false,
+                    "UIDataStr": "failed to wstring",
+                    "Visible": true,
+                    "Active": true,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "RenderGroup": "RENDERGROUP::UI",
+                    "Transform": {
+                        "Pos": [
+                            -34.20000076293945,
+                            -34.604000091552734,
+                            0.0
+                        ],
+                        "Size": [
+                            32.57329177856445,
+                            28.16901397705078
+                        ],
+                        "RotationY": 0.0,
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        127.85016632080078,
+                        115.66197204589844
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_SlotGrid",
+                            "ComData": {
+                                "Interatable": false,
+                                "ProtoTexture": "Prototype_Component_UITexture_Customize_Eye",
+                                "NumColums": 4,
+                                "VisibleRows": 4,
+                                "SlotSize": [
+                                    80.0,
+                                    80.0
+                                ],
+                                "Spacing": [
+                                    10.0,
+                                    10.0
+                                ],
+                                "StartPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "ProtoLevel": 9
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Tatto_Use",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 9,
+                    "Parent": "ItemGrid",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "MaskProgress": false,
+                    "UIDataStr": "failed to string",
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "RenderGroup": "RENDERGROUP::UI",
+                    "Transform": {
+                        "Pos": [
+                            -24.203821182250977,
+                            56.7462272644043,
+                            0.0
+                        ],
+                        "Size": [
+                            52.48407745361328,
+                            13.151485443115234
+                        ],
+                        "RotationY": 0.0,
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        206.0,
+                        54.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Render",
+                            "ComData": {
+                                "Interatable": false
+                            }
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "ObjectKey": "Tatto_Use_Text",
+                            "BaseType": "NONE",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 9,
+                            "Parent": "Tatto_Use",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "MaskProgress": false,
+                            "UIDataStr": "failed to string",
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": false,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "RenderGroup": "RENDERGROUP::UI",
+                            "Transform": {
+                                "Pos": [
+                                    -26.491687774658203,
+                                    -24.666227340698242,
+                                    0.0
+                                ],
+                                "Size": [
+                                    24.2718448638916,
+                                    92.59259033203125
+                                ],
+                                "RotationY": 0.0,
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                0.0,
+                                0.0
+                            ],
+                            "HitBox_Size": [
+                                50.0,
+                                50.0
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "타투를 사용합니다.",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": false,
+                                        "UseAlphaBlend": false,
+                                        "UseSpacing": false,
+                                        "UseWorldFont": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Tatto_Button",
+                            "BaseType": "NONE",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 10,
+                            "Parent": "Tatto_Use",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "MaskProgress": false,
+                            "UIDataStr": "failed to string",
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "RenderGroup": "RENDERGROUP::UI",
+                            "Transform": {
+                                "Pos": [
+                                    -37.37864303588867,
+                                    -9.259259223937988,
+                                    0.0
+                                ],
+                                "Size": [
+                                    23.30097198486328,
+                                    87.03703308105469
+                                ],
+                                "RotationY": 0.0,
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                0.0,
+                                0.0
+                            ],
+                            "HitBox_Size": [
+                                48.0,
+                                47.0
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Render",
+                                    "ComData": {
+                                        "Interatable": true
+                                    }
+                                }
+                            ],
+                            "Children": [
+                                {
+                                    "ObjectKey": "Tatto_OnOff_Img",
+                                    "BaseType": "NONE",
+                                    "UIType": "DEFAULT",
+                                    "ZOrder": 7,
+                                    "Parent": "Tatto_Button",
+                                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                                    "BlurUI": false,
+                                    "MaskProgress": false,
+                                    "UIDataStr": "failed to string",
+                                    "Visible": false,
+                                    "Active": false,
+                                    "IsInteratable": false,
+                                    "ShaderPass": 4,
+                                    "Value": 0.0,
+                                    "Intensity": 1.0,
+                                    "RenderGroup": "RENDERGROUP::UI",
+                                    "Transform": {
+                                        "Pos": [
+                                            -2.0833334922790527,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Size": [
+                                            83.33333587646484,
+                                            77.65957641601563
+                                        ],
+                                        "RotationY": 0.0,
+                                        "RotationZ": 0.0,
+                                        "Alpha": 1.0,
+                                        "UVOffset": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "HitBox_Padding": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "HitBox_Size": [
+                                        40.0,
+                                        36.5
+                                    ],
+                                    "ActiveEvents": {
+                                        "OnActive": {
+                                            "AnimName": "",
+                                            "SoundName": ""
+                                        },
+                                        "OnDisable": {
+                                            "AnimName": "",
+                                            "SoundName": ""
+                                        }
+                                    },
+                                    "Components": [
+                                        {
+                                            "ComType": "Prototype_Component_UI_Image",
+                                            "ComData": {
+                                                "BindExtra": false,
+                                                "Color": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "Intensity": 1.0,
+                                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                                "DiffuseTextureKey": "AvatarCustomize/T_Pictogram_Edit_Slider_UI",
+                                                "NoiseTextureKey": "",
+                                                "MaskTextureKey": "",
+                                                "Clip": [
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "RenderMode": "RENDER_NORMAL",
+                                                "ProtoTexLevel": 0
+                                            }
+                                        }
+                                    ],
+                                    "Children": []
+                                },
+                                {
+                                    "ObjectKey": "Tatto_OnOff_Check",
+                                    "BaseType": "NONE",
+                                    "UIType": "DEFAULT",
+                                    "ZOrder": 7,
+                                    "Parent": "Tatto_Button",
+                                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                                    "BlurUI": false,
+                                    "MaskProgress": false,
+                                    "UIDataStr": "failed to string",
+                                    "Visible": false,
+                                    "Active": false,
+                                    "IsInteratable": false,
+                                    "ShaderPass": 4,
+                                    "Value": 0.0,
+                                    "Intensity": 1.0,
+                                    "RenderGroup": "RENDERGROUP::UI",
+                                    "Transform": {
+                                        "Pos": [
+                                            -1.3353984355926514,
+                                            1.668727159500122,
+                                            0.0
+                                        ],
+                                        "Size": [
+                                            41.66666793823242,
+                                            42.553192138671875
+                                        ],
+                                        "RotationY": 0.0,
+                                        "RotationZ": 0.0,
+                                        "Alpha": 1.0,
+                                        "UVOffset": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "HitBox_Padding": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "HitBox_Size": [
+                                        20.0,
+                                        20.0
+                                    ],
+                                    "ActiveEvents": {
+                                        "OnActive": {
+                                            "AnimName": "",
+                                            "SoundName": ""
+                                        },
+                                        "OnDisable": {
+                                            "AnimName": "",
+                                            "SoundName": ""
+                                        }
+                                    },
+                                    "Components": [
+                                        {
+                                            "ComType": "Prototype_Component_UI_Image",
+                                            "ComData": {
+                                                "BindExtra": false,
+                                                "Color": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "Intensity": 1.0,
+                                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                                "DiffuseTextureKey": "AvatarCustomize/T_ToggleButton_FieldLight_Check_UI",
+                                                "NoiseTextureKey": "",
+                                                "MaskTextureKey": "",
+                                                "Clip": [
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "RenderMode": "RENDER_NORMAL",
+                                                "ProtoTexLevel": 0
+                                            }
+                                        }
+                                    ],
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

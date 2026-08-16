@@ -1,0 +1,206 @@
+{
+    "header": {
+        "version": "1.0.0",
+        "toolType": "MAP_TOOL",
+        "createdAt": "2026-03-04T14:43:09",
+        "modifiedAt": "2026-04-01T22:14:49"
+    },
+    "data": [
+        {
+            "ExtraData": {
+                "MyIndex": 0,
+                "MyMapType": 1
+            },
+            "LayerName": "Layer_SP",
+            "ObjectKey": "Model/Map_Static/SavePoint/SavePoint",
+            "ObjectType": 1,
+            "PrototypeName": "Prototype_GameObject_SavePoint",
+            "WorldMatrix": [
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                -0.3724144995212555,
+                0.6597591638565063,
+                -26.139347076416016,
+                1.0
+            ]
+        },
+        {
+            "ExtraData": {
+                "MyIndex": 3,
+                "MyMapType": 2
+            },
+            "LayerName": "Layer_SP",
+            "ObjectKey": "Model/Map_Static/SavePoint/SavePoint",
+            "ObjectType": 1,
+            "PrototypeName": "Prototype_GameObject_SavePoint",
+            "WorldMatrix": [
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                -156.17800903320313,
+                7.293575286865234,
+                100.06592559814453,
+                1.0
+            ]
+        },
+        {
+            "ExtraData": {
+                "MyIndex": 2,
+                "MyMapType": 2
+            },
+            "LayerName": "Layer_SP",
+            "ObjectKey": "Model/Map_Static/SavePoint/SavePoint",
+            "ObjectType": 1,
+            "PrototypeName": "Prototype_GameObject_SavePoint",
+            "WorldMatrix": [
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                -278.0982666015625,
+                -27.41255760192871,
+                83.4077377319336,
+                1.0
+            ]
+        },
+        {
+            "ExtraData": {
+                "MyIndex": 1,
+                "MyMapType": 2
+            },
+            "LayerName": "Layer_SP",
+            "ObjectKey": "Model/Map_Static/SavePoint/SavePoint",
+            "ObjectType": 1,
+            "PrototypeName": "Prototype_GameObject_SavePoint",
+            "WorldMatrix": [
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                -216.66429138183594,
+                -21.10395622253418,
+                25.04563331604004,
+                1.0
+            ]
+        },
+        {
+            "ExtraData": {
+                "MyIndex": 0,
+                "MyMapType": 3
+            },
+            "LayerName": "Layer_SP",
+            "ObjectKey": "Model/Map_Static/SavePoint/SavePoint",
+            "ObjectType": 1,
+            "PrototypeName": "Prototype_GameObject_SavePoint",
+            "WorldMatrix": [
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                -151.3596954345703,
+                5.000000476837158,
+                -32.88278579711914,
+                1.0
+            ]
+        },
+        {
+            "ExtraData": {
+                "MyIndex": 2,
+                "MyMapType": 3
+            },
+            "LayerName": "Layer_SP",
+            "ObjectKey": "Model/Map_Static/SavePoint/SavePoint",
+            "ObjectType": 1,
+            "PrototypeName": "Prototype_GameObject_SavePoint",
+            "WorldMatrix": [
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                -195.0406494140625,
+                28.999998092651367,
+                -117.06072998046875,
+                1.0
+            ]
+        },
+        {
+            "ExtraData": {
+                "MyIndex": 1,
+                "MyMapType": 3
+            },
+            "LayerName": "Layer_SP",
+            "ObjectKey": "Model/Map_Static/SavePoint/SavePoint",
+            "ObjectType": 1,
+            "PrototypeName": "Prototype_GameObject_SavePoint",
+            "WorldMatrix": [
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.2000000476837158,
+                0.0,
+                -91.54412078857422,
+                5.0,
+                -130.61683654785156,
+                1.0
+            ]
+        }
+    ]
+}

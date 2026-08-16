@@ -1,0 +1,109 @@
+{
+    "header": {
+        "createdAt": "2026-04-01T22:15:31",
+        "modifiedAt": "2026-04-01T22:15:31",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "Ending",
+            "BaseType": "ENDING",
+            "UIType": "DEFAULT",
+            "ZOrder": 1,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "MaskProgress": false,
+            "UIDataStr": "failed to string",
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "RenderGroup": "RENDERGROUP::WORLD_UI",
+            "Transform": {
+                "Pos": [
+                    0.0,
+                    0.5899999737739563,
+                    0.0
+                ],
+                "Size": [
+                    1.5,
+                    7.900000095367432
+                ],
+                "RotationY": 180.0,
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                0.0,
+                0.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Intensity": 1.0,
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "Textures/Credit",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": "",
+                        "Clip": [
+                            0.0,
+                            0.0
+                        ],
+                        "RenderMode": "RENDER_NORMAL",
+                        "ProtoTexLevel": 0,
+                        "UseAddictiveBlending": false
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_WorldUI",
+                    "ComData": {
+                        "WorldPos": [
+                            0.0,
+                            0.5899999737739563,
+                            0.0
+                        ],
+                        "OffSet": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "MaxVisibleDist": 50.0,
+                        "DistanceScaling": false,
+                        "MinScale": 0.5
+                    }
+                }
+            ],
+            "Children": []
+        }
+    ]
+}

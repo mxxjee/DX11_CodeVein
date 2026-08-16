@@ -1,0 +1,822 @@
+{
+    "header": {
+        "createdAt": "2026-03-12T14:53:27",
+        "modifiedAt": "2026-03-12T14:53:27",
+        "toolType": "VFX_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "SystemName": "Enemy_FieldSplash",
+            "AutoPlay": false,
+            "Loop": false,
+            "TotalDuration": 0.800000011920929,
+            "Effects": [
+                {
+                    "ParticleEffectName": "Smoke1",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 0.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "Effects/T_FX_GEZWhiteColor02",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.30000001192092896,
+                        0.5
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "",
+                    "AlphaMaskTextureName": "Effects/T_FX_Enemy_RussianHatKnight_Shield_Splash_03",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": false,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.007843137718737125,
+                        0.007843137718737125,
+                        0.007843137718737125,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": false,
+                    "RadialRotation": false,
+                    "NumInstance": 15,
+                    "Size": [
+                        2.0,
+                        2.75
+                    ],
+                    "Speed": [
+                        0.0,
+                        0.0
+                    ],
+                    "LifeTime": [
+                        0.5,
+                        0.5
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0
+                    ],
+                    "Center": [
+                        0.0,
+                        0.5,
+                        0.0
+                    ],
+                    "Range": [
+                        7.0,
+                        0.0,
+                        7.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 0,
+                    "MaskFrameCountX": 0,
+                    "MaskFrameCountY": 0,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 1.5,
+                    "ShakeStrength": 0.4000000059604645,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "SubEmitters": []
+                },
+                {
+                    "ParticleEffectName": "Dust1",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 0.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "Effects/T_FX_TC5CloudFull07",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.0,
+                        0.5
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "Effects/T_FX_TC5SmokePuff07",
+                    "AlphaMaskTextureName": "Effects/T_FX_TC5CloudFull04",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle_Dust",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": false,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.46568626165390015,
+                        0.46568626165390015,
+                        0.46568626165390015,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": false,
+                    "RadialRotation": false,
+                    "NumInstance": 60,
+                    "Size": [
+                        1.5,
+                        1.5
+                    ],
+                    "Speed": [
+                        0.0,
+                        0.0
+                    ],
+                    "LifeTime": [
+                        0.5,
+                        0.5
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.20000000298023224
+                    ],
+                    "Rotation": [
+                        -180.0,
+                        180.0
+                    ],
+                    "Center": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Range": [
+                        7.0,
+                        1.0,
+                        7.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 0,
+                    "MaskFrameCountX": 0,
+                    "MaskFrameCountY": 0,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 4.0,
+                    "ShakeStrength": 0.800000011920929,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "SubEmitters": []
+                },
+                {
+                    "ParticleEffectName": "Smoke2",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 0.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "Effects/T_FX_GEZWhiteColor02",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.30000001192092896,
+                        0.5
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "",
+                    "AlphaMaskTextureName": "Effects/T_FX_Enemy_RussianHatKnight_Shield_Splash_01",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": false,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.027450980618596077,
+                        0.02691272646188736,
+                        0.02691272646188736,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": false,
+                    "RadialRotation": false,
+                    "NumInstance": 18,
+                    "Size": [
+                        2.200000047683716,
+                        2.200000047683716
+                    ],
+                    "Speed": [
+                        0.0,
+                        0.0
+                    ],
+                    "LifeTime": [
+                        0.5,
+                        0.5
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0
+                    ],
+                    "Center": [
+                        0.0,
+                        0.25,
+                        0.0
+                    ],
+                    "Range": [
+                        7.0,
+                        0.0,
+                        7.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 0,
+                    "MaskFrameCountX": 0,
+                    "MaskFrameCountY": 0,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 1.399999976158142,
+                    "ShakeStrength": 0.0,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "SubEmitters": []
+                },
+                {
+                    "ParticleEffectName": "Rock_Particle",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 0.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "Effects/T_FX_GEZWhiteColor01",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.0,
+                        0.5
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "",
+                    "AlphaMaskTextureName": "Effects/T_Blood_Drip_A",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": false,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": false,
+                    "RadialRotation": false,
+                    "NumInstance": 400,
+                    "Size": [
+                        0.07999999821186066,
+                        0.05999999865889549
+                    ],
+                    "Speed": [
+                        4.0,
+                        9.0
+                    ],
+                    "LifeTime": [
+                        0.800000011920929,
+                        0.800000011920929
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.30000001192092896
+                    ],
+                    "Rotation": [
+                        -180.0,
+                        180.0
+                    ],
+                    "Center": [
+                        0.0,
+                        -0.5,
+                        0.0
+                    ],
+                    "Range": [
+                        5.0,
+                        0.0,
+                        5.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        -7.0,
+                        0.0
+                    ],
+                    "Gravity": 8.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 0,
+                    "MaskFrameCountX": 0,
+                    "MaskFrameCountY": 0,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 1.0,
+                    "ShakeStrength": 0.0,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "SubEmitters": []
+                },
+                {
+                    "ParticleEffectName": "Rock_Particle2",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 0.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "Effects/T_FX_GEZWhiteColor01",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.0,
+                        0.5
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "",
+                    "AlphaMaskTextureName": "Effects/T_Blood_Clip_A",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": false,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": false,
+                    "RadialRotation": false,
+                    "NumInstance": 100,
+                    "Size": [
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "Speed": [
+                        6.0,
+                        10.0
+                    ],
+                    "LifeTime": [
+                        0.800000011920929,
+                        0.800000011920929
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.30000001192092896
+                    ],
+                    "Rotation": [
+                        -180.0,
+                        180.0
+                    ],
+                    "Center": [
+                        0.0,
+                        -0.5,
+                        0.0
+                    ],
+                    "Range": [
+                        5.0,
+                        0.0,
+                        5.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        -5.0,
+                        0.0
+                    ],
+                    "Gravity": 8.800000190734863,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 0,
+                    "MaskFrameCountX": 0,
+                    "MaskFrameCountY": 0,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 1.0,
+                    "ShakeStrength": 0.0,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "SubEmitters": []
+                },
+                {
+                    "ParticleEffectName": "Rock_Particle3",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 0.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "Effects/T_FX_GEZWhiteColor01",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.0,
+                        0.5
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "",
+                    "AlphaMaskTextureName": "Effects/T_FX_TC5LavaMask01",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": false,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.007843137718737125,
+                        0.007843137718737125,
+                        0.007843137718737125,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": false,
+                    "RadialRotation": false,
+                    "NumInstance": 60,
+                    "Size": [
+                        0.15000000596046448,
+                        0.15000000596046448
+                    ],
+                    "Speed": [
+                        10.0,
+                        16.0
+                    ],
+                    "LifeTime": [
+                        0.800000011920929,
+                        0.800000011920929
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.30000001192092896
+                    ],
+                    "Rotation": [
+                        -180.0,
+                        180.0
+                    ],
+                    "Center": [
+                        0.0,
+                        -0.5,
+                        0.0
+                    ],
+                    "Range": [
+                        5.0,
+                        0.0,
+                        5.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        -5.0,
+                        0.0
+                    ],
+                    "Gravity": 16.700000762939453,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 0,
+                    "MaskFrameCountX": 0,
+                    "MaskFrameCountY": 0,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 0.20000000298023224,
+                    "ShakeStrength": 0.0,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "SubEmitters": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,495 @@
+{
+    "header": {
+        "createdAt": "2026-03-25T11:22:05",
+        "modifiedAt": "2026-03-25T11:22:05",
+        "toolType": "VFX_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "SystemName": "BloodBoom_Hand",
+            "AutoPlay": false,
+            "Loop": false,
+            "TotalDuration": 5.0,
+            "DelayedTime": 0.0,
+            "RotationSpeed": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Effects": [
+                {
+                    "ParticleEffectName": "Hand_1",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 1.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.0,
+                        0.10000000149011612
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "Effects/Smoke_8x8_01",
+                    "AlphaMaskTextureName": "Effects/T_AncientHannibal_Spear_A3",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": true,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.09803921729326248,
+                        0.0,
+                        0.0,
+                        0.4901960790157318
+                    ],
+                    "HotColorFloat": 0.0,
+                    "HotColorVector": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": true,
+                    "VerticalShrink": false,
+                    "RadialRotation": false,
+                    "NumInstance": 15,
+                    "Size": [
+                        1.5,
+                        1.5
+                    ],
+                    "Speed": [
+                        0.0,
+                        0.0
+                    ],
+                    "LifeTime": [
+                        1.0,
+                        1.0
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        1.5
+                    ],
+                    "Rotation": [
+                        0.0,
+                        360.0
+                    ],
+                    "Center": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "Range": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 64,
+                    "MaskFrameCountX": 8,
+                    "MaskFrameCountY": 8,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 1.0,
+                    "DirectionalScale": 0,
+                    "ShakeStrength": 0.0,
+                    "ConvergeMaxDist": 0.0,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshScaleRatio": 0.0,
+                    "MeshScaleDelay": 0.0,
+                    "MeshScaleAxis": 7,
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "DisplaceStrength": 0.0,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "DirectionalDissolve": false,
+                    "DissolveFlipY": false,
+                    "NoiseWeight": 0.0,
+                    "DissolveEdgeWidth": 0.0,
+                    "DissolveEdgeColor": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "AlignPlayerLook": false,
+                    "SubEmitters": []
+                },
+                {
+                    "ParticleEffectName": "Hand_2",
+                    "EffectType": 0,
+                    "StartDelay": 0.4000000059604645,
+                    "EffectLifeTime": 1.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.0,
+                        0.10000000149011612
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "Effects/Smoke_8x8_01",
+                    "AlphaMaskTextureName": "Effects/T_AncientHannibal_Spear_A3",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": true,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.25882354378700256,
+                        0.0,
+                        0.0,
+                        0.47058823704719543
+                    ],
+                    "HotColorFloat": 0.0,
+                    "HotColorVector": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": true,
+                    "VerticalShrink": false,
+                    "RadialRotation": false,
+                    "NumInstance": 20,
+                    "Size": [
+                        1.5,
+                        1.5
+                    ],
+                    "Speed": [
+                        0.0,
+                        0.0
+                    ],
+                    "LifeTime": [
+                        1.0,
+                        1.0
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        1.5
+                    ],
+                    "Rotation": [
+                        0.0,
+                        360.0
+                    ],
+                    "Center": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "Range": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 64,
+                    "MaskFrameCountX": 8,
+                    "MaskFrameCountY": 8,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 1.0,
+                    "DirectionalScale": 0,
+                    "ShakeStrength": 0.0,
+                    "ConvergeMaxDist": 0.0,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshScaleRatio": 0.0,
+                    "MeshScaleDelay": 0.0,
+                    "MeshScaleAxis": 7,
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "DisplaceStrength": 0.0,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "DirectionalDissolve": false,
+                    "DissolveFlipY": false,
+                    "NoiseWeight": 0.0,
+                    "DissolveEdgeWidth": 0.0,
+                    "DissolveEdgeColor": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "AlignPlayerLook": false,
+                    "SubEmitters": []
+                },
+                {
+                    "ParticleEffectName": "Hand_3",
+                    "EffectType": 0,
+                    "StartDelay": 0.699999988079071,
+                    "EffectLifeTime": 1.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.0,
+                        0.10000000149011612
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "Effects/Smoke_8x8_01",
+                    "AlphaMaskTextureName": "Effects/T_AncientHannibal_Spear_A3",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 0,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": true,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.04313725605607033,
+                        0.0,
+                        0.0,
+                        0.3921568691730499
+                    ],
+                    "HotColorFloat": 0.0,
+                    "HotColorVector": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": true,
+                    "VerticalShrink": false,
+                    "RadialRotation": false,
+                    "NumInstance": 20,
+                    "Size": [
+                        1.5,
+                        1.5
+                    ],
+                    "Speed": [
+                        0.0,
+                        0.0
+                    ],
+                    "LifeTime": [
+                        1.0,
+                        1.0
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        1.5
+                    ],
+                    "Rotation": [
+                        0.0,
+                        360.0
+                    ],
+                    "Center": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "Range": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 0,
+                    "FrameCountX": 0,
+                    "FrameCountY": 0,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 64,
+                    "MaskFrameCountX": 8,
+                    "MaskFrameCountY": 8,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 1.0,
+                    "DirectionalScale": 0,
+                    "ShakeStrength": 0.0,
+                    "ConvergeMaxDist": 0.0,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshScaleRatio": 0.0,
+                    "MeshScaleDelay": 0.0,
+                    "MeshScaleAxis": 7,
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "DisplaceStrength": 0.0,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "DirectionalDissolve": false,
+                    "DissolveFlipY": false,
+                    "NoiseWeight": 0.0,
+                    "DissolveEdgeWidth": 0.0,
+                    "DissolveEdgeColor": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "AlignPlayerLook": false,
+                    "SubEmitters": []
+                }
+            ]
+        }
+    ]
+}

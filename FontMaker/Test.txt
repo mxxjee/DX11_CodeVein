@@ -1,0 +1,36 @@
+MakeSpriteFont "경기천년제목 Bold" /FontSize:10 /FastPack /CharacterRegion:0x0020-0x00FF /CharacterRegion:0x3131-0x3163 /CharacterRegion:0xAC00-0xD800 /DefaultCharacter:0xAC00 Gyungi_B10.spritefont
+
+
+MakeSpriteFont "경기천년제목 Bold" /FontSize:10 /FastPack /CharacterRegion:0x0020-0x00FF /CharacterRegion:0x3131-0x3163 /CharacterRegion:0xAC00-0xD7A3 /CharacterRegion:0x2000-0x206F /DefaultCharacter:0xAC00 Gyungi_B10.spritefont
+
+
+MakeSpriteFont "경기천년제목 Bold" /FontSize:10 /FastPack /CharacterRegion:0x0020-0x00FF /CharacterRegion:0x3131-0x3163 /CharacterRegion:0xAC00-0xD7A3 /CharacterRegion:0x2500-0x2503 /CharacterRegion:0x2550-0x2551 /CharacterRegion:0x2580-0x2590 /CharacterRegion:0x25AC-0x25AC /DefaultCharacter:0xAC00 Gyungi_B10.spritefont
+
+
+MakeSpriteFont "경기천년제목 Medium" /FontSize:17 /FastPack /CharacterSpacing:0 /CharacterRegion:0x0020-0x00FF /CharacterRegion:0x3131-0x3163 /CharacterRegion:0xAC00-0xD7A3 /CharacterRegion:0x2500-0x2503 /CharacterRegion:0x2550-0x2551 /CharacterRegion:0x2580-0x2590 /DefaultCharacter:0xAC00 Gyungi_M17.spritefont
+
+MakeSpriteFont "Consolas" /FontSize:16 /FastPack /CharacterSpacing:0 /CharacterRegion:0x2588 /DefaultCharacter:0x2588 Block16.spritefont
+
+
+MakeSpriteFont "BookkMyungjo_Bold" /FontSize:24 /FastPack /CharacterSpacing:0 /CharacterRegion:0x0020-0x00FF /CharacterRegion:0x3131-0x3163 /CharacterRegion:0xAC00-0xD7A3 /CharacterRegion:0x2000-0x206F /CharacterRegion:0x2190-0x21FF /CharacterRegion:0x2200-0x22FF /CharacterRegion:0x25A0-0x25FF /CharacterRegion:0x2600-0x26FF /CharacterRegion:0x3000-0x303F /DefaultCharacter:0xAC00 Gyungi_M10.spritefont
+
+
+MakeSpriteFont "DFLiHei PD W7" /FontSize:7 /FastPack /CharacterRegion:0x0020-0x007E /CharacterRegion:0x00A9-0x00A9 /CharacterRegion:0x24D2-0x24D2 /DefaultCharacter:0x0020 Title_Font.spritefont
+
+MakeSpriteFont "DFLiHei PD W7" /FontSize:7 /FastPack /CharacterRegion:0x0020-0x007E /CharacterRegion:0x24D2-0x24D2 /DefaultCharacter:0x0020 Title_Font.spritefont
+
+
+    for (auto& horse : *m_vecHorses)
+    {
+        if (horse->Get_CurrentRank() == 1)
+        {
+            m_fProgress = horse->Get_Progress();
+            break;
+        }
+    }
+
+
+쥬신 동지들이여 2025년이 가고 2026년이 왔소
+다들 새해 복 많이 받으시길 바라며
+그대들의 전원 취업의 행운을 빌겠소
+모두들 화이팅이오

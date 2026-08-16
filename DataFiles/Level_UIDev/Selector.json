@@ -1,0 +1,234 @@
+{
+    "header": {
+        "createdAt": "2026-03-02T15:26:49",
+        "modifiedAt": "2026-03-02T15:26:49",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "Selector",
+            "BaseType": "SELECTOR",
+            "UIType": "DEFAULT",
+            "ZOrder": 14,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "Visible": true,
+            "Active": true,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "Transform": {
+                "Pos": [
+                    800.0,
+                    618.0999755859375,
+                    0.0
+                ],
+                "Size": [
+                    120.80000305175781,
+                    148.10000610351563
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                120.80000305175781,
+                148.10000610351563
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Render",
+                    "ComData": {
+                        "Interatable": false
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "DefaultAnim3",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 0.0,
+                                "AnimTrack": []
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "Glow",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 9,
+                    "Parent": "Selector",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": true,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            387.6000061035156,
+                            34.900001525878906
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        468.2208251953125,
+                        51.68690490722656
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Intensity": 1.2000000476837158,
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "AvatarCustomize/T_Cursor_SelectLight_NameEditItem_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "Clip": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Line",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 20,
+                    "Parent": "Selector",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            -56.099998474121094,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            16.881000518798828,
+                            25.68000030517578
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        20.392250061035156,
+                        38.032081604003906
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Intensity": 1.0,
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "AvatarCustomize/T_Cursor_Select_I_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "Clip": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        }
+                    ],
+                    "Children": []
+                }
+            ]
+        }
+    ]
+}

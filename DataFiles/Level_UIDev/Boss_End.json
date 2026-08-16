@@ -1,0 +1,804 @@
+{
+    "header": {
+        "createdAt": "2026-03-24T16:16:11",
+        "modifiedAt": "2026-03-24T16:16:11",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "Boss_End",
+            "BaseType": "BOSSDEAD",
+            "UIType": "DEFAULT",
+            "ZOrder": 5,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "MaskProgress": false,
+            "UIDataStr": "failed to string",
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "RenderGroup": "RENDERGROUP::UI",
+            "Transform": {
+                "Pos": [
+                    800.0,
+                    448.0,
+                    0.0
+                ],
+                "Size": [
+                    1621.9000244140625,
+                    225.10000610351563
+                ],
+                "RotationY": 0.0,
+                "RotationZ": 0.0,
+                "Alpha": 0.0012474656105041504,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                1621.9000244140625,
+                225.10000610351563
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "OnActive",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "OnDeAcive",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Render",
+                    "ComData": {
+                        "Interatable": false
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "OnDeAcive",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 2.0,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 2.0,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            },
+                            {
+                                "ClipName": "OnActive",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 0.10000000149011612,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 0.10000000149011612,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "Back_Line",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 1,
+                    "Parent": "Boss_End",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "MaskProgress": false,
+                    "UIDataStr": "failed to string",
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "RenderGroup": "RENDERGROUP::UI",
+                    "Transform": {
+                        "Pos": [
+                            -0.5625,
+                            -1.0256409645080566,
+                            0.0
+                        ],
+                        "Size": [
+                            1600.0,
+                            56.252235412597656
+                        ],
+                        "RotationY": 0.0,
+                        "RotationZ": 0.0,
+                        "Alpha": 0.002095341682434082,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        25950.400390625,
+                        126.62379455566406
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "OnActive",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "OnDeAcive",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Intensity": 1.0,
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/BossName_Parts02",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "Clip": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "RenderMode": "RENDER_NORMAL",
+                                "ProtoTexLevel": 0,
+                                "UseAddictiveBlending": false
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnActive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 0.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "SCALE",
+                                                "StartTime": 0.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    1600.0,
+                                                    0.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1600.0,
+                                                    56.26100158691406,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 0.30000001192092896,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ClipName": "OnDeAcive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ClipName": "DefaultAnim10",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 0.0,
+                                        "AnimTrack": []
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "MainFont_Copy_Right",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Boss_End",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "MaskProgress": false,
+                    "UIDataStr": "failed to string",
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "RenderGroup": "RENDERGROUP::UI",
+                    "Transform": {
+                        "Pos": [
+                            -0.6700015068054199,
+                            -18.700000762939453,
+                            0.0
+                        ],
+                        "Size": [
+                            3.9000000953674316,
+                            29.267000198364258
+                        ],
+                        "RotationY": 0.0,
+                        "RotationZ": 0.0,
+                        "Alpha": 0.0016949176788330078,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        63.25410079956055,
+                        65.88002014160156
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "OnActive",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "OnDeAcive",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "Font_Bookk_Bold_Eng",
+                                "InnerText": "Was Dispersed",
+                                "TextColor": [
+                                    0.15686273574829102,
+                                    0.15686273574829102,
+                                    0.15686273574829102,
+                                    0.808987021446228
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": false,
+                                "UseAlphaBlend": true,
+                                "UseSpacing": false,
+                                "UseWorldFont": false,
+                                "OffSetScale": [
+                                    0.010999999940395355,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnActive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.5,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.8119999766349792,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "POSITION",
+                                                "StartTime": 0.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    2.009999990463257,
+                                                    -18.700000762939453,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    2.009999990463257,
+                                                    -18.700000762939453,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "POSITION",
+                                                "StartTime": 0.5,
+                                                "Duration": 0.30000001192092896,
+                                                "StartValue": [
+                                                    2.009999990463257,
+                                                    -18.700000762939453,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    -0.6899999976158142,
+                                                    -18.700000762939453,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ClipName": "OnDeAcive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    0.8088847994804382,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "MainFont_Copy",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Boss_End",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "MaskProgress": false,
+                    "UIDataStr": "failed to string",
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "RenderGroup": "RENDERGROUP::UI",
+                    "Transform": {
+                        "Pos": [
+                            -13.518842697143555,
+                            -1.0,
+                            0.0
+                        ],
+                        "Size": [
+                            3.9000000953674316,
+                            29.62700080871582
+                        ],
+                        "RotationY": 0.0,
+                        "RotationZ": 0.0,
+                        "Alpha": 0.0016698241233825684,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        63.25410079956055,
+                        66.69038391113281
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "OnActive",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "OnDeAcive",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "Font_Bookk_Bold_Eng",
+                                "InnerText": "Greater Lost",
+                                "TextColor": [
+                                    0.15686273574829102,
+                                    0.15686273574829102,
+                                    0.15686273574829102,
+                                    0.797031581401825
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": true,
+                                "UseAlphaBlend": true,
+                                "UseSpacing": false,
+                                "UseWorldFont": false,
+                                "OffSetScale": [
+                                    0.010999999940395355,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnActive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.5,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.800000011920929,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "POSITION",
+                                                "StartTime": 0.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    -16.04400062561035,
+                                                    -1.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    -16.04400062561035,
+                                                    -1.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "POSITION",
+                                                "StartTime": 0.5,
+                                                "Duration": 0.30000001192092896,
+                                                "StartValue": [
+                                                    -16.04400062561035,
+                                                    -1.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    -13.5,
+                                                    -1.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ClipName": "OnDeAcive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    0.7969308495521545,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "MainFont",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 3,
+                    "Parent": "Boss_End",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "MaskProgress": false,
+                    "UIDataStr": "failed to string",
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "RenderGroup": "RENDERGROUP::UI",
+                    "Transform": {
+                        "Pos": [
+                            -25.831741333007813,
+                            -19.743589401245117,
+                            0.0
+                        ],
+                        "Size": [
+                            3.9000000953674316,
+                            31.299999237060547
+                        ],
+                        "RotationY": 0.0,
+                        "RotationZ": 0.0,
+                        "Alpha": 0.002095341682434082,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        63.25410079956055,
+                        70.45630645751953
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "OnActive",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "OnDeAcive",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "Font_Bookk_Bold_Eng",
+                                "InnerText": "Greater Lost Was Dispersed",
+                                "TextColor": [
+                                    0.5490195751190186,
+                                    0.5490195751190186,
+                                    0.5490195751190186,
+                                    0.9986304044723511
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": false,
+                                "UseAlphaBlend": true,
+                                "UseSpacing": false,
+                                "UseWorldFont": false,
+                                "OffSetScale": [
+                                    0.010999999940395355,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnActive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 18.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 2.559999942779541,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.5,
+                                                "Duration": 15.0,
+                                                "StartValue": [
+                                                    0.720588207244873,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.7215686440467834,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.5,
+                                                "Duration": 2.0,
+                                                "StartValue": [
+                                                    0.5490196347236633,
+                                                    0.5490196347236633,
+                                                    0.5490196347236633
+                                                ],
+                                                "EndValue": [
+                                                    0.7215686440467834,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ClipName": "OnDeAcive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                }
+            ]
+        }
+    ]
+}

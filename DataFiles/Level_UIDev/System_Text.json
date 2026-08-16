@@ -1,0 +1,148 @@
+{
+    "header": {
+        "createdAt": "2026-03-15T16:53:09",
+        "modifiedAt": "2026-03-15T16:53:09",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "System_Text",
+            "BaseType": "TEXT",
+            "UIType": "SYSTEM",
+            "ZOrder": 1,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "RenderGroup": "RENDERGROUP::UI",
+            "Transform": {
+                "Pos": [
+                    800.5556640625,
+                    691.7000122070313,
+                    0.0
+                ],
+                "Size": [
+                    55.0,
+                    55.0
+                ],
+                "RotationY": 0.0,
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                55.0,
+                55.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "OnActive",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "OnDeActive",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Text",
+                    "ComData": {
+                        "FontName": "A2Z_5_Medium",
+                        "InnerText": "이미 소지한 아이템입니다.",
+                        "TextColor": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Use OutLine": false,
+                        "UseCenterAlign": true,
+                        "UseAlphaBlend": true,
+                        "UseSpacing": false,
+                        "UseWorldFont": false,
+                        "OffSetScale": [
+                            0.009999999776482582,
+                            0.009999999776482582
+                        ],
+                        "OffSetRotation": 0.0,
+                        "OffSetPos": [
+                            0.0,
+                            0.0
+                        ],
+                        "TypeEffect": false
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "OnActive",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 0.5,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 0.5,
+                                        "StartValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            },
+                            {
+                                "ClipName": "OnDeActive",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 0.5,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 0.5,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": []
+        }
+    ]
+}

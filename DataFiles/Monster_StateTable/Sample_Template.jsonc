@@ -1,0 +1,43 @@
+
+// 처음 몬스터 만들때 전체 복붙용
+{
+  "transitions": [
+    {
+      "from": "MS_RUN",
+      // 달리기 상태에서의 전이 규칙
+      "rules": [
+        {
+          // 시야 범위 밖이면 TURN
+          "conditions": [
+            {
+              "type": "NOT_IN_FOV",
+              "value": 0
+            }
+          ],
+          "target": "MS_TURN",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}
+
+
+// 상태 추가 복붙용
+{
+  /* TURN 상태 TURN 상태 TURN 상태 TURN 상태 */
+  "from": "MS_TURN",
+  "rules": [
+    {
+      "conditions": [
+        {
+          "type": "ANIM_FINISHED",
+          "value": 0
+        }
+      ],
+      "target": "MS_BATTLE",
+      "priority": 0
+    }
+  ]
+  /* TURN 상태 TURN 상태 TURN 상태 TURN 상태 */
+}

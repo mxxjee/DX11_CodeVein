@@ -1,0 +1,304 @@
+{
+  "LevelTable": [
+    {
+      "Level": 1,
+      "AttackPower": 10,
+      "MaxHp": 845,
+      "MaxST": 200,
+      "PlayerData": {
+        "Info_NeedHaze": 1051,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "C",
+          "Info_Type2_Dexterity": "C",
+          "Info_Type3_Mind": "D+",
+          "Info_Type4_Will": "D",
+          "Info_Type5_Vitality": "C",
+          "Info_Type6_Fortitude": "C"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 12,
+        "Info_Type2_Fire": 5,
+        "Info_Type3_Ice": 5,
+        "Info_Type4_Lightning": 5,
+        "Info_Type5_Blood": 8
+      }
+    },
+    {
+      "Level": 2,
+      "AttackPower": 19,
+      "MaxHp": 912,
+      "MaxST": 205,
+      "PlayerData": {
+        "Info_NeedHaze": 1184,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "C",
+          "Info_Type2_Dexterity": "C",
+          "Info_Type3_Mind": "D+",
+          "Info_Type4_Will": "D",
+          "Info_Type5_Vitality": "C",
+          "Info_Type6_Fortitude": "C"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 13,
+        "Info_Type2_Fire": 6,
+        "Info_Type3_Ice": 6,
+        "Info_Type4_Lightning": 6,
+        "Info_Type5_Blood": 9
+      }
+    },
+    {
+      "Level": 3,
+      "AttackPower": 27,
+      "MaxHp": 984,
+      "MaxST": 212,
+      "PlayerData": {
+        "Info_NeedHaze": 1357,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "C+",
+          "Info_Type2_Dexterity": "C",
+          "Info_Type3_Mind": "D+",
+          "Info_Type4_Will": "D+",
+          "Info_Type5_Vitality": "C",
+          "Info_Type6_Fortitude": "C"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 15,
+        "Info_Type2_Fire": 7,
+        "Info_Type3_Ice": 7,
+        "Info_Type4_Lightning": 7,
+        "Info_Type5_Blood": 10
+      }
+    },
+    {
+      "Level": 4,
+      "AttackPower": 36,
+      "MaxHp": 1067,
+      "MaxST": 218,
+      "PlayerData": {
+        "Info_NeedHaze": 1592,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "C+",
+          "Info_Type2_Dexterity": "C+",
+          "Info_Type3_Mind": "C",
+          "Info_Type4_Will": "D+",
+          "Info_Type5_Vitality": "C+",
+          "Info_Type6_Fortitude": "C"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 17,
+        "Info_Type2_Fire": 9,
+        "Info_Type3_Ice": 8,
+        "Info_Type4_Lightning": 8,
+        "Info_Type5_Blood": 12
+      }
+    },
+    {
+      "Level": 5,
+      "AttackPower": 46,
+      "MaxHp": 1158,
+      "MaxST": 225,
+      "PlayerData": {
+        "Info_NeedHaze": 1914,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "B",
+          "Info_Type2_Dexterity": "C+",
+          "Info_Type3_Mind": "C",
+          "Info_Type4_Will": "C",
+          "Info_Type5_Vitality": "C+",
+          "Info_Type6_Fortitude": "C+"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 20,
+        "Info_Type2_Fire": 11,
+        "Info_Type3_Ice": 11,
+        "Info_Type4_Lightning": 10,
+        "Info_Type5_Blood": 14
+      }
+    },
+    {
+      "Level": 6,
+      "AttackPower": 55,
+      "MaxHp": 1261,
+      "MaxST": 232,
+      "PlayerData": {
+        "Info_NeedHaze": 2341,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "B",
+          "Info_Type2_Dexterity": "B",
+          "Info_Type3_Mind": "C+",
+          "Info_Type4_Will": "C",
+          "Info_Type5_Vitality": "B",
+          "Info_Type6_Fortitude": "C+"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 24,
+        "Info_Type2_Fire": 14,
+        "Info_Type3_Ice": 13,
+        "Info_Type4_Lightning": 13,
+        "Info_Type5_Blood": 17
+      }
+    },
+    {
+      "Level": 7,
+      "AttackPower": 66,
+      "MaxHp": 1374,
+      "MaxST": 240,
+      "PlayerData": {
+        "Info_NeedHaze": 2908,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "B+",
+          "Info_Type2_Dexterity": "B",
+          "Info_Type3_Mind": "C+",
+          "Info_Type4_Will": "C+",
+          "Info_Type5_Vitality": "B",
+          "Info_Type6_Fortitude": "B"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 28,
+        "Info_Type2_Fire": 17,
+        "Info_Type3_Ice": 16,
+        "Info_Type4_Lightning": 16,
+        "Info_Type5_Blood": 20
+      }
+    },
+    {
+      "Level": 8,
+      "AttackPower": 77,
+      "MaxHp": 1502,
+      "MaxST": 248,
+      "PlayerData": {
+        "Info_NeedHaze": 3684,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "B+",
+          "Info_Type2_Dexterity": "B+",
+          "Info_Type3_Mind": "B",
+          "Info_Type4_Will": "C+",
+          "Info_Type5_Vitality": "B+",
+          "Info_Type6_Fortitude": "B"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 33,
+        "Info_Type2_Fire": 21,
+        "Info_Type3_Ice": 20,
+        "Info_Type4_Lightning": 19,
+        "Info_Type5_Blood": 24
+      }
+    },
+    {
+      "Level": 9,
+      "AttackPower": 88,
+      "MaxHp": 1648,
+      "MaxST": 257,
+      "PlayerData": {
+        "Info_NeedHaze": 4761,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "A",
+          "Info_Type2_Dexterity": "B+",
+          "Info_Type3_Mind": "B",
+          "Info_Type4_Will": "B",
+          "Info_Type5_Vitality": "B+",
+          "Info_Type6_Fortitude": "B+"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 39,
+        "Info_Type2_Fire": 26,
+        "Info_Type3_Ice": 25,
+        "Info_Type4_Lightning": 24,
+        "Info_Type5_Blood": 29
+      }
+    },
+    {
+      "Level": 10,
+      "AttackPower": 98,
+      "MaxHp": 1812,
+      "MaxST": 266,
+      "PlayerData": {
+        "Info_NeedHaze": 6283,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "A",
+          "Info_Type2_Dexterity": "A",
+          "Info_Type3_Mind": "B+",
+          "Info_Type4_Will": "B",
+          "Info_Type5_Vitality": "A",
+          "Info_Type6_Fortitude": "B+"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 46,
+        "Info_Type2_Fire": 32,
+        "Info_Type3_Ice": 31,
+        "Info_Type4_Lightning": 30,
+        "Info_Type5_Blood": 35
+      }
+    },
+    {
+      "Level": 11,
+      "AttackPower": 110,
+      "MaxHp": 2004,
+      "MaxST": 276,
+      "PlayerData": {
+        "Info_NeedHaze": 8514,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "A+",
+          "Info_Type2_Dexterity": "A",
+          "Info_Type3_Mind": "B+",
+          "Info_Type4_Will": "B+",
+          "Info_Type5_Vitality": "A",
+          "Info_Type6_Fortitude": "A"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 54,
+        "Info_Type2_Fire": 40,
+        "Info_Type3_Ice": 38,
+        "Info_Type4_Lightning": 37,
+        "Info_Type5_Blood": 43
+      }
+    },
+    {
+      "Level": 12,
+      "AttackPower": 121,
+      "MaxHp": 2250,
+      "MaxST": 288,
+      "PlayerData": {
+        "Info_NeedHaze": 11950,
+        "Info_Evade": "Step",
+        "Stats": {
+          "Info_Type1_Strength": "S",
+          "Info_Type2_Dexterity": "S",
+          "Info_Type3_Mind": "A",
+          "Info_Type4_Will": "A",
+          "Info_Type5_Vitality": "S",
+          "Info_Type6_Fortitude": "S"
+        }
+      },
+      "DefenseStats": {
+        "Info_Type1_Physical": 65,
+        "Info_Type2_Fire": 50,
+        "Info_Type3_Ice": 48,
+        "Info_Type4_Lightning": 46,
+        "Info_Type5_Blood": 52
+      }
+    }
+  ]
+}

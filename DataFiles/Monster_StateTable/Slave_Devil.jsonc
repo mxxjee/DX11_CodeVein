@@ -1,0 +1,337 @@
+{
+    "transitions": [
+        {
+            "from": "MS_BATTLE",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "OUT_OF_CHASE_RANGE",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_FALLBACK"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "NOT_IN_FOV",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_TURN"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "IN_MELEE_RANGE",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 70.0
+                        }
+                    ],
+                    "priority": 2,
+                    "target": "MS_ATTACKMELEE0"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "IN_MELEE_RANGE",
+                            "value": 7.0
+                        }
+                    ],
+                    "priority": 3,
+                    "target": "MS_ATTACKSPECIAL0"
+                },
+                {
+                    "conditions": [],
+                    "priority": 5,
+                    "target": "MS_RUN"
+                }
+            ]
+        },
+        {
+            "from": "MS_RUN",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "IN_MELEE_RANGE",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 70.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKMELEE0"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "IN_MELEE_RANGE",
+                            "value": 7.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_ATTACKSPECIAL0"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "IN_FAR_RANGE",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "NOT_SAME_PATTERN",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 20.0
+                        }
+                    ],
+                    "priority": 2,
+                    "target": "MS_ATTACKFAR0"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "OUT_OF_CHASE_RANGE",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 3,
+                    "target": "MS_FALLBACK"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "NOT_IN_FOV",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 4,
+                    "target": "MS_TURN"
+                }
+            ]
+        },
+        {
+            "from": "MS_HIT",
+            "rules": [
+                {
+                  "conditions": [
+                    {
+                      "type": "IS_HITTYPE_EQUAL",
+                      "value": 0.0
+                    },
+                    {
+                      "type": "ANIM_FINISHED",
+                      "value": 0.0
+                    }
+                  ],
+                    "priority": 0,
+                    "target": "MS_BATTLE"
+                },
+                {
+                  "conditions": [
+                    {
+                      "type": "IS_HITTYPE_EQUAL",
+                      "value": 1.0
+                    },
+                    {
+                      "type": "ANIM_FINISHED",
+                      "value": 0.0
+                    }
+                  ],
+                    "priority": 1,
+                    "target": "MS_DOWN"
+                }
+            ]
+        },
+        {
+            "from": "MS_TURN",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKMELEE0",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "DO_COMBO_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 60.0
+                        },
+                        {
+                            "type": "IN_MELEE_RANGE",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKMELEE1"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKMELEE1",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "DO_COMBO_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 100.0
+                        },
+                        {
+                            "type": "IN_MELEE_RANGE",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKMELEE2"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKMELEE2",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKFAR0",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 50.0
+                        },
+                        {
+                            "type": "IN_MELEE_RANGE",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKMELEE0"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKSPECIAL0",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_DOWN",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        }
+    ]
+}

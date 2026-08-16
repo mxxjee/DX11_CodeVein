@@ -1,0 +1,877 @@
+{
+    "header": {
+        "createdAt": "2026-02-18T16:25:53",
+        "modifiedAt": "2026-02-18T16:25:53",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "BossName",
+            "BaseType": "BOSSNAME",
+            "UIType": "DEFAULT",
+            "ZOrder": 1,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Transform": {
+                "Pos": [
+                    800.0,
+                    450.0
+                ],
+                "Size": [
+                    1153.699951171875,
+                    169.89999389648438
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                1153.699951171875,
+                169.89999389648438
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Render",
+                    "ComData": {
+                        "Interatable": false
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "OnHide",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 3.0,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 1.0,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "NameBack",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "BossName",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            11.76215648651123,
+                            941.73046875
+                        ],
+                        "RotationZ": 90.0,
+                        "Alpha": 0.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        135.6999969482422,
+                        1600.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "KetsugiReleaseEffect/T_ReleaseEffectTip_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnShow",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.7080000042915344,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Line",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 4,
+                    "Parent": "BossName",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 8,
+                    "Transform": {
+                        "Pos": [
+                            0.0,
+                            1.4714539051055908
+                        ],
+                        "Size": [
+                            0.20802636444568634,
+                            659.1525268554688
+                        ],
+                        "RotationZ": 90.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        2.4000000953674316,
+                        1119.9000244140625
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.6685879230499268,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_KetsugiGaugeLight_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Progress",
+                            "ComData": {
+                                "ProgressType": "VERTICAL",
+                                "FillTexture": "Textures/T_KetsugiGaugeLight_UI",
+                                "LerpReach": true,
+                                "Speed": 5.0,
+                                "DelayCompute": false,
+                                "DelayTime": 0.0
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Logo",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 4,
+                    "Parent": "BossName",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            0.0,
+                            -23.190109252929688
+                        ],
+                        "Size": [
+                            3.3024182319641113,
+                            29.4290771484375
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 0.9583907127380371,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        38.099998474121094,
+                        50.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "OnShow",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.8991354703903198,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_TitleLogo_UI_Half",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnShow",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 0.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.9589999914169312,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "VerticalLine",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 5,
+                    "Parent": "BossName",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 8,
+                    "Transform": {
+                        "Pos": [
+                            0.0,
+                            14.65567684173584
+                        ],
+                        "Size": [
+                            0.4160527288913727,
+                            60.374000549316406
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        4.800000190734863,
+                        102.5754165649414
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.8357348442077637,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/BossName_Parts01",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Progress",
+                            "ComData": {
+                                "ProgressType": "HORIZONTAL",
+                                "FillTexture": "Textures/BossName_Parts01",
+                                "LerpReach": true,
+                                "Speed": 5.0,
+                                "DelayCompute": false,
+                                "DelayTime": 0.0
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Logo_Left",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 5,
+                    "Parent": "BossName",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 5,
+                    "Transform": {
+                        "Pos": [
+                            -41.2859992980957,
+                            0.9890000224113464
+                        ],
+                        "Size": [
+                            2.5999999046325684,
+                            17.21500015258789
+                        ],
+                        "RotationZ": 90.0,
+                        "Alpha": 0.9952803254127502,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        29.996198654174805,
+                        29.24828338623047
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.8588235378265381,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_TitleLogo_UI_Half",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Progress",
+                            "ComData": {
+                                "ProgressType": "HORIZONTAL",
+                                "FillTexture": "Textures/T_TitleLogo_UI_Half",
+                                "LerpReach": false,
+                                "Speed": 5.0,
+                                "DelayCompute": false,
+                                "DelayTime": 0.0
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnShow",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Logo_Right",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 5,
+                    "Parent": "BossName",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 5,
+                    "Transform": {
+                        "Pos": [
+                            42.15800094604492,
+                            1.530315637588501
+                        ],
+                        "Size": [
+                            2.5999999046325684,
+                            16.799114227294922
+                        ],
+                        "RotationZ": -90.0,
+                        "Alpha": 0.997115433216095,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        29.996198654174805,
+                        28.54169273376465
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.8588235378265381,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_TitleLogo_UI_Half",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Progress",
+                            "ComData": {
+                                "ProgressType": "HORIZONTAL",
+                                "FillTexture": "Textures/T_TitleLogo_UI_Half",
+                                "LerpReach": false,
+                                "Speed": 5.0,
+                                "DelayCompute": false,
+                                "DelayTime": 0.0
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnShow",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 0.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Text_English",
+                    "BaseType": "TEXT",
+                    "UIType": "NONE",
+                    "ZOrder": 6,
+                    "Parent": "BossName",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -17.9060001373291,
+                            0.0
+                        ],
+                        "Size": [
+                            8.667764663696289,
+                            58.858154296875
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        100.0,
+                        100.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "Yoon330",
+                                "InnerText": "Oliver Collins",
+                                "TextColor": [
+                                    0.5504322648048401,
+                                    0.0,
+                                    0.0,
+                                    0.00017485988792032003
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": true,
+                                "UseAlphaBlend": true,
+                                "UseSpacing": true,
+                                "Spacing": 33.58100128173828,
+                                "OffSetScale": [
+                                    0.009999999776482582,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnShow",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Text_Korean",
+                    "BaseType": "TEXT",
+                    "UIType": "NONE",
+                    "ZOrder": 6,
+                    "Parent": "BossName",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -12.300000190734863,
+                            18.5
+                        ],
+                        "Size": [
+                            10.83470630645752,
+                            73.57269287109375
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        125.0,
+                        125.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "Yoon330",
+                                "InnerText": "올리버 콜린스",
+                                "TextColor": [
+                                    0.7550432085990906,
+                                    0.0,
+                                    0.0,
+                                    0.00017465419659856707
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": true,
+                                "UseAlphaBlend": true,
+                                "UseSpacing": true,
+                                "Spacing": 44.77399826049805,
+                                "OffSetScale": [
+                                    0.009999999776482582,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnShow",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 0.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                }
+            ]
+        }
+    ]
+}

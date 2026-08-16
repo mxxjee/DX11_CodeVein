@@ -1,0 +1,182 @@
+{
+    "header": {
+        "createdAt": "2026-02-28T15:16:08",
+        "modifiedAt": "2026-02-28T15:16:08",
+        "toolType": "VFX_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "SystemName": "Oliver_Slash",
+            "AutoPlay": false,
+            "Loop": false,
+            "TotalDuration": 1.0,
+            "Effects": [
+                {
+                    "ParticleEffectName": "Distortion",
+                    "EffectType": 1,
+                    "StartDelay": 0.0,
+                    "TextureName": "Effects/T_Enemy_DevliOliver_Sword_Trail_01",
+                    "NoiseTextureName": "Effects/T_FX_TC5StreamLine02",
+                    "MaskTextureName": "",
+                    "AlphaMaskTextureName": "",
+                    "ShaderTag": "Prototype_Component_Shader_Trail",
+                    "ComputeShaderTag": "",
+                    "PassIndex": 2,
+                    "UseEdgeGlow": false,
+                    "GlowStrength": 0.0,
+                    "Color": [
+                        0.6666666269302368,
+                        0.6666666269302368,
+                        0.6666666269302368,
+                        1.0
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": false,
+                    "RadialRotation": false,
+                    "NumInstance": 0,
+                    "Size": [
+                        0.0,
+                        0.0
+                    ],
+                    "Speed": [
+                        0.0,
+                        0.0
+                    ],
+                    "LifeTime": [
+                        0.0,
+                        0.0
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0
+                    ],
+                    "Center": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Range": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Pivot": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 1,
+                    "FrameCountX": 1,
+                    "FrameCountY": 1,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 1,
+                    "MaskFrameCountX": 1,
+                    "MaskFrameCountY": 1,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 0.0,
+                    "ShakeStrength": 0.0,
+                    "DistortionStrength": 10.0,
+                    "MaxPoints": 256,
+                    "TrailLifeTime": 0.20000001788139343,
+                    "MinDistance": 9.999999747378752e-06,
+                    "TexRotation": -90.0,
+                    "SubEmitters": []
+                },
+              {
+                "ParticleEffectName": "main",
+                "EffectType": 1,
+                "StartDelay": 0.0,
+                "TextureName": "Effects/T_Enemy_DevliOliver_Sword_Trail_01",
+                "NoiseTextureName": "",
+                "MaskTextureName": "",
+                "AlphaMaskTextureName": "",
+                "ShaderTag": "Prototype_Component_Shader_Trail",
+                "ComputeShaderTag": "",
+                "PassIndex": 0,
+                "UseEdgeGlow": false,
+                "GlowStrength": 0.0,
+                "Color": [
+                  0.29901963472366333,
+                  0.29901963472366333,
+                  0.29901963472366333,
+                  1.0
+                ],
+                "Loop": false,
+                "Billboard": true,
+                "VerticalFade": false,
+                "RadialRotation": false,
+                "NumInstance": 0,
+                "Size": [
+                  0.0,
+                  0.0
+                ],
+                "Speed": [
+                  0.0,
+                  0.0
+                ],
+                "LifeTime": [
+                  0.0,
+                  0.0
+                ],
+                "vStartDelay": [
+                  0.0,
+                  0.0
+                ],
+                "Rotation": [
+                  0.0,
+                  0.0
+                ],
+                "Center": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Range": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Pivot": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Gravity": 0.0,
+                "Alpha": 1.0,
+                "FrameCount": 1,
+                "FrameCountX": 1,
+                "FrameCountY": 1,
+                "TransparentIndex": 0,
+                "MaskStartFrame": 0,
+                "MaskFrameCount": 1,
+                "MaskFrameCountX": 1,
+                "MaskFrameCountY": 1,
+                "MaskUVScroll": [
+                  0.0,
+                  0.0
+                ],
+                "ScaleRatio": 0.0,
+                "ShakeStrength": 0.0,
+                "DistortionStrength": 10.0,
+                "MaxPoints": 256,
+                "TrailLifeTime": 0.20000001788139343,
+                "MinDistance": 9.999999747378752e-06,
+                "TexRotation": -90.0,
+                "SubEmitters": []
+              }
+            ]
+        }
+    ]
+}

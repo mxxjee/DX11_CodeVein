@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{8ec5216d-7f16-49a5-8ff4-51d729fd1901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. UI">
+      <UniqueIdentifier>{451cb88b-aece-4edf-b7fd-0ddbbea14016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object">
+      <UniqueIdentifier>{2c8fd37e-b686-44bb-90e7-91c49aea3bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Mgr">
+      <UniqueIdentifier>{70a5de61-05a9-4d89-a978-35c5d7efd9cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Camera">
+      <UniqueIdentifier>{0f34603a-b183-4e50-a14e-15137ce69010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Obj">
+      <UniqueIdentifier>{a5dae481-c795-41ee-bf1e-1a09757836b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{d76adf14-8645-4ebb-ae58-40cf11de1081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\Extra">
+      <UniqueIdentifier>{eaba0ee9-10cb-4132-aa7a-3e637d507116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\Shader">
+      <UniqueIdentifier>{8ba526a2-0deb-49dc-ac45-d49f6be4ca46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\Core">
+      <UniqueIdentifier>{c304f089-4336-4ee5-abbe-741a903f98cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Collider">
+      <UniqueIdentifier>{915c0b54-fc45-4960-b15c-6f9136443edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Nav">
+      <UniqueIdentifier>{1b99bf89-aee0-413e-b763-e830b125607f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Parsing_Data">
+      <UniqueIdentifier>{74655e8c-95db-4432-85ea-9089cf3da47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Nav\Spline">
+      <UniqueIdentifier>{ce877b9e-a043-4dfd-9da8-be0a22da6f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Nav\NoUse%28Recast and Etc%29">
+      <UniqueIdentifier>{d120dc3a-5073-47f0-b457-d937b370c2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Nav\NoUse%28Recast and Etc%29\Recast">
+      <UniqueIdentifier>{9706fb21-031d-4897-8481-28c63bc4ac4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Nav\NoUse%28Recast and Etc%29\Detour">
+      <UniqueIdentifier>{220869f1-3d2c-4433-958b-5c751f4de8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Obj\Props">
+      <UniqueIdentifier>{8267e8b8-d9b8-41f8-ab49-d367df8068d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Obj\Characters">
+      <UniqueIdentifier>{fb08e4e2-203f-419b-b5d0-fc222c134773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="999.Data">
+      <UniqueIdentifier>{85d8369c-e5b2-4b7a-8807-62e7a2eacd84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="999.Data\Map">
+      <UniqueIdentifier>{c64052c9-a894-4379-addc-3c93b43d406f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Obj\Item">
+      <UniqueIdentifier>{0b2fcdcb-5dd7-489c-8e9f-7b1a9e39559f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Obj\Item\ItemBox">
+      <UniqueIdentifier>{be6365c7-d4e0-4f73-8a49-ab04de84855f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Obj\Item\Item">
+      <UniqueIdentifier>{7e717a87-faa3-4db9-8154-19a7a49f9b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Function">
+      <UniqueIdentifier>{8d89393e-99dc-48e2-a6eb-75dd39f0ef92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>99. Default\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Navigation_UI.cpp">
+      <Filter>02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera_Free.cpp">
+      <Filter>03. Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Level_Main.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Layer_Debug_UI.cpp">
+      <Filter>02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Asset_Debug_UI.cpp">
+      <Filter>02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MT_Defines.cpp">
+      <Filter>99. Default\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MapTool_UI.cpp">
+      <Filter>02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MT_Utils.cpp">
+      <Filter>04. Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Detour\DetourAlloc.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Detour\DetourAssert.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Detour\DetourCommon.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Detour\DetourNavMesh.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Detour\DetourNavMeshBuilder.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Detour\DetourNavMeshQuery.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Detour\DetourNode.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\Recast.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastAlloc.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastArea.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastAssert.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastContour.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastFilter.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastLayers.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastMesh.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastMeshDetail.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastRasterization.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Recast\RecastRegion.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Parsing_Maptool.cpp">
+      <Filter>06. Parsing_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI_Test.cpp">
+      <Filter>02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera_Object.cpp">
+      <Filter>03. Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NavBuildContext.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NavigationMgr.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NavInputGeo.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NavMeshBuilder.cpp">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SplineMgr.cpp">
+      <Filter>05. Nav\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SplinePath.cpp">
+      <Filter>05. Nav\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MapSeal.cpp">
+      <Filter>03. Object\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SavePoint.cpp">
+      <Filter>03. Object\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NonCulObj.cpp">
+      <Filter>03. Object\Obj\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TriggerBox.cpp">
+      <Filter>03. Object\Obj\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticObj.cpp">
+      <Filter>03. Object\Obj\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Monster.cpp">
+      <Filter>03. Object\Obj\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ladder.cpp">
+      <Filter>03. Object\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Monster_EventShape.cpp">
+      <Filter>03. Object\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Trigger_Controller_UI.cpp">
+      <Filter>02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Drum.cpp">
+      <Filter>03. Object\Obj\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item.cpp">
+      <Filter>03. Object\Obj\Item\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item_Box.cpp">
+      <Filter>03. Object\Obj\Item\ItemBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99. Default\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>99. Default\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Navigation_UI.h">
+      <Filter>02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Camera_Free.h">
+      <Filter>03. Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Level_Main.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Asset_Debug_UI.h">
+      <Filter>02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Layer_Debug_UI.h">
+      <Filter>02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MapTool_UI.h">
+      <Filter>02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MT_Defines.h">
+      <Filter>99. Default\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MT_Utils.h">
+      <Filter>04. Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourAlloc.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourAssert.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourCommon.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourMath.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourNavMesh.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourNavMeshBuilder.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourNavMeshQuery.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourNode.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Detour\DetourStatus.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Recast\Recast.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Recast\RecastAlloc.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Recast\RecastAssert.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Parsing_Maptool.h">
+      <Filter>06. Parsing_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UI_Test.h">
+      <Filter>02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Camera_Object.h">
+      <Filter>03. Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MT_Macro_Component.h">
+      <Filter>99. Default\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MT_Macro_GameObject.h">
+      <Filter>99. Default\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NavBuildContext.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NavigationMgr.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NavInputGeo.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NavMeshBuilder.h">
+      <Filter>05. Nav\NoUse%28Recast and Etc%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SplineMgr.h">
+      <Filter>05. Nav\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SplinePath.h">
+      <Filter>05. Nav\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MapSeal.h">
+      <Filter>03. Object\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SavePoint.h">
+      <Filter>03. Object\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NonCulObj.h">
+      <Filter>03. Object\Obj\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TriggerBox.h">
+      <Filter>03. Object\Obj\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StaticObj.h">
+      <Filter>03. Object\Obj\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster.h">
+      <Filter>03. Object\Obj\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Ladder.h">
+      <Filter>03. Object\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster_EventShape.h">
+      <Filter>03. Object\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Trigger_Controller_UI.h">
+      <Filter>02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Drum.h">
+      <Filter>03. Object\Obj\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Item.h">
+      <Filter>03. Object\Obj\Item\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Item_Box.h">
+      <Filter>03. Object\Obj\Item\ItemBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Default\Extra</Filter>
+    </Image>
+    <Image Include="MapTool.ico">
+      <Filter>99. Default\Extra</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc">
+      <Filter>99. Default\Extra</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Shader\Shader_VtxMesh.hlsl">
+      <Filter>99. Default\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_AnimMesh.hlsl">
+      <Filter>99. Default\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_Deferred.hlsl">
+      <Filter>99. Default\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_AnimMesh_MapToolTest.hlsl">
+      <Filter>99. Default\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxMeshInstancing.hlsl">
+      <Filter>99. Default\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxMesh_Color.hlsl">
+      <Filter>99. Default\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_DebugLine.hlsl">
+      <Filter>99. Default\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxInstance.hlsl">
+      <Filter>99. Default\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Shader\Shader_Buffer.hlsli">
+      <Filter>99. Default\Shader</Filter>
+    </None>
+    <None Include="..\..\DataFiles\Map_Data\MapData\Church_01.json">
+      <Filter>999.Data\Map</Filter>
+    </None>
+    <None Include="..\..\DataFiles\Map_Data\MapData\St01_UnderPass_Building.json">
+      <Filter>999.Data\Map</Filter>
+    </None>
+    <None Include="..\..\DataFiles\Map_Data\MapData\St01_UnderPass_Down.json">
+      <Filter>999.Data\Map</Filter>
+    </None>
+    <None Include="..\..\DataFiles\Map_Data\MapData\St01_UnderPass_MainMap.json">
+      <Filter>999.Data\Map</Filter>
+    </None>
+    <None Include="..\..\DataFiles\Map_Data\MapData\St01_UnderPass_Sky.json">
+      <Filter>999.Data\Map</Filter>
+    </None>
+    <None Include="..\..\DataFiles\Map_Data\MapData\St01_UnderPass_Up.json">
+      <Filter>999.Data\Map</Filter>
+    </None>
+    <None Include="..\..\DataFiles\Map_Data\MapData\St01_UnderPass_Visual.json">
+      <Filter>999.Data\Map</Filter>
+    </None>
+  </ItemGroup>
+</Project>

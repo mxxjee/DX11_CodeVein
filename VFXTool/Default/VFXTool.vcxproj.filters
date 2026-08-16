@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{aaeb666f-71ac-4021-a9c6-e857b7537be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{08471218-eed6-4fff-9af5-3806c6b786e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ImGui">
+      <UniqueIdentifier>{54390a0a-7cc4-4aa4-a635-3936c2b70af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level">
+      <UniqueIdentifier>{18954f4e-87f6-4cca-9d82-d429bff6910f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\00. Level_Load">
+      <UniqueIdentifier>{aa7ad34b-0da9-491c-8891-f6bdb59c26eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\01. Level_Main">
+      <UniqueIdentifier>{13d023f7-200c-4b2c-9e10-365a90787598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Shader">
+      <UniqueIdentifier>{f70e8b85-72dc-4002-9c5b-4537eaaad7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Shader\Define">
+      <UniqueIdentifier>{e3d41ca4-be8a-4eac-a91a-cc7705f3f300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ImGui\00. Window_VFXEditor">
+      <UniqueIdentifier>{190963af-790d-4265-9315-0701d5024627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{b8cb66ab-457f-454e-b55b-880f0d833632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. Camera">
+      <UniqueIdentifier>{e8d6752d-d01c-4899-9daf-18e6924adc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Effect">
+      <UniqueIdentifier>{0b603e91-5a5a-48eb-9ef6-f8b5a2f3d604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Effect\00. Particle">
+      <UniqueIdentifier>{9402277f-4df2-46f9-96a7-c024361301fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Effect\01. Trail">
+      <UniqueIdentifier>{81071d55-03fa-4c7a-84ff-9e10ae7972cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\100. Grid">
+      <UniqueIdentifier>{eb6992f9-76f6-4ed9-be1c-1352b4318b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{82839d45-c1b0-4188-a627-f99ece170380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Parsing">
+      <UniqueIdentifier>{5660a1c9-284c-409c-8013-ee501e3854ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\101. Player">
+      <UniqueIdentifier>{95a76378-f6d3-4ebd-bb2e-1565d5c26a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\00. Level_Load\Loader">
+      <UniqueIdentifier>{1f3990fc-0653-43ab-8c42-ce1782f1632f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Effect\02. Decal">
+      <UniqueIdentifier>{53ce958a-a8e3-42eb-8c06-f0acc62b1a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Effect\03. Mesh">
+      <UniqueIdentifier>{bf6bcbb0-b503-460a-bb22-3de89fee4997}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="VFXTool.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VFXTool_Define.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Load.h">
+      <Filter>01. Level\00. Level_Load</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01. Level\00. Level_Load\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>02. GameObject\99. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Main.h">
+      <Filter>01. Level\01. Level_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Window_VFXEditor.h">
+      <Filter>97. ImGui\00. Window_VFXEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BasicParticle.h">
+      <Filter>02. GameObject\00. Effect\00. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SwordTrail.h">
+      <Filter>02. GameObject\00. Effect\01. Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02. GameObject\100. Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VFX_Parsing.h">
+      <Filter>97. Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Body.h">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Hair.h">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Head.h">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_MasterRig.h">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Decal_Blood.h">
+      <Filter>02. GameObject\00. Effect\02. Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BasicMesh.h">
+      <Filter>02. GameObject\00. Effect\03. Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VFXTool.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VFXTool_Define.cpp">
+      <Filter>99. Defines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Load.cpp">
+      <Filter>01. Level\00. Level_Load</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01. Level\00. Level_Load\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>02. GameObject\99. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Main.cpp">
+      <Filter>01. Level\01. Level_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BasicParticle.cpp">
+      <Filter>02. GameObject\00. Effect\00. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Window_VFXEditor.cpp">
+      <Filter>97. ImGui\00. Window_VFXEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SwordTrail.cpp">
+      <Filter>02. GameObject\00. Effect\01. Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02. GameObject\100. Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VFX_Parsing.cpp">
+      <Filter>97. Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Body.cpp">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Hair.cpp">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Head.cpp">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_MasterRig.cpp">
+      <Filter>02. GameObject\101. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Decal_Blood.cpp">
+      <Filter>02. GameObject\00. Effect\02. Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BasicMesh.cpp">
+      <Filter>02. GameObject\00. Effect\03. Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shader\Sampler_Define.hlsli">
+      <Filter>96. Shader\Define</Filter>
+    </None>
+    <None Include="..\..\Shader\Shader_Buffer.hlsli">
+      <Filter>96. Shader\Define</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Shader\Shader_Cell.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\Shader_Deferred.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\Shader_VtxBlendMesh.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\Shader_VtxPosTex.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_Compute_Particle.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_Trail.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPosTex_Particle.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_Decal.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_MeshEffect.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxMesh.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_AnimMesh.hlsl">
+      <Filter>96. Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

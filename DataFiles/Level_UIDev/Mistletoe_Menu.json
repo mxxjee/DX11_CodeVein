@@ -1,0 +1,2024 @@
+{
+    "header": {
+        "createdAt": "2026-03-07T11:33:54",
+        "modifiedAt": "2026-03-07T11:33:54",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "Mistletoe_Menu",
+            "BaseType": "NONE",
+            "UIType": "DEFAULT",
+            "ZOrder": 3,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "Transform": {
+                "Pos": [
+                    548.0999755859375,
+                    409.0,
+                    0.0
+                ],
+                "Size": [
+                    403.0,
+                    542.0
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                403.0,
+                542.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Render",
+                    "ComData": {
+                        "Interatable": false
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "Panel",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Mistletoe_Menu",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": true,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 16,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            -0.49627789855003357,
+                            4.428044319152832,
+                            0.0
+                        ],
+                        "Size": [
+                            85.85607147216797,
+                            71.7712173461914
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        346.0,
+                        389.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.05882352590560913,
+                                    0.05882352590560913,
+                                    0.05882352590560913,
+                                    1.0
+                                ],
+                                "Intensity": 1.0,
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "TGSThankYou/T_ThankYouWallpaper_UI_TGS",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "Clip": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "RenderMode": "RENDER_BLUR"
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Title_Header",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 3,
+                    "Parent": "Mistletoe_Menu",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 13,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            -0.6069589853286743,
+                            -35.96550750732422,
+                            0.0
+                        ],
+                        "Size": [
+                            85.70719146728516,
+                            8.671586990356445
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        345.3999938964844,
+                        47.000003814697266
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "UseInfinitScroll": true,
+                                "Speed": 0.0,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Intensity": 1.0,
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_Header_Yadorigi_Tile_UI_Title",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "Clip": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Close",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 11,
+                    "Parent": "Mistletoe_Menu",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            17.423263549804688,
+                            -37.80680847167969,
+                            0.0
+                        ],
+                        "Size": [
+                            13.647642135620117,
+                            11.070110321044922
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        55.0,
+                        60.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "Yoon320",
+                                "InnerText": "닫는다",
+                                "TextColor": [
+                                    0.5784313678741455,
+                                    0.5784313678741455,
+                                    0.5784313678741455,
+                                    1.0
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": false,
+                                "UseAlphaBlend": false,
+                                "UseSpacing": false,
+                                "OffSetScale": [
+                                    0.009999999776482582,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Xbutton",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 12,
+                    "Parent": "Mistletoe_Menu",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            34.84386444091797,
+                            -35.96014404296875,
+                            0.0
+                        ],
+                        "Size": [
+                            6.947890281677246,
+                            4.9815497398376465
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        28.0,
+                        27.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Intensity": 1.0,
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Key/Key_BackSpace",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "Clip": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "FocusMenu",
+                    "BaseType": "FOCUSMENU",
+                    "UIType": "SAVEPOINT",
+                    "ZOrder": 14,
+                    "Parent": "Mistletoe_Menu",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "Transform": {
+                        "Pos": [
+                            -21.09181022644043,
+                            7.749077320098877,
+                            0.0
+                        ],
+                        "Size": [
+                            24.813894271850586,
+                            18.450183868408203
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        100.0,
+                        100.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Render",
+                            "ComData": {
+                                "Interatable": false
+                            }
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "ObjectKey": "Level_Up",
+                            "BaseType": "GLOWBUTTON",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 4,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    45.0,
+                                    -163.0,
+                                    0.0
+                                ],
+                                "Size": [
+                                    61.0,
+                                    66.0
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                93.19999694824219,
+                                -15.899999618530273
+                            ],
+                            "HitBox_Size": [
+                                247.39999389648438,
+                                34.20000076293945
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "레벨 업",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": true,
+                                        "UseAlphaBlend": true,
+                                        "UseSpacing": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -72.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Button",
+                                    "ComData": {
+                                        "Default Texture": "",
+                                        "Hover Texture": "",
+                                        "Pressed Texture": "",
+                                        "Disable Texture": "",
+                                        "OnClickEvents": [
+                                            {
+                                                "Action": "LevelUp",
+                                                "EventTarget": "UIOBJECT",
+                                                "Flag": true,
+                                                "Text": "failed to string",
+                                                "Value": 0.0
+                                            }
+                                        ],
+                                        "OnHoverEvents": [],
+                                        "HoverExitEvents": [],
+                                        "ClickAnimClipName": "",
+                                        "HoverAnimClipName": "Onselect_Text",
+                                        "HoverExitAnimClipName": "Onselect_Exit"
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_EventReactor",
+                                    "ComData": {
+                                        "Bindings": [
+                                            {
+                                                "ResponseAction": "LevelUp",
+                                                "ReponseComponent": "failed to string"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "Onselect_Text",
+                                                "Loop": true,
+                                                "PingPong": true,
+                                                "TotalDuration": 4.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 4.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EndValue": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "LINEAR"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ClipName": "Onselect_Exit",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 1.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 1.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "EndValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "CURRENT"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Develop",
+                            "BaseType": "GLOWBUTTON",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 5,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    54.21197509765625,
+                                    -119.0,
+                                    0.0
+                                ],
+                                "Size": [
+                                    61.0,
+                                    63.29999923706055
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                87.19999694824219,
+                                -15.899999618530273
+                            ],
+                            "HitBox_Size": [
+                                235.39999389648438,
+                                31.5
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "연혈의 습득, 계승",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": true,
+                                        "UseAlphaBlend": true,
+                                        "UseSpacing": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -41.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Button",
+                                    "ComData": {
+                                        "Default Texture": "",
+                                        "Hover Texture": "",
+                                        "Pressed Texture": "",
+                                        "Disable Texture": "",
+                                        "OnClickEvents": [
+                                            {
+                                                "Action": "Develop",
+                                                "EventTarget": "UIOBJECT",
+                                                "Flag": true,
+                                                "Text": "failed to string",
+                                                "Value": 0.0
+                                            }
+                                        ],
+                                        "OnHoverEvents": [],
+                                        "HoverExitEvents": [],
+                                        "ClickAnimClipName": "",
+                                        "HoverAnimClipName": "Onselect_Text",
+                                        "HoverExitAnimClipName": "Onselect_Exit"
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_EventReactor",
+                                    "ComData": {
+                                        "Bindings": [
+                                            {
+                                                "ResponseAction": "Develop",
+                                                "ReponseComponent": "failed to string"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "Onselect_Text",
+                                                "Loop": true,
+                                                "PingPong": true,
+                                                "TotalDuration": 4.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 4.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EndValue": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "LINEAR"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ClipName": "Onselect_Exit",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 1.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 1.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "EndValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "CURRENT"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Inventory",
+                            "BaseType": "GLOWBUTTON",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 6,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    58.696533203125,
+                                    -80.9036865234375,
+                                    0.0
+                                ],
+                                "Size": [
+                                    61.0,
+                                    63.29999923706055
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                87.19999694824219,
+                                -15.899999618530273
+                            ],
+                            "HitBox_Size": [
+                                235.39999389648438,
+                                31.5
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "창고",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": true,
+                                        "UseAlphaBlend": true,
+                                        "UseSpacing": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -95.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Button",
+                                    "ComData": {
+                                        "Default Texture": "",
+                                        "Hover Texture": "",
+                                        "Pressed Texture": "",
+                                        "Disable Texture": "",
+                                        "OnClickEvents": [
+                                            {
+                                                "Action": "Inventory",
+                                                "EventTarget": "UIOBJECT",
+                                                "Flag": true,
+                                                "Text": "failed to string",
+                                                "Value": 0.0
+                                            }
+                                        ],
+                                        "OnHoverEvents": [],
+                                        "HoverExitEvents": [],
+                                        "ClickAnimClipName": "",
+                                        "HoverAnimClipName": "Onselect_Text",
+                                        "HoverExitAnimClipName": "Onselect_Exit"
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_EventReactor",
+                                    "ComData": {
+                                        "Bindings": [
+                                            {
+                                                "ResponseAction": "Inventory",
+                                                "ReponseComponent": "failed to string"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "Onselect_Text",
+                                                "Loop": true,
+                                                "PingPong": true,
+                                                "TotalDuration": 4.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 4.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EndValue": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "LINEAR"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ClipName": "Onselect_Exit",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 1.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 1.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "EndValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "CURRENT"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "OtherPlace",
+                            "BaseType": "GLOWBUTTON",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 7,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    56.4432373046875,
+                                    -39.464508056640625,
+                                    0.0
+                                ],
+                                "Size": [
+                                    61.0,
+                                    63.29999923706055
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                87.19999694824219,
+                                -15.899999618530273
+                            ],
+                            "HitBox_Size": [
+                                235.39999389648438,
+                                31.5
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "다른 겨우살이로 이동",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": true,
+                                        "UseAlphaBlend": true,
+                                        "UseSpacing": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -23.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Button",
+                                    "ComData": {
+                                        "Default Texture": "",
+                                        "Hover Texture": "",
+                                        "Pressed Texture": "",
+                                        "Disable Texture": "",
+                                        "OnClickEvents": [
+                                            {
+                                                "Action": "OpenSceneChangeMenu",
+                                                "EventTarget": "UIOBJECT",
+                                                "Flag": true,
+                                                "Text": "failed to string",
+                                                "Value": 0.0
+                                            }
+                                        ],
+                                        "OnHoverEvents": [],
+                                        "HoverExitEvents": [],
+                                        "ClickAnimClipName": "",
+                                        "HoverAnimClipName": "Onselect_Text",
+                                        "HoverExitAnimClipName": "Onselect_Exit"
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_EventReactor",
+                                    "ComData": {
+                                        "Bindings": [
+                                            {
+                                                "ResponseAction": "OpenSceneChangeMenu",
+                                                "ReponseComponent": "failed to string"
+                                            },
+                                            {
+                                                "ResponseAction": "",
+                                                "ReponseComponent": "failed to string"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "Onselect_Text",
+                                                "Loop": true,
+                                                "PingPong": true,
+                                                "TotalDuration": 4.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 4.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EndValue": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "LINEAR"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ClipName": "Onselect_Exit",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 1.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 1.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "EndValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "CURRENT"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Request",
+                            "BaseType": "GLOWBUTTON",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 8,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    57.104000091552734,
+                                    2.486999988555908,
+                                    0.0
+                                ],
+                                "Size": [
+                                    60.599998474121094,
+                                    63.29999923706055
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                87.19999694824219,
+                                -15.899999618530273
+                            ],
+                            "HitBox_Size": [
+                                235.0,
+                                31.5
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "동행을 의뢰한다",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": true,
+                                        "UseAlphaBlend": true,
+                                        "UseSpacing": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -44.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Button",
+                                    "ComData": {
+                                        "Default Texture": "",
+                                        "Hover Texture": "",
+                                        "Pressed Texture": "",
+                                        "Disable Texture": "",
+                                        "OnClickEvents": [
+                                            {
+                                                "Action": "Request",
+                                                "EventTarget": "UIOBJECT",
+                                                "Flag": true,
+                                                "Text": "failed to string",
+                                                "Value": 0.0
+                                            }
+                                        ],
+                                        "OnHoverEvents": [],
+                                        "HoverExitEvents": [],
+                                        "ClickAnimClipName": "",
+                                        "HoverAnimClipName": "Onselect_Text",
+                                        "HoverExitAnimClipName": "Onselect_Exit"
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_EventReactor",
+                                    "ComData": {
+                                        "Bindings": [
+                                            {
+                                                "ResponseAction": "Request",
+                                                "ReponseComponent": "failed to string"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "Onselect_Text",
+                                                "Loop": true,
+                                                "PingPong": true,
+                                                "TotalDuration": 4.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 4.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EndValue": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "LINEAR"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ClipName": "Onselect_Exit",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 1.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 1.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "EndValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "CURRENT"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Gift",
+                            "BaseType": "GLOWBUTTON",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 9,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    58.6044921875,
+                                    43.891998291015625,
+                                    0.0
+                                ],
+                                "Size": [
+                                    61.0,
+                                    63.29999923706055
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                87.19999694824219,
+                                -15.899999618530273
+                            ],
+                            "HitBox_Size": [
+                                235.39999389648438,
+                                31.5
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "선물",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": true,
+                                        "UseAlphaBlend": true,
+                                        "UseSpacing": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -94.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Button",
+                                    "ComData": {
+                                        "Default Texture": "",
+                                        "Hover Texture": "",
+                                        "Pressed Texture": "",
+                                        "Disable Texture": "",
+                                        "OnClickEvents": [
+                                            {
+                                                "Action": "Gift",
+                                                "EventTarget": "UIOBJECT",
+                                                "Flag": true,
+                                                "Text": "failed to string",
+                                                "Value": 0.0
+                                            }
+                                        ],
+                                        "OnHoverEvents": [],
+                                        "HoverExitEvents": [],
+                                        "ClickAnimClipName": "",
+                                        "HoverAnimClipName": "Onselect_Text",
+                                        "HoverExitAnimClipName": "Onselect_Exit"
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_EventReactor",
+                                    "ComData": {
+                                        "Bindings": [
+                                            {
+                                                "ResponseAction": "Gift",
+                                                "ReponseComponent": "failed to string"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "Onselect_Text",
+                                                "Loop": true,
+                                                "PingPong": true,
+                                                "TotalDuration": 4.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 4.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EndValue": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "LINEAR"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ClipName": "Onselect_Exit",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 1.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 1.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "EndValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "CURRENT"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Tutorial",
+                            "BaseType": "GLOWBUTTON",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 10,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    61.4356689453125,
+                                    85.1719970703125,
+                                    0.0
+                                ],
+                                "Size": [
+                                    61.0,
+                                    63.29999923706055
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                87.19999694824219,
+                                -15.899999618530273
+                            ],
+                            "HitBox_Size": [
+                                235.39999389648438,
+                                31.5
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "튜토리얼을 시작한다",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": true,
+                                        "UseAlphaBlend": true,
+                                        "UseSpacing": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -30.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Button",
+                                    "ComData": {
+                                        "Default Texture": "",
+                                        "Hover Texture": "",
+                                        "Pressed Texture": "",
+                                        "Disable Texture": "",
+                                        "OnClickEvents": [
+                                            {
+                                                "Action": "Tutorial",
+                                                "EventTarget": "UIOBJECT",
+                                                "Flag": true,
+                                                "Text": "failed to string",
+                                                "Value": 0.0
+                                            }
+                                        ],
+                                        "OnHoverEvents": [],
+                                        "HoverExitEvents": [],
+                                        "ClickAnimClipName": "",
+                                        "HoverAnimClipName": "Onselect_Text",
+                                        "HoverExitAnimClipName": "Onselect_Exit"
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_EventReactor",
+                                    "ComData": {
+                                        "Bindings": [
+                                            {
+                                                "ResponseAction": "Tutorial",
+                                                "ReponseComponent": "failed to string"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "Onselect_Text",
+                                                "Loop": true,
+                                                "PingPong": true,
+                                                "TotalDuration": 4.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 4.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EndValue": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "LINEAR"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ClipName": "Onselect_Exit",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 1.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 1.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "EndValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "CURRENT"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "SaveReturn",
+                            "BaseType": "GLOWBUTTON",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 12,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": true,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    78.00360107421875,
+                                    129.4029998779297,
+                                    0.0
+                                ],
+                                "Size": [
+                                    61.0,
+                                    63.29999923706055
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                103.69999694824219,
+                                -15.899999618530273
+                            ],
+                            "HitBox_Size": [
+                                268.3999938964844,
+                                31.5
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "저장하고 타이틀로 돌아간다",
+                                        "TextColor": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": true,
+                                        "UseAlphaBlend": true,
+                                        "UseSpacing": false,
+                                        "OffSetScale": [
+                                            0.009999999776482582,
+                                            0.009999999776482582
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -15.0,
+                                            0.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Button",
+                                    "ComData": {
+                                        "Default Texture": "",
+                                        "Hover Texture": "",
+                                        "Pressed Texture": "",
+                                        "Disable Texture": "",
+                                        "OnClickEvents": [
+                                            {
+                                                "Action": "SaveReturn",
+                                                "EventTarget": "UIOBJECT",
+                                                "Flag": true,
+                                                "Text": "failed to string",
+                                                "Value": 0.0
+                                            }
+                                        ],
+                                        "OnHoverEvents": [],
+                                        "HoverExitEvents": [],
+                                        "ClickAnimClipName": "",
+                                        "HoverAnimClipName": "Onselect_Text",
+                                        "HoverExitAnimClipName": "Onselect_Exit"
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_EventReactor",
+                                    "ComData": {
+                                        "Bindings": [
+                                            {
+                                                "ResponseAction": "SaveReturn",
+                                                "ReponseComponent": "failed to string"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "Onselect",
+                                                "Loop": true,
+                                                "PingPong": false,
+                                                "TotalDuration": 4.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 4.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EndValue": [
+                                                            0.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "LINEAR"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ClipName": "OnDeafult",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 0.0,
+                                                "AnimTrack": []
+                                            },
+                                            {
+                                                "ClipName": "Onselect_Exit",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 1.0,
+                                                "AnimTrack": [
+                                                    {
+                                                        "AnimType": "ALPHA",
+                                                        "StartTime": 0.0,
+                                                        "Duration": 1.0,
+                                                        "StartValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            1.0
+                                                        ],
+                                                        "EndValue": [
+                                                            1.0,
+                                                            0.0,
+                                                            0.0
+                                                        ],
+                                                        "EaseType": "CURRENT"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Selector",
+                            "BaseType": "SELECTOR",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 14,
+                            "Parent": "FocusMenu",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "BlurUI": false,
+                            "Visible": true,
+                            "Active": false,
+                            "IsInteratable": false,
+                            "ShaderPass": 4,
+                            "Value": 0.0,
+                            "Intensity": 1.0,
+                            "Transform": {
+                                "Pos": [
+                                    18.299999237060547,
+                                    -163.0,
+                                    0.0
+                                ],
+                                "Size": [
+                                    78.19999694824219,
+                                    145.3000030517578
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                0.0,
+                                0.0
+                            ],
+                            "HitBox_Size": [
+                                78.19999694824219,
+                                145.3000030517578
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Render",
+                                    "ComData": {
+                                        "Interatable": false
+                                    }
+                                },
+                                {
+                                    "ComType": "Prototype_Component_UI_Animation",
+                                    "ComData": {
+                                        "AnimClip": [
+                                            {
+                                                "ClipName": "DefaultAnim3",
+                                                "Loop": false,
+                                                "PingPong": false,
+                                                "TotalDuration": 0.0,
+                                                "AnimTrack": []
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Children": [
+                                {
+                                    "ObjectKey": "Glow",
+                                    "BaseType": "NONE",
+                                    "UIType": "DEFAULT",
+                                    "ZOrder": 9,
+                                    "Parent": "Selector",
+                                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                                    "BlurUI": false,
+                                    "Visible": true,
+                                    "Active": false,
+                                    "IsInteratable": false,
+                                    "ShaderPass": 4,
+                                    "Value": 0.0,
+                                    "Intensity": 1.0,
+                                    "Transform": {
+                                        "Pos": [
+                                            53.79999923706055,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Size": [
+                                            573.7000122070313,
+                                            34.900001525878906
+                                        ],
+                                        "RotationZ": 0.0,
+                                        "Alpha": 1.0,
+                                        "UVOffset": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "HitBox_Padding": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "HitBox_Size": [
+                                        448.6333923339844,
+                                        50.7097053527832
+                                    ],
+                                    "ActiveEvents": {
+                                        "OnActive": {
+                                            "AnimName": "",
+                                            "SoundName": ""
+                                        },
+                                        "OnDisable": {
+                                            "AnimName": "",
+                                            "SoundName": ""
+                                        }
+                                    },
+                                    "Components": [
+                                        {
+                                            "ComType": "Prototype_Component_UI_Image",
+                                            "ComData": {
+                                                "BindExtra": false,
+                                                "Color": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "Intensity": 1.0,
+                                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                                "DiffuseTextureKey": "AvatarCustomize/T_Cursor_SelectLight_NameEditItem_UI",
+                                                "NoiseTextureKey": "",
+                                                "MaskTextureKey": "",
+                                                "Clip": [
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "RenderMode": "RENDER_NORMAL"
+                                            }
+                                        }
+                                    ],
+                                    "Children": []
+                                },
+                                {
+                                    "ObjectKey": "Line",
+                                    "BaseType": "NONE",
+                                    "UIType": "DEFAULT",
+                                    "ZOrder": 20,
+                                    "Parent": "Selector",
+                                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                                    "BlurUI": false,
+                                    "Visible": true,
+                                    "Active": false,
+                                    "IsInteratable": false,
+                                    "ShaderPass": 4,
+                                    "Value": 0.0,
+                                    "Intensity": 1.0,
+                                    "Transform": {
+                                        "Pos": [
+                                            -106.0999984741211,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Size": [
+                                            16.881000518798828,
+                                            25.68000030517578
+                                        ],
+                                        "RotationZ": 0.0,
+                                        "Alpha": 1.0,
+                                        "UVOffset": [
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "HitBox_Padding": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "HitBox_Size": [
+                                        13.20094108581543,
+                                        37.31304168701172
+                                    ],
+                                    "ActiveEvents": {
+                                        "OnActive": {
+                                            "AnimName": "",
+                                            "SoundName": ""
+                                        },
+                                        "OnDisable": {
+                                            "AnimName": "",
+                                            "SoundName": ""
+                                        }
+                                    },
+                                    "Components": [
+                                        {
+                                            "ComType": "Prototype_Component_UI_Image",
+                                            "ComData": {
+                                                "BindExtra": false,
+                                                "Color": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "Intensity": 1.0,
+                                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                                "DiffuseTextureKey": "AvatarCustomize/T_Cursor_Select_I_UI",
+                                                "NoiseTextureKey": "",
+                                                "MaskTextureKey": "",
+                                                "Clip": [
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "RenderMode": "RENDER_NORMAL"
+                                            }
+                                        }
+                                    ],
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

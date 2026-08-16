@@ -1,0 +1,1829 @@
+{
+    "header": {
+        "createdAt": "2026-03-01T15:11:01",
+        "modifiedAt": "2026-03-01T15:11:01",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "FadeScreen",
+            "BaseType": "FADESCREEN",
+            "UIType": "DEFAULT",
+            "ZOrder": 100,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Transform": {
+                "Pos": [
+                    800.0,
+                    450.0,
+                    0.0
+                ],
+                "Size": [
+                    1600.0,
+                    900.0
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 0.9989532232284546,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                1600.0,
+                900.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "Textures/T_LoadWallpaperField_UI_TGS",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": "",
+                        "RenderMode": "RENDER_NORMAL"
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "FadeOut",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 1.0,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 1.0,
+                                        "StartValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            },
+                            {
+                                "ClipName": "FadeIn",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 1.0,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 1.0,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": []
+        },
+        {
+            "ObjectKey": "Loading_Back",
+            "BaseType": "LOADING_BACK",
+            "UIType": "LOADING_BACK",
+            "ZOrder": 101,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Transform": {
+                "Pos": [
+                    800.0,
+                    450.0,
+                    0.0
+                ],
+                "Size": [
+                    1600.0,
+                    900.0
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 0.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                1600.0,
+                900.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "OnActive",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "OnDeActive",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "Textures/T_LoadWallpaper_UI",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": "",
+                        "RenderMode": "RENDER_NORMAL"
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "OnActive",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 1.0,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 1.0,
+                                        "StartValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            },
+                            {
+                                "ClipName": "OnDeActive",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 1.0,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 1.0,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "LoadingText_Title",
+                    "BaseType": "TEXT",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 4,
+                    "Parent": "Loading_Back",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -36.689517974853516,
+                            -3.7690091133117676,
+                            0.0
+                        ],
+                        "Size": [
+                            6.25,
+                            11.11111068725586
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        100.0,
+                        100.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "OnActive",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "OnDeActive",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                          "ComData": {
+                            "FontName": "Font_Shine_Bold",
+                            "InnerText": "인간의 흡혈귀(레버넌트)화 ",
+                            "TextColor": [
+                              0.5980392098426819,
+                              0.5618257522583008,
+                              0.39282965660095215,
+                              0.9941109418869019
+                            ],
+                            "Use OutLine": false,
+                            "UseCenterAlign": false,
+                            "UseAlphaBlend": true,
+                            "UseSpacing": false,
+                            "OffSetScale": [
+                              0.009999999776482582,
+                              0.009999999776482582
+                            ],
+                            "OffSetRotation": 0.0,
+                            "OffSetPos": [
+                              0.0,
+                              0.0
+                            ],
+                            "TypeEffect": false
+                          }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnActive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ClipName": "OnDeActive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "LoadingText_Desc",
+                    "BaseType": "TEXT",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 4,
+                    "Parent": "Loading_Back",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -36.40550231933594,
+                            2.7469820976257324,
+                            0.0
+                        ],
+                        "Size": [
+                            3.75,
+                            6.666666507720947
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        60.0,
+                        60.0
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "OnActive",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "OnDeActive",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Text",
+                            "ComData": {
+                                "FontName": "A2Z_5_Medium",
+                                "InnerText": "다람쥐 헌 쳇바퀴에 타고파 ",
+                                "TextColor": [
+                                    0.563725471496582,
+                                    0.5472753643989563,
+                                    0.502931535243988,
+                                    0.9941109418869019
+                                ],
+                                "Use OutLine": false,
+                                "UseCenterAlign": false,
+                                "UseAlphaBlend": true,
+                                "UseSpacing": false,
+                                "OffSetScale": [
+                                    0.009999999776482582,
+                                    0.009999999776482582
+                                ],
+                                "OffSetRotation": 0.0,
+                                "OffSetPos": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "TypeEffect": false
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnActive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ClipName": "OnDeActive",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                }
+            ]
+        },
+        {
+            "ObjectKey": "Loading_Cube",
+            "BaseType": "LOADING_CUBE",
+            "UIType": "DEFAULT",
+            "ZOrder": 102,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Transform": {
+                "Pos": [
+                    1472.800048828125,
+                    800.9000244140625,
+                    0.0
+                ],
+                "Size": [
+                    100.0,
+                    100.0
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                100.0,
+                100.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "ChangeColor",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Render",
+                    "ComData": {
+                        "Interatable": false
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": []
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "1",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            2.074518918991089,
+                            -30.551816940307617,
+                            0.0
+                        ],
+                        "Size": [
+                            18.98699951171875,
+                            18.292999267578125
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.98699951171875,
+                        18.292999267578125
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.6603447198867798,
+                                    0.6603447198867798,
+                                    0.6603447198867798,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.20000000298023224,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.5,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.5,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "2",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            17.12723731994629,
+                            -14.864628791809082,
+                            0.0
+                        ],
+                        "Size": [
+                            18.987340927124023,
+                            18.292682647705078
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.987340927124023,
+                        18.292682647705078
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.6603447198867798,
+                                    0.6603447198867798,
+                                    0.6603447198867798,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.20000000298023224,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.5,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "3",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            33.01268005371094,
+                            0.5262049436569214,
+                            0.0
+                        ],
+                        "Size": [
+                            18.987340927124023,
+                            18.292682647705078
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.987340927124023,
+                        18.292682647705078
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.5230898261070251,
+                                    0.5230898261070251,
+                                    0.5230898261070251,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "DefaultAnim7",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 0.0,
+                                        "AnimTrack": []
+                                    },
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.30000001192092896,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.5,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "4",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            16.746810913085938,
+                            16.501821517944336,
+                            0.0
+                        ],
+                        "Size": [
+                            18.987340927124023,
+                            18.292682647705078
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.987340927124023,
+                        18.292682647705078
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.3858349025249481,
+                                    0.3858349025249481,
+                                    0.3858349025249481,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.5,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.4000000059604645,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.5,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.5,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "5",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            1.1778240203857422,
+                            0.9280321002006531,
+                            0.0
+                        ],
+                        "Size": [
+                            18.987340927124023,
+                            18.292682647705078
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.987340927124023,
+                        18.292682647705078
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.549999952316284,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.44999998807907104,
+                                                "Duration": 0.550000011920929,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.550000011920929,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.550000011920929,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "6",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 102,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -14.591110229492188,
+                            -14.942076683044434,
+                            0.0
+                        ],
+                        "Size": [
+                            18.987340927124023,
+                            18.292682647705078
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.987340927124023,
+                        18.292682647705078
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.5999999046325684,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.5,
+                                                "Duration": 0.6000000238418579,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.6000000238418579,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.6000000238418579,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "7",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -31.553165435791016,
+                            1.2164604663848877,
+                            0.0
+                        ],
+                        "Size": [
+                            18.987340927124023,
+                            18.292682647705078
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.987340927124023,
+                        18.292682647705078
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.6500000953674316,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.550000011920929,
+                                                "Duration": 0.6499999761581421,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.6499999761581421,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.6499999761581421,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "8",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -14.961416244506836,
+                            16.537811279296875,
+                            0.0
+                        ],
+                        "Size": [
+                            18.422874450683594,
+                            18.292682647705078
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.422874450683594,
+                        18.292682647705078
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.700000047683716,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.6000000238418579,
+                                                "Duration": 0.699999988079071,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.699999988079071,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.699999988079071,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "9",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Loading_Cube",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            1.3038345575332642,
+                            32.53839874267578,
+                            0.0
+                        ],
+                        "Size": [
+                            18.987340927124023,
+                            18.292682647705078
+                        ],
+                        "RotationZ": 45.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        18.987340927124023,
+                        18.292682647705078
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "ChangeColor",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_StaminaBar_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": "",
+                                "RenderMode": "RENDER_NORMAL"
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "ChangeColor",
+                                        "Loop": true,
+                                        "PingPong": false,
+                                        "TotalDuration": 3.799999952316284,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.699999988079071,
+                                                "Duration": 0.800000011920929,
+                                                "StartValue": [
+                                                    0.31372547149658203,
+                                                    0.31372547149658203,
+                                                    0.31372547149658203
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 3.0,
+                                                "Duration": 0.800000011920929,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    0.3137255012989044,
+                                                    0.3137255012989044,
+                                                    0.3137255012989044
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            },
+                                            {
+                                                "AnimType": "COLOR",
+                                                "StartTime": 0.800000011920929,
+                                                "Duration": 3.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EndValue": [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                }
+            ]
+        }
+    ]
+}

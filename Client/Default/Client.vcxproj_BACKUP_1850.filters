@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{32c90abe-201a-4259-8ac8-8dfe7a4e00d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{9d59861f-3890-4e38-842b-7cf5f5f3117e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level">
+      <UniqueIdentifier>{86291297-556b-431d-92b4-2d074a07201e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{5e6d7a26-5bd7-45bb-b4e6-9be9529082ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default\Any">
+      <UniqueIdentifier>{f4b50fda-50f2-4bb3-b0e3-66aff551e911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\00. Level_Load">
+      <UniqueIdentifier>{a50359fb-92fd-4e01-b794-08f383656f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\00. Level_Load\Loader">
+      <UniqueIdentifier>{e50bf780-2fcf-4885-803f-556ddaa16adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader">
+      <UniqueIdentifier>{b0ba9bf5-ca90-419f-bba9-325c4e135968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\Define">
+      <UniqueIdentifier>{5428f84a-194b-4e78-ab9b-a06053575d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\Old">
+      <UniqueIdentifier>{bb5bbccd-36c2-4c92-b70e-5a8a22edeaf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\Delete">
+      <UniqueIdentifier>{1220fc90-f770-49e3-ae4d-a036b47fc498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\01. Level_Logo">
+      <UniqueIdentifier>{451544ac-ed1f-4139-86b4-f3c1ba31f350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{58cc3204-7fc4-4788-ac2e-4551281d5e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UIObject">
+      <UniqueIdentifier>{5edabe93-c9fb-490a-8bf9-150ee9efa79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. Camera">
+      <UniqueIdentifier>{95b0e470-7cd5-41df-a3da-4eed2ddc027b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. Camera\Free">
+      <UniqueIdentifier>{3500cf88-6074-438d-b829-6fe36ff46247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\99. Level_Sample">
+      <UniqueIdentifier>{335f28c7-cad7-4157-a292-27a76a8f38fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\02. Level_Main">
+      <UniqueIdentifier>{f93afa3f-3138-4617-94d2-95602fd4447b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\98. SampleObjects">
+      <UniqueIdentifier>{12d07594-7952-41ae-80a1-b9670c80fb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\98. SampleObjects\SimpleMath">
+      <UniqueIdentifier>{89a44db9-1f34-4ece-ab0e-618cf477db78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\98. SampleObjects\SampleModel_Only">
+      <UniqueIdentifier>{acc28670-fc53-4514-a4c5-264b1d48ac41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\98. SampleObjects\Sample_Event">
+      <UniqueIdentifier>{d74814a3-c8ed-4dd1-b77b-f2ad69ca8315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\Compute_Shader">
+      <UniqueIdentifier>{6fc5eb52-5123-43df-9c95-5e73c12af6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\98. SampleObjects\Sample_Compute">
+      <UniqueIdentifier>{3b55c828-4fab-428a-b2b1-c0534748b30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. IMGUI">
+      <UniqueIdentifier>{7edab12a-c622-4d58-a03e-448f1404f7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. IMGUI\IMGUI_Main">
+      <UniqueIdentifier>{b9f7e183-8eec-4c59-ac04-7fa4c64afdd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>98. Default\Any</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98. Default\Any</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default\Any</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Define.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro_Component.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro_GameObject.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Basic_Class.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01. Level\01. Level_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Load.h">
+      <Filter>01. Level\00. Level_Load</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01. Level\00. Level_Load\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Test.h">
+      <Filter>03. UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>02. GameObject\99. Camera\Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Main.h">
+      <Filter>01. Level\02. Level_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Sample.h">
+      <Filter>01. Level\99. Level_Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SimpleMath_Sample.h">
+      <Filter>02. GameObject\98. SampleObjects\SimpleMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SampleModel.h">
+      <Filter>02. GameObject\98. SampleObjects\SampleModel_Only</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SampleParent.h">
+      <Filter>02. GameObject\98. SampleObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Event.h">
+      <Filter>02. GameObject\98. SampleObjects\Sample_Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Event_Target.h">
+      <Filter>02. GameObject\98. SampleObjects\Sample_Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_Event_Parent.h">
+      <Filter>02. GameObject\98. SampleObjects\Sample_Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\IMGUI_Main.h">
+      <Filter>96. IMGUI\IMGUI_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sample_ComputeShader.h">
+      <Filter>02. GameObject\98. SampleObjects\Sample_Compute</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98. Default\Any</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98. Default\Any</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Basic_Class.cpp">
+      <Filter>99. Defines</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_Define.cpp">
+      <Filter>99. Defines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01. Level\01. Level_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Load.cpp">
+      <Filter>01. Level\00. Level_Load</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01. Level\00. Level_Load\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Test.cpp">
+      <Filter>03. UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>02. GameObject\99. Camera\Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Main.cpp">
+      <Filter>01. Level\02. Level_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Sample.cpp">
+      <Filter>01. Level\99. Level_Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader_Sample.cpp">
+      <Filter>01. Level\00. Level_Load\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SimpleMath_Sample.cpp">
+      <Filter>02. GameObject\98. SampleObjects\SimpleMath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SampleModel.cpp">
+      <Filter>02. GameObject\98. SampleObjects\SampleModel_Only</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SampleParent.cpp">
+      <Filter>02. GameObject\98. SampleObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Event.cpp">
+      <Filter>02. GameObject\98. SampleObjects\Sample_Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Event_Target.cpp">
+      <Filter>02. GameObject\98. SampleObjects\Sample_Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_Event_Parent.cpp">
+      <Filter>02. GameObject\98. SampleObjects\Sample_Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\IMGUI_Main.cpp">
+      <Filter>96. IMGUI\IMGUI_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sample_ComputeShader.cpp">
+      <Filter>02. GameObject\98. SampleObjects\Sample_Compute</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98. Default\Any</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore">
+      <Filter>98. Default</Filter>
+    </None>
+    <None Include="..\Public\cpp.hint">
+      <Filter>98. Default\Any</Filter>
+    </None>
+    <None Include="..\Shader\Shader_Buffer.hlsli">
+      <Filter>97. Shader\Define</Filter>
+    </None>
+    <None Include="..\..\Shader\Sampler_Define.hlsli">
+      <Filter>97. Shader\Define</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Shader\Shader_Particle_Effect.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_SkyDome.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxBlendMesh.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxCube.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxNorTex.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPos_Particle.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPosTex.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPosTex_Particle.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\Shader_Deferred.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_BlobShadow.hlsl">
+      <Filter>97. Shader\Old</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxMesh_Old.hlsl">
+      <Filter>97. Shader\Old</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxNorTex_Old.hlsl">
+      <Filter>97. Shader\Old</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPosTex_Old.hlsl">
+      <Filter>97. Shader\Old</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_AnimMesh.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+<<<<<<< HEAD
+    <FxCompile Include="..\Shader\Shader_BlobShadow.hlsl">
+      <Filter>97. Shader\Delete</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\CShader_Double.hlsl">
+      <Filter>97. Shader\Compute_Shader</Filter>
+=======
+    <FxCompile Include="..\Shader\Shader_BlobShadow.hlsl" />
+    <FxCompile Include="..\..\Shader\Shader_VtxMesh.hlsl">
+      <Filter>97. Shader</Filter>
+>>>>>>> origin/sim
+    </FxCompile>
+  </ItemGroup>
+</Project>

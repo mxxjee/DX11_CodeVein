@@ -1,0 +1,27 @@
+{
+  "Name": "무라사메",
+  "OffSet": [-2.0,2.0,0.33],
+  "Dialogues": [
+    {
+      "Step": 0,
+      "Text": "모두가 탐색해준 덕분에 새로운 무기를 추가했습니다!\n시간 있으면 보고 가줘",
+      "Choices": [
+        {
+          "Text": "산다.",
+          "NextStep": -1,
+          "Action": "OPEN_SHOP"
+        },
+        {
+          "Text": "판다.",
+          "NextStep": -1,
+          "Action": "OPEN_CELL"
+        },
+        {
+          "Text": "헤어지기",
+          "NextStep": -1,
+          "Action": "NONE"
+        }
+      ]
+    }
+  ]
+}

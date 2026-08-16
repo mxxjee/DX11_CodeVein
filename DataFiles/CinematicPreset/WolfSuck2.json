@@ -1,0 +1,224 @@
+{
+  "autoReturn": true,
+  "keyCount": 8,
+  "keyframes": [
+    {
+      "absPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 0.0,
+      "ease": 0,
+      "fov": 0.7853981852531433,
+      "lookAtPlayer": false,
+      "lookAtTarget": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": 2,
+      "pitchOffset": 0.0,
+      "posOffset": [
+        0.0,
+        2.0,
+        -2.0
+      ],
+      "triggerShake": false,
+      "yawOffset": 0.0
+    },
+    {
+      "absPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 0.6399999856948853,
+      "ease": 1,
+      "fov": 0.6108652353286743,
+      "lookAtPlayer": false,
+      "lookAtTarget": [
+        0.15000000596046448,
+        -0.30000001192092896,
+        0.0
+      ],
+      "mode": 2,
+      "pitchOffset": 0.0,
+      "posOffset": [
+        0.20000000298023224,
+        -0.30000001192092896,
+        0.4000000059604645
+      ],
+      "triggerShake": false,
+      "yawOffset": 0.0
+    },
+    {
+      "absPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 0.5,
+      "ease": 4,
+      "fov": 0.7330383062362671,
+      "lookAtPlayer": false,
+      "lookAtTarget": [
+        0.10000000149011612,
+        -0.30000001192092896,
+        0.0
+      ],
+      "mode": 2,
+      "pitchOffset": 0.0,
+      "posOffset": [
+        0.30000001192092896,
+        -0.10000000149011612,
+        1.0
+      ],
+      "triggerShake": false,
+      "yawOffset": 0.0
+    },
+    {
+      "absPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 0.4000000059604645,
+      "ease": 0,
+      "fov": 0.7330383062362671,
+      "lookAtPlayer": false,
+      "lookAtTarget": [
+        0.10000000149011612,
+        -0.30000001192092896,
+        0.0
+      ],
+      "mode": 2,
+      "pitchOffset": 0.0,
+      "posOffset": [
+        0.30000001192092896,
+        -0.10000000149011612,
+        1.0
+      ],
+      "triggerShake": false,
+      "yawOffset": 0.0
+    },
+    {
+      "absPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 2.0,
+      "ease": 4,
+      "fov": 1.0471975803375244,
+      "lookAtPlayer": false,
+      "lookAtTarget": [
+        0.0,
+        -0.20000000298023224,
+        -0.20000000298023224
+      ],
+      "mode": 2,
+      "pitchOffset": 0.0,
+      "posOffset": [
+        1.5,
+        -0.6000000238418579,
+        -0.30000001192092896
+      ],
+      "triggerShake": false,
+      "yawOffset": 0.0
+    },
+    {
+      "absPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 0.30000001192092896,
+      "ease": 2,
+      "fov": 0.9599310755729675,
+      "lookAtPlayer": false,
+      "lookAtTarget": [
+        0.30000001192092896,
+        -0.30000001192092896,
+        0.0
+      ],
+      "mode": 2,
+      "pitchOffset": 0.0,
+      "posOffset": [
+        0.6000000238418579,
+        -0.4000000059604645,
+        -0.6000000238418579
+      ],
+      "triggerShake": false,
+      "yawOffset": 0.0
+    },
+    {
+      "absPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 1.2000000476837158,
+      "ease": 0,
+      "fov": 0.9599310755729675,
+      "lookAtPlayer": false,
+      "lookAtTarget": [
+        0.30000001192092896,
+        -0.30000001192092896,
+        0.0
+      ],
+      "mode": 2,
+      "pitchOffset": 0.0,
+      "posOffset": [
+        0.6000000238418579,
+        -0.4000000059604645,
+        -0.6000000238418579
+      ],
+      "shake": {
+        "ampFov": 0.0,
+        "ampPitch": 0.0,
+        "ampX": 0.5,
+        "ampY": 0.5,
+        "ampYaw": 0.0,
+        "ampZ": 0.0,
+        "blendOut": 0.05000000074505806,
+        "duration": 0.10000000149011612,
+        "freqFov": 60.0,
+        "freqPitch": 100.0,
+        "freqX": 100.0,
+        "freqY": 100.0,
+        "freqYaw": 50.0,
+        "freqZ": 100.0,
+        "kickDecay": 15.0,
+        "kickStrength": 0.0
+      },
+      "triggerShake": true,
+      "yawOffset": 0.0
+    },
+    {
+      "absPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 0.800000011920929,
+      "ease": 1,
+      "fov": 0.9599310755729675,
+      "lookAtPlayer": true,
+      "lookAtTarget": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": 2,
+      "pitchOffset": 0.0,
+      "posOffset": [
+        0.0,
+        1.5,
+        -2.299999952316284
+      ],
+      "triggerShake": false,
+      "yawOffset": 0.0
+    }
+  ]
+}

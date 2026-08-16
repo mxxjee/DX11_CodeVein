@@ -1,0 +1,682 @@
+{
+  "ItemPrototypes": [
+    {
+      "ItemID": 5000,
+      "Description": "명혈로 가득찬 작은 병\n사용하면 소량의 명혈을 얻는다",
+      "Name": "명혈 농축약",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_065",
+      "ItemCount": 1,
+      "MaxItemCount": 5,
+      "Category": "ITEM",
+      "Haze": 1000,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5001,
+      "Description": "흡혈귀는 자기 재생 능력으로 HP를 재생한다\n소비한 재생력은 겨우살이에서 휴식하면 회복한다",
+      "Name": "재생력",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_001_UI",
+      "ItemCount": 1,
+      "MaxItemCount": 3,
+      "Category": "ITEM",
+      "Haze": 0,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5002,
+      "Description": "흡혈귀 연구로 개발된 재생약",
+      "Name": "재생 유도약",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_064",
+      "ItemCount": 1,
+      "MaxItemCount": 3,
+      "Category": "ITEM",
+      "Haze": 1000,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5003,
+      "Description": "헤이즈를 잃지 않고\n가장 최근의 겨우살이로 돌아간다",
+      "Name": "리터너",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_004",
+      "ItemCount": 1,
+      "MaxItemCount": 3,
+      "Category": "ITEM",
+      "Haze": 1000,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5004,
+      "Description": "상태 이상의 내성을 높여주는 농축약",
+      "Name": "슬로우 레지스트",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_058",
+      "ItemCount": 1,
+      "MaxItemCount": 5,
+      "Category": "ITEM",
+      "Haze": 350,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5005,
+      "Description": "복용하면 신체 기능이 일시적으로 상승한다",
+      "Name": "ST 활성 앰플",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_077",
+      "ItemCount": 1,
+      "MaxItemCount": 5,
+      "Category": "ITEM",
+      "Haze": 350,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5006,
+      "Description": "퀸의 협력을 받아 개발된 특수 광석",
+      "Name": "퀸 아이언",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_081",
+      "ItemCount": 1,
+      "MaxItemCount": 99,
+      "Category": "ITEM",
+      "Haze": 1000,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5007,
+      "Description": "신체 능력을 비약적으로 향상시켜서\n일정 시간, 모으기 행동이 가속된다.",
+      "Name": "차지 업",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_074",
+      "ItemCount": 1,
+      "MaxItemCount": 5,
+      "Category": "ITEM",
+      "Haze": 350,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5008,
+      "Description": "스턴 상태를 회복하는 약품.",
+      "Name": "안티 스턴",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_038",
+      "ItemCount": 1,
+      "MaxItemCount": 5,
+      "Category": "ITEM",
+      "Haze": 700,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5009,
+      "Description": "재생력의 사용횟수를 늘려주는 약품",
+      "Name": "재생력의 확장 인자",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_008",
+      "ItemCount": 1,
+      "MaxItemCount": 3,
+      "Category": "ITEM",
+      "Haze": 700,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5010,
+      "Description": "방출된 헤이즈의 잔재를 모은 것\n사용하면 600헤이즈를 얻는다",
+      "Name": "상실의 조각(대)",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_016",
+      "ItemCount": 1,
+      "MaxItemCount": 99,
+      "Category": "ITEM",
+      "Haze": 700,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 5011,
+      "Description": "방출된 헤이즈의 잔재를 모은 것\n사용하면 1000헤이즈를 얻는다",
+      "Name": "상실의 조각(소)",
+      "ItemTexKey": "ItemIcon/T_ItemIcon_014",
+      "ItemCount": 1,
+      "MaxItemCount": 99,
+      "Category": "ITEM",
+      "Haze": 700,
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    },
+    {
+      "ItemID": 4007,
+      "Description": "일정 시간, 자신과 동행자의 무기에 화염을 휘감아 상대의 몸속부터 태워버린다",
+      "Name": "플레임 웨폰",
+      "ItemTexKey": "KetsugiIcon/T_Ketsugi014",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "SKILL",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 5.0,
+        "COOLDOWN": 5.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "양",
+        "SkillType": "액티브",
+        "AttackType": "-"
+      }
+    },
+    {
+      "ItemID": 4006,
+      "Description": "겨냥한 적의 발 밑에, 3연속으로 강력한 전기 기둥을 발사한다",
+      "Name": "인드라 코일",
+      "ItemTexKey": "KetsugiIcon/T_Ketsugi049",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "SKILL",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 7.0,
+        "COOLDOWN": 10.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "음",
+        "SkillType": "액티브",
+        "AttackType": "관통"
+      }
+    },
+    {
+      "ItemID": 4005,
+      "Description": "관통 성능을 가진 강력한 탄환을 사출하는 총검용 공격 연혈",
+      "Name": "레이디언트 배럴",
+      "ItemTexKey": "KetsugiIcon/T_ActionKetsugi017",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "SKILL",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 10.0,
+        "COOLDOWN": 15.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "기술",
+        "SkillType": "액티브",
+        "AttackType": "-"
+      }
+    },
+    {
+      "ItemID": 4004,
+      "Description": "일정 시간, 쉽게 밀리지 않는다",
+      "Name": "로열 하트",
+      "ItemTexKey": "KetsugiIcon/T_Ketsugi010",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "SKILL",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 5.0,
+        "COOLDOWN": 5.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "양",
+        "SkillType": "액티브",
+        "AttackType": "-"
+      }
+    },
+    {
+      "ItemID": 4003,
+      "Description": "일정 시간, 공격력이 증가한다",
+      "Name": "스트라이크 라이저",
+      "ItemTexKey": "KetsugiIcon/T_Ketsugi002",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "SKILL",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 5.0,
+        "COOLDOWN": 5.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "양",
+        "SkillType": "액티브",
+        "AttackType": "-"
+      }
+    },
+    {
+      "ItemID": 4002,
+      "Description": "자기 주변에 회전하는 화염검을 소환한다",
+      "Name": "염검전무",
+      "ItemTexKey": "KetsugiIcon/T_Ketsugi169",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "SKILL",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 5.0,
+        "COOLDOWN": 10.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "음",
+        "SkillType": "액티브",
+        "AttackType": "절단"
+      }
+    },
+    {
+      "ItemID": 4001,
+      "Description": "단거리를 고속 돌진하는 이동 공격 한손검,도끼창,총검용 공격 연혈",
+      "Name": "섀도우 어설트",
+      "ItemTexKey": "KetsugiIcon/T_ActionKetsugi012",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "SKILL",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 4.0,
+        "COOLDOWN": 6.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "기술",
+        "SkillType": "액티브",
+        "AttackType": "-"
+      }
+    },
+    {
+      "ItemID": 4000,
+      "Description": "전방으로 단숨에 뛰어들어 강력한 참격을 꽂아넣는다 양손검, 대형 해머용 공격 연혈",
+      "Name": "강룡복호",
+      "ItemTexKey": "KetsugiIcon/T_ActionKetsugi006",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "SKILL",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 6.0,
+        "COOLDOWN": 15.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "기술",
+        "SkillType": "액티브",
+        "AttackType": "-"
+      }
+    },
+    {
+      "ItemID": 1000,
+      "Description": "타귀가 된 흡혈귀가 손에 든 총검",
+      "Name": "타락한 바요네트",
+      "ItemTexKey": "WeaponIcon/T_WeaponIcon_WeaponBayonet_E",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_WEAPON",
+      "Haze": 5000,
+      "Values": {
+        "PHYSICS_DMG": 220.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "관통"
+      }
+    },
+    {
+      "ItemID": 1001,
+      "Description": "투박하게 만들어진 기계식 파괴 망치",
+      "Name": "임펄스 앵커",
+      "ItemTexKey": "WeaponIcon/T_WeaponIcon_WeaponHammer_E",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_WEAPON",
+      "Haze": 5000,
+      "Values": {
+        "PHYSICS_DMG": 220.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "파쇄,관통"
+      }
+    },
+    {
+      "ItemID": 1002,
+      "Description": "칠흑의 도신을 가진 외날검",
+      "Name": "흑의의 곡도",
+      "ItemTexKey": "WeaponIcon/T_WeaponIcon_SingleSword_L",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_WEAPON",
+      "Haze": 5000,
+      "Values": {
+        "PHYSICS_DMG": 220.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "절단"
+      }
+    },
+    {
+      "ItemID": 1003,
+      "Description": "토벌군 흡혈귀에게 지급된 도끼창",
+      "Name": "여왕 토벌대의 도끼창",
+      "ItemTexKey": "WeaponIcon/T_WeaponIcon_WeaponHalberd_A",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_WEAPON",
+      "Haze": 5000,
+      "Values": {
+        "PHYSICS_DMG": 430.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "절단,관통"
+      }
+    },
+    {
+      "ItemID": 1004,
+      "Description": "임시총독부에서 양산된 양손검",
+      "Name": "츠바이헨더",
+      "ItemTexKey": "WeaponIcon/T_WeaponIcon_LargeSword_B",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_WEAPON",
+      "Haze": 3500,
+      "Values": {
+        "PHYSICS_DMG": 572.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "절단"
+      }
+    },
+    {
+      "ItemID": 1005,
+      "Description": "타귀가 된 흡혈귀가 손에 든 한손검",
+      "Name": "타락한 브로드 소드",
+      "ItemTexKey": "WeaponIcon/T_WeaponIcon_SingleSword_M",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_WEAPON",
+      "Haze": 3500,
+      "Values": {
+        "PHYSICS_DMG": 338.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "절단"
+      }
+    },
+    {
+      "ItemID": 1006,
+      "Description": "송곳니 같은 칼날을 가진 양손검",
+      "Name": "이형의 저주검",
+      "ItemTexKey": "WeaponIcon/T_WeaponIcon_LargeSword_D",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_WEAPON",
+      "Haze": 5000,
+      "Values": {
+        "PHYSICS_DMG": 338.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "절단"
+      }
+    },
+    {
+      "ItemID": 3000,
+      "Description": "최대 HP가 증가한다",
+      "Name": "체력 증가",
+      "ItemTexKey": "PassiveIcon/T_Passive_001",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "PASSIVE",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "Lineage_Type": "양",
+        "SkillType": "패시브"
+      }
+    },
+    {
+      "ItemID": 2000,
+      "Description": "퀸 토벌군에게 배치되었던 흡혈 아장",
+      "Name": "여왕 토벌대 아장/가시형",
+      "ItemTexKey": "BloodGearIcon/T_CategoryIcon_LongCoat_H",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_ARMOR",
+      "Haze": 3500,
+      "Values": {
+        "PHYSICS_DMG": 190.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "관통"
+      }
+    },
+    {
+      "ItemID": 2001,
+      "Description": "유효한 방어 성능을 보인다.",
+      "Name": "흑혈의 트레이서",
+      "ItemTexKey": "BloodGearIcon/T_CategoryIcon_Gauntlet_F",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_ARMOR",
+      "Haze": 7600,
+      "Values": {
+        "PHYSICS_DMG": 155.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "절단"
+      }
+    },
+    {
+      "ItemID": 2002,
+      "Description": "전승의 흡혈귀를 모티브로 한 아장",
+      "Name": "암야의 가시",
+      "ItemTexKey": "BloodGearIcon/T_CategoryIcon_Muffler_A",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_ARMOR",
+      "Haze": 3500,
+      "Values": {
+        "PHYSICS_DMG": 155.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "절단"
+      }
+    },
+    {
+      "ItemID": 2003,
+      "Description": "백은의 갑주를 걸친 흡혈아장",
+      "Name": "백은의 의장",
+      "ItemTexKey": "BloodGearIcon/T_CategoryIcon_LongCoat_E",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_ARMOR",
+      "Haze": 7200,
+      "Values": {
+        "PHYSICS_DMG": 179.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "관통"
+      }
+    },
+    {
+      "ItemID": 2004,
+      "Description": "백은의 의장을 새로 가공한 것",
+      "Name": "홍혈의 의장",
+      "ItemTexKey": "BloodGearIcon/T_CategoryIcon_LongCoat_E_Col2",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_ARMOR",
+      "Haze": 7200,
+      "Values": {
+        "PHYSICS_DMG": 179.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "관통"
+      }
+    },
+    {
+      "ItemID": 2005,
+      "Description": "블루 하운즈를 새로 가공한 것",
+      "Name": "엄버 하운즈",
+      "ItemTexKey": "BloodGearIcon/T_CategoryIcon_Drape_B",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_ARMOR",
+      "Haze": 3500,
+      "Values": {
+        "PHYSICS_DMG": 179.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "관통"
+      }
+    },
+    {
+      "ItemID": 2006,
+      "Description": "독자적인 색을 입힌 흡혈아장",
+      "Name": "임페리얼 클로스",
+      "ItemTexKey": "BloodGearIcon/T_CategoryIcon_Muffler_C_Col3",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "EQUIP_ARMOR",
+      "Haze": 3500,
+      "Values": {
+        "PHYSICS_DMG": 179.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0,
+        "AttackType": "관통"
+      }
+    },
+    {
+      "ItemID": 0,
+      "Description": "윤택한 명혈로 강력한 연혈 공격이 가능한 타입",
+      "Name": "캐스터",
+      "ItemTexKey": "BloodCodeIcon/T_BloodCode_Caster",
+      "ItemCount": 1,
+      "MaxItemCount": 1,
+      "Category": "BLOODCODE",
+      "Values": {
+        "PHYSICS_DMG": 0.0,
+        "ICHOR_COST": 0.0,
+        "COOLDOWN": 0.0,
+        "SKILL_TYPE": 0.0,
+        "LINEAGE_TYPE": 0.0,
+        "ATTACK_TYPE": 0.0
+      }
+    }
+  ]
+}

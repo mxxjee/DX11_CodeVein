@@ -1,0 +1,144 @@
+{
+  "CustomizingInfo": [
+    {
+      "Title": "피부",
+      "Description": "게임 시작 후에도 변경할 수 있습니다\r\n배경색을 변경하는 등, 밝기에 따른 외형 조정을\r\n보다 정확하게 처리할 수 있습니다",
+      "Layout": {
+        "TitlePosition": {
+          "x": -25.819,
+          "y":-13.542
+        },
+        "Background": {
+          "Position": {
+            "x": -0.460,
+            "y": 4.480
+          },
+          "Scale": {
+            "x": 89.422,
+            "y": 74.142
+          }
+        }
+      }
+    },
+    {
+      "Title": "머리카락",
+      "Description": "베이스 컬러를 변경할 수 있습니다",
+      "Layout": {
+        "TitlePosition": {
+          "x": -25.819,
+          "y": -13.542
+        },
+        "Background": {
+          "Position": {
+            "x": -0.460,
+            "y": -0.220
+          },
+          "Scale": {
+            "x": 89.422,
+            "y": 63.542
+          }
+        }
+      }
+    },
+    {
+      "Title": "눈",
+      "Description": "홍채와 눈동자의 형태를 변경할 수 있습니다",
+      "Layout": {
+        "TitlePosition": {
+          "x": -25.819,
+          "y": -13.542
+        },
+        "Background": {
+          "Position": {
+            "x": -0.460,
+            "y": -0.220
+          },
+          "Scale": {
+            "x": 89.422,
+            "y": 63.542
+          }
+        }
+      }
+    },
+    {
+      "Title": "눈썹",
+      "Description": "눈썹 컬러를 변경할 수 있습니다",
+      "Layout": {
+        "TitlePosition": {
+          "x": -25.819,
+          "y": -13.542
+        },
+        "Background": {
+          "Position": {
+            "x": -0.460,
+            "y": -0.220
+          },
+          "Scale": {
+            "x": 89.422,
+            "y": 63.542
+          }
+        }
+      }
+    },
+    {
+      "Title": "메이크",
+      "Description": "속눈썹의 설정, 아이라인이나 입술색을 변경할 수 있습니다",
+      "Layout": {
+        "TitlePosition": {
+          "x": -25.819,
+          "y": -13.542
+        },
+        "Background": {
+          "Position": {
+            "x": -0.460,
+            "y": -0.220
+          },
+          "Scale": {
+            "x": 89.422,
+            "y": 63.542
+          }
+        }
+      }
+    },
+    {
+      "Title": "의복",
+      "Description": "파츠마다 색을 조정할 수 있습니다",
+      "Layout": {
+        "TitlePosition": {
+          "x": -25.819,
+          "y": -13.542
+        },
+        "Background": {
+          "Position": {
+            "x": -0.460,
+            "y": -0.220
+          },
+          "Scale": {
+            "x": 89.422,
+            "y": 63.542
+          }
+        }
+      }
+    },
+    {
+      "Title": "페이스 페인트",
+      "Description": "편집 모드에서 위치, 사이즈를 조정할 수 있습니다",
+      "Layout": {
+        "TitlePosition": {
+          "x": -25.819,
+          "y": -13.542
+        },
+        "Background": {
+          "Position": {
+            "x": -0.460,
+            "y": -0.220
+          },
+          "Scale": {
+            "x": 89.422,
+            "y": 63.542
+          }
+        }
+      }
+    }
+  ]
+}

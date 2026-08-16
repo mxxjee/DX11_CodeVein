@@ -1,0 +1,24 @@
+{
+    "header": {
+        "createdAt": "2026-02-03T15:44:27",
+        "modifiedAt": "2026-02-03T15:44:27",
+        "toolType": "SHADER_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "ModelTest/test1",
+            "ObjectType": 0,
+            "ShaderPrototype": "Prototype_Component_Shader_VTXAnimMesh",
+            "MeshPasses": [
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

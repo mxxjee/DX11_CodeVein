@@ -1,0 +1,300 @@
+{
+    "transitions": [
+        {
+            "from": "MS_BATTLE",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "OUT_OF_CHASE_RANGE",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_FALLBACK"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "NOT_IN_FOV",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_TURN"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "DIST_GREATER_THAN",
+                            "value": 6.0
+                        },
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "IN_DETECT_RANGE",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 2,
+                    "target": "MS_ATTACKSPECIAL0"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "DIST_LESS_THAN",
+                            "value": 3.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 50.0
+                        },
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 3,
+                    "target": "MS_ATTACKMELEE0"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "DIST_LESS_THAN",
+                            "value": 3.0
+                        },
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 4,
+                    "target": "MS_ATTACKMELEE3"
+                },
+                {
+                    "conditions": [],
+                    "priority": 5,
+                    "target": "MS_RUN"
+                }
+            ]
+        },
+        {
+            "from": "MS_RUN",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "DIST_LESS_THAN",
+                            "value": 4.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 50.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKMELEE0"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "CAN_ATTACK",
+                            "value": 0.0
+                        },
+                        {
+                            "type": "DIST_LESS_THAN",
+                            "value": 4.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_ATTACKMELEE3"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "OUT_OF_CHASE_RANGE",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 2,
+                    "target": "MS_FALLBACK"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "NOT_IN_FOV",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 3,
+                    "target": "MS_TURN"
+                }
+            ]
+        },
+        {
+            "from": "MS_TURN",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKMELEE0",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "DIST_LESS_THAN",
+                            "value": 5.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 75.0
+                        },
+                        {
+                            "type": "DO_COMBO_ATTACK",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKMELEE1"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKMELEE1",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "DIST_LESS_THAN",
+                            "value": 5.0
+                        },
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 60.0
+                        },
+                        {
+                            "type": "DO_COMBO_ATTACK",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKMELEE4"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKMELEE3",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "RANDOM_CHANCE",
+                            "value": 60.0
+                        },
+                        {
+                            "type": "DIST_LESS_THAN",
+                            "value": 5.0
+                        },
+                        {
+                            "type": "DO_COMBO_ATTACK",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKMELEE4"
+                },
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 1,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKMELEE4",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKSPECIAL0",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_ATTACKSPECIAL1"
+                }
+            ]
+        },
+        {
+            "from": "MS_ATTACKSPECIAL1",
+            "rules": [
+                {
+                    "conditions": [
+                        {
+                            "type": "ANIM_FINISHED",
+                            "value": 0.0
+                        }
+                    ],
+                    "priority": 0,
+                    "target": "MS_BATTLE"
+                }
+            ]
+        }
+    ]
+}

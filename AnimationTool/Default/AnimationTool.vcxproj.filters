@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{7d7011be-98de-4862-a000-cf31a4513380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{ef0f72ed-e6cb-412d-b842-ee4cbf9542f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainAnimation">
+      <UniqueIdentifier>{1010a112-5681-472c-87bb-9b4e3f52d18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level">
+      <UniqueIdentifier>{88dc4d19-a791-4953-beca-4e392481ddf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\00.Level_Load">
+      <UniqueIdentifier>{fd74b742-5820-44e7-9165-070e9bb45809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\01.Level_Logo">
+      <UniqueIdentifier>{8ecb5b50-8b80-445b-baa2-a076973884d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\00.Level_Load\Loader">
+      <UniqueIdentifier>{117ae128-3ecd-4f7a-a38d-d6114f980b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.Level_Main">
+      <UniqueIdentifier>{4551865b-0379-4453-8b11-6e3808e28981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{58cc0ec6-e21f-474d-8c18-61016af3c24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Camera">
+      <UniqueIdentifier>{bc0f20b0-001f-4264-aab3-49975d9be22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\99.Camera\Free">
+      <UniqueIdentifier>{d5a5312d-4da3-4ea6-8e0c-3302b93d0e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Shader">
+      <UniqueIdentifier>{3872d000-2525-4154-a783-52d1ecd87a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Shader\Define">
+      <UniqueIdentifier>{4fc3a9df-17ea-4734-9e74-82eec7e1fbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player">
+      <UniqueIdentifier>{d3e91d93-3640-412c-800f-959f4e54cad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player\PlayerMasterRig">
+      <UniqueIdentifier>{6ce53696-fe4e-480c-84b5-71f3494c9581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player\PlayerBody">
+      <UniqueIdentifier>{644a51c9-4c50-4c28-89ee-aa3c283c9e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player\PlayerHair">
+      <UniqueIdentifier>{a01965b3-4166-4534-8ee4-21c1ebbe5832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player\PlayerHand">
+      <UniqueIdentifier>{feb0fb97-2551-47d8-8524-c403afcb9ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player\PlayerHead">
+      <UniqueIdentifier>{610ebb95-f9cc-400b-8d86-8b062a1dbbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player\PlayerPants">
+      <UniqueIdentifier>{ef794d48-1788-4fbc-9dff-2e8aea0ebbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.ImGui">
+      <UniqueIdentifier>{ae526dad-e9b5-46a4-a892-5ec4df630ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.ImGui\00.Animation">
+      <UniqueIdentifier>{bca6638c-78ad-4d2b-9079-f79ac22e0e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.ImGui\00.Animation\00.AnimEdit">
+      <UniqueIdentifier>{b70c7bf3-009d-4d29-8ea1-2af44791d4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.ImGui\00.Animation\01.AnimList">
+      <UniqueIdentifier>{dd1d9afe-b8e7-4537-837c-6c493b6bac77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.ImGui\00.Animation\02.AnimTimeline">
+      <UniqueIdentifier>{533e4c4f-b7b1-459a-b172-cf004c2f6a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player\00.Weapon">
+      <UniqueIdentifier>{32872801-83d3-4cd7-a4e0-196853ba778d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\100. Effects">
+      <UniqueIdentifier>{8b65f400-cd94-4d6c-94c3-8065f1c7b024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\100. Effects\BasicParticle">
+      <UniqueIdentifier>{9c41bcc4-fd40-40bb-b1d3-cf12c49e4538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\100. Effects\SwordTrail">
+      <UniqueIdentifier>{ba2a81fe-0292-417c-bb55-a78fc2ee2096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\100. Effects\99. Parser">
+      <UniqueIdentifier>{e785b166-7c9e-4b5c-af0f-e40e6e8054e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster">
+      <UniqueIdentifier>{3af208e2-2043-4c44-a1aa-6542318af26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster\Slave_Vampire">
+      <UniqueIdentifier>{b7f9936b-40ba-447b-9907-fcdfcfe65bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Monster">
+      <UniqueIdentifier>{de6f9804-c417-4303-b562-d24d23364f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster\Slime_Devil">
+      <UniqueIdentifier>{b14e0159-e582-4b70-9df2-a60428fc6e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster\Slave_Devil">
+      <UniqueIdentifier>{7b68033e-5f07-4b98-89f8-5a7fed95ff2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\100. Effects\MeshEffect">
+      <UniqueIdentifier>{b63e5f1d-5f6b-4539-b38f-eb2ae3305a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster\GhostKnight_Hal">
+      <UniqueIdentifier>{339b6f3d-9217-40dd-ad05-5dd28421982c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster\GhostWolf">
+      <UniqueIdentifier>{f44170db-4eb3-4367-9194-eb0a9579d6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster\GiantVampire">
+      <UniqueIdentifier>{fd6d2f53-ea80-496b-97a5-2bd4a0577b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Yakumo">
+      <UniqueIdentifier>{ab450a50-33fe-4707-90bc-333ac504db76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster\Monkey_Devil">
+      <UniqueIdentifier>{b9e036ff-45ff-432c-b049-d44983dce7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01. Monster\GaintWhiteDevil">
+      <UniqueIdentifier>{4f7d0e1d-9851-4258-82af-44ba6da06934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Player\BloodWeapon">
+      <UniqueIdentifier>{6e220e9c-2b39-4486-8c7d-d6ff2f098232}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationTool.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AnimationTool_Define.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainAnimation.h">
+      <Filter>00.MainAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Load.h">
+      <Filter>01.Level\00.Level_Load</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Level\00.Level_Load\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro_Component.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro_GameObject.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Level\01.Level_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>02.GameObject\99.Camera\Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Main.h">
+      <Filter>01.Level\02.Level_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObject\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_MasterRig.h">
+      <Filter>02.GameObject\00.Player\PlayerMasterRig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Body.h">
+      <Filter>02.GameObject\00.Player\PlayerBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Hair.h">
+      <Filter>02.GameObject\00.Player\PlayerHair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Hand.h">
+      <Filter>02.GameObject\00.Player\PlayerHand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Head.h">
+      <Filter>02.GameObject\00.Player\PlayerHead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Pants.h">
+      <Filter>02.GameObject\00.Player\PlayerPants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Window_AnimEditor.h">
+      <Filter>96.ImGui\00.Animation\00.AnimEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Window_AnimList.h">
+      <Filter>96.ImGui\00.Animation\01.AnimList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Window_AnimTimeline.h">
+      <Filter>96.ImGui\00.Animation\02.AnimTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Weapon.h">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PWeapon_Bayonet.h">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PWeapon_GreatSword.h">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PWeapon_Halberd.h">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PWeapon_Hammer.h">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PWeapon_Sword.h">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BasicParticle.h">
+      <Filter>02.GameObject\100. Effects\BasicParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SwordTrail.h">
+      <Filter>02.GameObject\100. Effects\SwordTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VFX_Parsing.h">
+      <Filter>02.GameObject\100. Effects\99. Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slave_Vampire.h">
+      <Filter>02.GameObject\01. Monster\Slave_Vampire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\St01_BossOliver.h">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossBase.h">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster_Weapon.h">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MWeapon_Hammer.h">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slime_Devil.h">
+      <Filter>02.GameObject\01. Monster\Slime_Devil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slave_Devil.h">
+      <Filter>02.GameObject\01. Monster\Slave_Devil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BasicMesh.h">
+      <Filter>02.GameObject\100. Effects\MeshEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GhostKnight_Hal.h">
+      <Filter>02.GameObject\01. Monster\GhostKnight_Hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WolfGhost.h">
+      <Filter>02.GameObject\01. Monster\GhostWolf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GiantVampire.h">
+      <Filter>02.GameObject\01. Monster\GiantVampire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Yakumo_Weapon.h">
+      <Filter>02.GameObject\02.Yakumo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Yakumo.h">
+      <Filter>02.GameObject\02.Yakumo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monkey_Devil.h">
+      <Filter>02.GameObject\01. Monster\Monkey_Devil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GiantWhiteDevil.h">
+      <Filter>02.GameObject\01. Monster\GaintWhiteDevil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_BloodWeapon.h">
+      <Filter>02.GameObject\00.Player\BloodWeapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="AnimationTool.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationTool.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AnimationTool_Define.cpp">
+      <Filter>99.Defines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainAnimation.cpp">
+      <Filter>00.MainAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Load.cpp">
+      <Filter>01.Level\00.Level_Load</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Level\00.Level_Load\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Level\01.Level_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>02.GameObject\99.Camera\Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Main.cpp">
+      <Filter>01.Level\02.Level_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObject\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_MasterRig.cpp">
+      <Filter>02.GameObject\00.Player\PlayerMasterRig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Body.cpp">
+      <Filter>02.GameObject\00.Player\PlayerBody</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Hair.cpp">
+      <Filter>02.GameObject\00.Player\PlayerHair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Hand.cpp">
+      <Filter>02.GameObject\00.Player\PlayerHand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Head.cpp">
+      <Filter>02.GameObject\00.Player\PlayerHead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Pants.cpp">
+      <Filter>02.GameObject\00.Player\PlayerPants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Window_AnimEditor.cpp">
+      <Filter>96.ImGui\00.Animation\00.AnimEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Window_AnimList.cpp">
+      <Filter>96.ImGui\00.Animation\01.AnimList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Window_AnimTimeline.cpp">
+      <Filter>96.ImGui\00.Animation\02.AnimTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Weapon.cpp">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PWeapon_Bayonet.cpp">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PWeapon_GreatSword.cpp">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PWeapon_Halberd.cpp">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PWeapon_Hammer.cpp">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PWeapon_Sword.cpp">
+      <Filter>02.GameObject\00.Player\00.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BasicParticle.cpp">
+      <Filter>02.GameObject\100. Effects\BasicParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SwordTrail.cpp">
+      <Filter>02.GameObject\100. Effects\SwordTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VFX_Parsing.cpp">
+      <Filter>02.GameObject\100. Effects\99. Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Slave_Vampire.cpp">
+      <Filter>02.GameObject\01. Monster\Slave_Vampire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\St01_BossOliver.cpp">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossBase.cpp">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MWeapon_Hammer.cpp">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster_Weapon.cpp">
+      <Filter>02.GameObject\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime_Devil.cpp">
+      <Filter>02.GameObject\01. Monster\Slime_Devil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Slave_Devil.cpp">
+      <Filter>02.GameObject\01. Monster\Slave_Devil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BasicMesh.cpp">
+      <Filter>02.GameObject\100. Effects\MeshEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GhostKnight_Hal.cpp">
+      <Filter>02.GameObject\01. Monster\GhostKnight_Hal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WolfGhost.cpp">
+      <Filter>02.GameObject\01. Monster\GhostWolf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GiantVampire.cpp">
+      <Filter>02.GameObject\01. Monster\GiantVampire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Yakumo.cpp">
+      <Filter>02.GameObject\02.Yakumo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Yakumo_Weapon.cpp">
+      <Filter>02.GameObject\02.Yakumo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monkey_Devil.cpp">
+      <Filter>02.GameObject\01. Monster\Monkey_Devil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GiantWhiteDevil.cpp">
+      <Filter>02.GameObject\01. Monster\GaintWhiteDevil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_BloodWeapon.cpp">
+      <Filter>02.GameObject\00.Player\BloodWeapon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AnimationTool.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Shader\Sampler_Define.hlsli">
+      <Filter>97.Shader\Define</Filter>
+    </None>
+    <None Include="..\..\Shader\Shader_Buffer.hlsli">
+      <Filter>97.Shader\Define</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Shader\Shader_Deferred.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxBlendMesh.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxCube.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxMesh.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxNorTex.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPos_Particle.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPosTex.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_VtxPosTex_Particle.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_AnimMesh.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\Shader_PlayerAnimMesh.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shader\CShader_Bone.hlsl">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,122 @@
+{
+    "header": {
+        "createdAt": "2026-03-25T00:02:19",
+        "modifiedAt": "2026-03-25T00:02:19",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "PlayerDeadUI",
+            "BaseType": "NONE",
+            "UIType": "DEFAULT",
+            "ZOrder": 11,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": false,
+            "MaskProgress": false,
+            "UIDataStr": "failed to string",
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "RenderGroup": "RENDERGROUP::UI",
+            "Transform": {
+                "Pos": [
+                    805.694580078125,
+                    843.2999877929688,
+                    0.0
+                ],
+                "Size": [
+                    145.3000030517578,
+                    1629.739990234375
+                ],
+                "RotationY": -0.10000000149011612,
+                "RotationZ": -90.0,
+                "Alpha": 0.25972241163253784,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                145.3000030517578,
+                1629.739990234375
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "OnActive",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            0.6225490570068359,
+                            0.06103421747684479,
+                            0.06103421747684479,
+                            1.0
+                        ],
+                        "Intensity": 1.0,
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "Textures/T_CommonShadow_UI",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": "",
+                        "Clip": [
+                            0.0,
+                            0.0
+                        ],
+                        "RenderMode": "RENDER_NORMAL",
+                        "ProtoTexLevel": 0,
+                        "UseAddictiveBlending": false
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "OnActive",
+                                "Loop": true,
+                                "PingPong": true,
+                                "TotalDuration": 1.0,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 1.0,
+                                        "StartValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            0.5389999747276306,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": []
+        }
+    ]
+}

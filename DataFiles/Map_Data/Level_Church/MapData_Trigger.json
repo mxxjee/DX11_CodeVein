@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "ObjectKey": "EventShape_MonsterSpawn",
+            "PrototypeName": "Prototype_GameObject_Monster_EventShape",
+            "LayerName": "Layer_Trigger",
+            "WorldMatrix": [
+                15.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                15.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                15.0,
+                0.0,
+                -55.85642623901367,
+                5.0,
+                -130.63241577148438,
+                1.0
+            ],
+            "ExtraData": {
+                "SpawnList": [
+                    {
+                        "MonsterID": 7,
+                        "Position": [
+                            -56.0,
+                            9.2,
+                            -42.82437515258789
+                        ],
+                        "Rotation": [
+                            0.0,    
+                            180.0,
+                            0.0
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

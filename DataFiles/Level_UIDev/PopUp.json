@@ -1,0 +1,679 @@
+{
+    "header": {
+        "createdAt": "2026-02-16T20:50:23",
+        "modifiedAt": "2026-02-16T20:50:23",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "Popup_UI",
+            "BaseType": "POPUP_ITEMGET",
+            "UIType": "DEFAULT",
+            "ZOrder": 1,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "Visible": true,
+            "Active": true,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Transform": {
+                "Pos": [
+                    1383.2110595703125,
+                    334.7149963378906
+                ],
+                "Size": [
+                    391.0,
+                    146.6999969482422
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                391.0,
+                146.6999969482422
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Render",
+                    "ComData": {
+                        "Interatable": true
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "OnHide",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 0.699999988079071,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 0.699999988079071,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "Icon_Base",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 1,
+                    "Parent": "Popup_UI",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -30.674846649169922,
+                            0.800000011920929
+                        ],
+                        "Size": [
+                            11.437000274658203,
+                            29.06210708618164
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        44.71867370605469,
+                        42.63410949707031
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/IconBase01",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": ""
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Item_Icon",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Popup_UI",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -30.825000762939453,
+                            1.899999976158142
+                        ],
+                        "Size": [
+                            11.038000106811523,
+                            27.423999786376953
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        43.1585807800293,
+                        40.23100662231445
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "ItemIcon/T_ItemIcon_081",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": ""
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "Parent_Progress",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 2,
+                    "Parent": "Popup_UI",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            7.10699987411499,
+                            0.6758626699447632
+                        ],
+                        "Size": [
+                            67.33100128173828,
+                            49.761905670166016
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        263.26422119140625,
+                        73.00071716308594
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Render",
+                            "ComData": {
+                                "Interatable": false
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Progress",
+                            "ComData": {
+                                "ProgressType": "HORIZONTAL",
+                                "FillTexture": "",
+                                "LerpReach": true,
+                                "Speed": 3.0,
+                                "DelayCompute": false,
+                                "DelayTime": 0.0
+                            }
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "ObjectKey": "Panel",
+                            "BaseType": "NONE",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 0,
+                            "Parent": "Parent_Progress",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "Visible": false,
+                            "Active": false,
+                            "IsInteratable": false,
+                            "ShaderPass": 5,
+                            "Transform": {
+                                "Pos": [
+                                    3.079660177230835,
+                                    0.0
+                                ],
+                                "Size": [
+                                    102.57099914550781,
+                                    57.5
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                0.0,
+                                0.0
+                            ],
+                            "HitBox_Size": [
+                                270.0327453613281,
+                                41.97541046142578
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Image",
+                                    "ComData": {
+                                        "BindExtra": false,
+                                        "Color": [
+                                            0.7665705680847168,
+                                            0.7525326609611511,
+                                            0.6273949146270752,
+                                            1.0
+                                        ],
+                                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                        "DiffuseTextureKey": "Textures/T_LoadWallpaper_UI_TGS",
+                                        "NoiseTextureKey": "",
+                                        "MaskTextureKey": ""
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Text_ItemName",
+                            "BaseType": "TEXT",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 1,
+                            "Parent": "Parent_Progress",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "Visible": false,
+                            "Active": false,
+                            "IsInteratable": false,
+                            "ShaderPass": 4,
+                            "Transform": {
+                                "Pos": [
+                                    0.49900001287460327,
+                                    -2.984999895095825
+                                ],
+                                "Size": [
+                                    102.35848999023438,
+                                    94.33963012695313
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                0.0,
+                                0.0
+                            ],
+                            "HitBox_Size": [
+                                269.4732971191406,
+                                68.86860656738281
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "A2Z_5_Medium",
+                                        "InnerText": "퀸 아이언",
+                                        "TextColor": [
+                                            0.0,
+                                            0.0,
+                                            0.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": false,
+                                        "OffSetScale": [
+                                            0.0020000000949949026,
+                                            0.00800000037997961
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            -119.0,
+                                            -9.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        },
+                        {
+                            "ObjectKey": "Text_ItemCount",
+                            "BaseType": "TEXT",
+                            "UIType": "DEFAULT",
+                            "ZOrder": 1,
+                            "Parent": "Parent_Progress",
+                            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                            "Visible": false,
+                            "Active": false,
+                            "IsInteratable": false,
+                            "ShaderPass": 4,
+                            "Transform": {
+                                "Pos": [
+                                    -2.9129202365875244,
+                                    -11.735695838928223
+                                ],
+                                "Size": [
+                                    102.35848999023438,
+                                    94.33963012695313
+                                ],
+                                "RotationZ": 0.0,
+                                "Alpha": 1.0,
+                                "UVOffset": [
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            "HitBox_Padding": [
+                                0.0,
+                                0.0
+                            ],
+                            "HitBox_Size": [
+                                269.4732971191406,
+                                68.86860656738281
+                            ],
+                            "ActiveEvents": {
+                                "OnActive": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                },
+                                "OnDisable": {
+                                    "AnimName": "",
+                                    "SoundName": ""
+                                }
+                            },
+                            "Components": [
+                                {
+                                    "ComType": "Prototype_Component_UI_Text",
+                                    "ComData": {
+                                        "FontName": "Rajdhani-SemiBold",
+                                        "InnerText": "x 2",
+                                        "TextColor": [
+                                            0.0,
+                                            0.0,
+                                            0.0,
+                                            1.0
+                                        ],
+                                        "Use OutLine": false,
+                                        "UseCenterAlign": false,
+                                        "OffSetScale": [
+                                            0.001500000013038516,
+                                            0.006000000052154064
+                                        ],
+                                        "OffSetRotation": 0.0,
+                                        "OffSetPos": [
+                                            99.0,
+                                            -9.0
+                                        ],
+                                        "TypeEffect": false
+                                    }
+                                }
+                            ],
+                            "Children": []
+                        }
+                    ]
+                },
+                {
+                    "ObjectKey": "Icon_Effect",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 3,
+                    "Parent": "Popup_UI",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Transform": {
+                        "Pos": [
+                            -30.665000915527344,
+                            0.7977419495582581
+                        ],
+                        "Size": [
+                            11.13700008392334,
+                            27.02400016784668
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        43.54566955566406,
+                        39.64420700073242
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    0.996802568435669,
+                                    1.0,
+                                    0.8414985537528992,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "TGSThankYou/T_ThankYouWallpaper_UI_TGS",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": ""
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Animation",
+                            "ComData": {
+                                "AnimClip": [
+                                    {
+                                        "ClipName": "OnShow",
+                                        "Loop": false,
+                                        "PingPong": false,
+                                        "TotalDuration": 1.0,
+                                        "AnimTrack": [
+                                            {
+                                                "AnimType": "ALPHA",
+                                                "StartTime": 0.0,
+                                                "Duration": 1.0,
+                                                "StartValue": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EndValue": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "EaseType": "LINEAR"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                },
+                {
+                    "ObjectKey": "ScrollBar",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 5,
+                    "Parent": "Popup_UI",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "Visible": false,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 8,
+                    "Transform": {
+                        "Pos": [
+                            -38.479000091552734,
+                            1.095232367515564
+                        ],
+                        "Size": [
+                            5.521472454071045,
+                            33.85714340209961
+                        ],
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        21.588956832885742,
+                        49.66843032836914
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_Image",
+                            "ComData": {
+                                "BindExtra": false,
+                                "Color": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                                "DiffuseTextureKey": "Textures/T_ScrollBarSlot_UI",
+                                "NoiseTextureKey": "",
+                                "MaskTextureKey": ""
+                            }
+                        },
+                        {
+                            "ComType": "Prototype_Component_UI_Progress",
+                            "ComData": {
+                                "ProgressType": "HORIZONTAL",
+                                "FillTexture": "Textures/T_ScrollBarSlot_UI",
+                                "LerpReach": true,
+                                "Speed": 2.0,
+                                "DelayCompute": false,
+                                "DelayTime": 0.0
+                            }
+                        }
+                    ],
+                    "Children": []
+                }
+            ]
+        }
+    ]
+}

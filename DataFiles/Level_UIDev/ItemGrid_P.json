@@ -1,0 +1,169 @@
+{
+    "header": {
+        "createdAt": "2026-03-22T02:29:47",
+        "modifiedAt": "2026-03-22T02:29:47",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "ItemGrid",
+            "BaseType": "ITEMGRID",
+            "UIType": "DEFAULT",
+            "ZOrder": 6,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": true,
+            "MaskProgress": false,
+            "UIDataStr": "",
+            "Visible": true,
+            "Active": false,
+            "IsInteratable": true,
+            "ShaderPass": 16,
+            "Value": 0.0,
+            "Intensity": 1.0,
+            "RenderGroup": "RENDERGROUP::UI",
+            "Transform": {
+                "Pos": [
+                    1224.0,
+                    435.0,
+                    0.0
+                ],
+                "Size": [
+                    392.5,
+                    410.6000061035156
+                ],
+                "RotationY": 0.0,
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                392.5,
+                410.6000061035156
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Intensity": 1.0,
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "TGSThankYou/T_ThankYouWallpaper_UI_TGS",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": "",
+                        "Clip": [
+                            0.0,
+                            0.0
+                        ],
+                        "RenderMode": "RENDER_BLUR"
+                    }
+                }
+            ],
+            "Children": [
+                {
+                    "ObjectKey": "Grid",
+                    "BaseType": "NONE",
+                    "UIType": "DEFAULT",
+                    "ZOrder": 7,
+                    "Parent": "ItemGrid",
+                    "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+                    "BlurUI": false,
+                    "MaskProgress": false,
+                    "UIDataStr": "",
+                    "Visible": true,
+                    "Active": false,
+                    "IsInteratable": false,
+                    "ShaderPass": 4,
+                    "Value": 0.0,
+                    "Intensity": 1.0,
+                    "RenderGroup": "RENDERGROUP::UI",
+                    "Transform": {
+                        "Pos": [
+                            -34.20000076293945,
+                            -34.604000091552734,
+                            0.0
+                        ],
+                        "Size": [
+                            32.57329177856445,
+                            28.16901397705078
+                        ],
+                        "RotationY": 0.0,
+                        "RotationZ": 0.0,
+                        "Alpha": 1.0,
+                        "UVOffset": [
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "HitBox_Padding": [
+                        0.0,
+                        0.0
+                    ],
+                    "HitBox_Size": [
+                        127.85016632080078,
+                        115.66197204589844
+                    ],
+                    "ActiveEvents": {
+                        "OnActive": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        },
+                        "OnDisable": {
+                            "AnimName": "",
+                            "SoundName": ""
+                        }
+                    },
+                    "Components": [
+                        {
+                            "ComType": "Prototype_Component_UI_SlotGrid",
+                            "ComData": {
+                                "Interatable": false,
+                                "ProtoTexture": "Prototype_Component_UITexture_Customize_Eye",
+                                "NumColums": 4,
+                                "VisibleRows": 4,
+                                "ProtoLevel": 9,
+                                "SlotSize": [
+                                    80.0,
+                                    80.0
+                                ],
+                                "Spacing": [
+                                    10.0,
+                                    10.0
+                                ],
+                                "StartPos": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    ],
+                    "Children": []
+                }
+            ]
+        }
+    ]
+}

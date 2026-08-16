@@ -1,0 +1,426 @@
+{
+  "transitions": [
+    {
+      // 달리기 상태에서의 전이 규칙
+      "from": "MS_RUN",
+      "rules": [
+        {
+          // 공격 가능한 상태고 특정 범위 안에있고, 첫감지면 SHEILD발행(무조건은 아니고 확률)
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IS_FIRST_AWARE",
+              "value": 1
+            },
+
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 70
+            }
+          ],
+          "target": "MS_ATTACKMELEE0",
+          "priority": 0
+        },
+        {
+          // 공격 가능한 상태고 공격 범위 안이면 공격
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_MELEE_RANGE",
+              "value": 0
+            },
+
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 50
+            }
+
+          ],
+          "target": "MS_ATTACKMELEE1",
+          "priority": 1
+        },
+        {
+          // 공격 가능한 상태고 공격 범위 안이면 공격
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_MELEE_RANGE",
+              "value": 0
+            },
+
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 100
+            }
+
+          ],
+          "target": "MS_ATTACKMELEE2",
+          "priority": 2
+        },
+        //원거리할수있는지 체크
+        {
+          //쩜공쓸수있는지?
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_FAR_RANGE",
+              "value": 0
+            },
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 33
+            }
+          ],
+          "target": "MS_ATTACKMELEE3", //쩜공상태
+          "priority": 3
+        },
+        {
+          //다른 원거리로 쓸만한 공격
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_FAR_RANGE",
+              "value": 0
+            },
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 33
+            }
+          ],
+          "target": "MS_ATTACKMELEE1",
+          "priority": 4
+        },
+
+        {
+          //아니면 달려오기
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_FAR_RANGE",
+              "value": 0
+            },
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 33
+            }
+          ],
+          "target": "MS_RUN",
+          "priority": 5
+        },
+
+        {
+          // 추격 범위 밖이면 FALLBACK
+          "conditions": [
+            {
+              "type": "OUT_OF_CHASE_RANGE",
+              "value": 0
+            }
+          ],
+          "target": "MS_FALLBACK",
+          "priority": 6
+        },
+
+        {
+          // 시야 범위 밖이면 TURN
+          "conditions": [
+            {
+              "type": "NOT_IN_FOV",
+              "value": 0
+            }
+          ],
+          "target": "MS_TURN",
+          "priority": 7
+        }
+      ]
+    },
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      /* BATTLE 상태 BATTLE 상태 BATTLE 상태 BATTLE 상태 */
+      "from": "MS_BATTLE",
+      "rules": [
+        {
+          // 추격 범위 안쪽 체크
+          "conditions": [
+            {
+              "type": "OUT_OF_CHASE_RANGE",
+              "value": 0
+            }
+          ],
+          "target": "MS_FALLBACK", // 근접 공격 상태로 전환
+          "priority": 0
+        },
+        {
+          // 시야각 안에 들어왔는지 체크
+          "conditions": [
+            {
+              "type": "NOT_IN_FOV", // 안 들어왔다면
+              "value": 0
+            }
+          ],
+          "target": "MS_TURN", // 근접 공격 상태로 전환
+          "priority": 1
+        },
+        {
+          // 공격 가능, 근접공격 사거리 안 체크
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_MELEE_RANGE",
+              "value": 0
+            },
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 50
+            }
+          ],
+          "target": "MS_ATTACKMELEE1", // 근접 공격 상태로 전환
+          "priority": 2
+        },
+        {
+          // 근접공격2(확률)
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_MELEE_RANGE",
+              "value": 0
+            },
+
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 100
+            }
+
+          ],
+          "target": "MS_ATTACKMELEE2",
+          "priority": 3
+        },
+
+        //원거리할수있는지 체크
+        {
+          //쩜공쓸수있는지?
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_FAR_RANGE",
+              "value": 0
+            },
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 33
+            }
+          ],
+          "target": "MS_ATTACKMELEE3", //쩜공상태
+          "priority": 4
+        },
+
+        {
+          // 아무것도 없으면
+          "conditions": [
+          ],
+          "target": "MS_RUN", // 근접 공격 상태로 전환
+          "priority": 5
+        }
+      ]
+      /* BATTLE 상태 BATTLE 상태 BATTLE 상태 BATTLE 상태 */
+    },
+
+    //////////////////////////////////////MEELE -0 쉴드 패시브///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+      "from": "MS_ATTACKMELEE0",
+      "rules": [
+        {
+          // 애니메이션 종료시 다시 BATTLE허브로 가서 다음 체크
+          "conditions": [
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 0
+        }
+      ]
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+    },
+
+    //////////////////////////////////////MEELE -1 휘감아베기///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+      "from": "MS_ATTACKMELEE1",
+      "rules": [
+        {
+          // 애니메이션 종료시 다시 BATTLE허브로 가서 다음 체크
+          "conditions": [
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 0
+        }
+      ]
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+    },
+
+    //////////////////////////////////////MEELE -2 휘감아베기2번///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+      "from": "MS_ATTACKMELEE2",
+      "rules": [
+        {
+          // 애니메이션 종료시 다시 BATTLE허브로 가서 다음 체크
+          "conditions": [
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 0
+        }
+      ]
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+    },
+
+    //////////////////////////////////////MEELE -3 쩜공///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+      "from": "MS_ATTACKMELEE3",
+      "rules": [
+        {
+          // 애니메이션 종료시 다시 BATTLE허브로 가서 다음 체크
+          "conditions": [
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 0
+        }
+      ]
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+    },
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      /* TURN 상태 TURN 상태 TURN 상태 TURN 상태 */
+      "from": "MS_TURN",
+      "rules": [
+        {
+          "conditions": [
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 0
+        }
+      ]
+      /* TURN 상태 TURN 상태 TURN 상태 TURN 상태 */
+    },
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /* WALK상태 WALK 상태 WALK 상태 WALK 상태 */
+    {
+      "from": "MS_WALK",
+      "rules": [
+        {
+          // 공격 범위 안이라면 높은 확률로 다시 BATTLE로
+          "conditions": [
+            {
+              "type": "IN_MELEE_RANGE",
+              "value": 0
+            },
+            {
+              "type": "RANDOM_CHANCE",
+              "value": 10
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 0
+        },
+        {
+          // 애니메이션이 끝났다면 무조건 BATTLE로 돌아감
+          "conditions": [
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 1
+        }
+      ]
+    },
+    //////////////////////////////HIT상태////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      /* HIT 상태 HIT 상태 HIT 상태 HIT 상태 */
+      "from": "MS_HIT",
+      "rules": [
+        { //Hit상태:일반 hit
+          "conditions": [
+            {
+              "type": "IS_HITTYPE_EQUAL",
+              "value": 0
+            },
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_DOWN",
+          "priority": 0
+        },
+
+        { //Hit상태 강공격의 Hit
+          "conditions": [
+            {
+              "type": "IS_HITTYPE_EQUAL",
+              "value": 1
+            },
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_DOWN",
+          "priority": 1
+        }
+
+      ]
+      /* HIT 상태 HIT 상태 HIT 상태 HIT 상태 */
+    }
+  ]
+}

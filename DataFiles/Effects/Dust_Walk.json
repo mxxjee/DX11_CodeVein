@@ -1,0 +1,162 @@
+{
+    "header": {
+        "createdAt": "2026-03-16T18:29:57",
+        "modifiedAt": "2026-03-16T18:29:57",
+        "toolType": "VFX_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "SystemName": "Dust_Walk",
+            "AutoPlay": false,
+            "Loop": false,
+            "TotalDuration": 2.0,
+            "Effects": [
+                {
+                    "ParticleEffectName": "Dust",
+                    "EffectType": 0,
+                    "StartDelay": 0.0,
+                    "EffectLifeTime": 1.0,
+                    "EffectRotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "TextureName": "Effects/Smoke_8x8_01",
+                    "DiffuseUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "FadeInOut": [
+                        0.009999999776482582,
+                        0.5600000023841858
+                    ],
+                    "NoiseTextureName": "",
+                    "MaskTextureName": "Effects/Tex_rockwall_01",
+                    "AlphaMaskTextureName": "",
+                    "ShaderTag": "Prototype_Component_Shader_Particle_Rect",
+                    "ComputeShaderTag": "Prototype_Component_Shader_Compute_Particle",
+                    "PassIndex": 1,
+                    "MaskSampler": 0,
+                    "UseEdgeGlow": false,
+                    "BackCulling": true,
+                    "EffectLoop": false,
+                    "GlowStrength": 0.0,
+                    "MaskIntensity": 1.0,
+                    "Color": [
+                        0.6078431606292725,
+                        0.5764706134796143,
+                        0.5647059082984924,
+                        0.0784313753247261
+                    ],
+                    "Loop": false,
+                    "Billboard": true,
+                    "VerticalFade": true,
+                    "RadialRotation": false,
+                    "NumInstance": 3,
+                    "Size": [
+                        0.5,
+                        1.100000023841858
+                    ],
+                    "Speed": [
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "LifeTime": [
+                        0.699999988079071,
+                        1.100000023841858
+                    ],
+                    "vStartDelay": [
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        180.0
+                    ],
+                    "Center": [
+                        0.0,
+                        -0.10000000149011612,
+                        0.0
+                    ],
+                    "Range": [
+                        0.4000000059604645,
+                        0.0,
+                        0.20000000298023224
+                    ],
+                    "Pivot": [
+                        0.0,
+                        -0.699999988079071,
+                        -0.699999988079071
+                    ],
+                    "Gravity": 0.0,
+                    "Alpha": 1.0,
+                    "FrameCount": 64,
+                    "FrameCountX": 8,
+                    "FrameCountY": 8,
+                    "TransparentIndex": 0,
+                    "MaskStartFrame": 0,
+                    "MaskFrameCount": 0,
+                    "MaskFrameCountX": 0,
+                    "MaskFrameCountY": 0,
+                    "MaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "ScaleRatio": 3.200000047683716,
+                    "ShakeStrength": 1.100000023841858,
+                    "DistortionStrength": 0.0,
+                    "MaxPoints": 64,
+                    "TrailLifeTime": 0.5,
+                    "MinDistance": 0.009999999776482582,
+                    "TexRotation": 0.0,
+                    "ModelName": "",
+                    "MeshRotateRight": 0,
+                    "MeshRotateUp": 0,
+                    "MeshRotateLook": 0,
+                    "MeshPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "MeshScale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "MeshScaleRatio": 0.0,
+                    "MeshMaskStartFrame": 0,
+                    "MeshMaskFrameCount": 1,
+                    "MeshMaskCountX": 1,
+                    "MeshMaskCountY": 1,
+                    "MeshMaskUVScroll": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVScale": [
+                        1.0,
+                        1.0
+                    ],
+                    "MeshFadeInOut": [
+                        0.0,
+                        0.0
+                    ],
+                    "MeshMaskUVStartOffset": [
+                        0.0,
+                        0.0
+                    ],
+                    "DirectionalDissolve": false,
+                    "DissolveFlipY": false,
+                    "NoiseWeight": 0.0,
+                    "DissolveEdgeWidth": 0.0,
+                    "DissolveEdgeColor": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SubEmitters": []
+                }
+            ]
+        }
+    ]
+}

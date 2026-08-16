@@ -1,0 +1,133 @@
+{
+  "transitions": [
+    {
+      // 달리기 상태에서의 전이 규칙
+      "from": "MS_RUN",
+      "rules": [
+        {
+          // 공격 가능한 상태고 공격 범위 안이면 공격
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_MELEE_RANGE",
+              "value": 0
+            }
+          ],
+          "target": "MS_ATTACKMELEE0",
+          "priority": 0
+        },
+        {
+          // 추격 범위 밖이면 FALLBACK
+          "conditions": [
+            {
+              "type": "OUT_OF_CHASE_RANGE",
+              "value": 0
+            }
+          ],
+          "target": "MS_FALLBACK",
+          "priority": 1
+        },
+        {
+          // 시야 범위 밖이면 TURN
+          "conditions": [
+            {
+              "type": "NOT_IN_FOV",
+              "value": 0
+            }
+          ],
+          "target": "MS_TURN",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      /* BATTLE 상태 BATTLE 상태 BATTLE 상태 BATTLE 상태 */
+      "from": "MS_BATTLE",
+      "rules": [
+        {
+          // 추격 범위 안쪽 체크
+          "conditions": [
+            {
+              "type": "OUT_OF_CHASE_RANGE",
+              "value": 0
+            }
+          ],
+          "target": "MS_FALLBACK", // 근접 공격 상태로 전환
+          "priority": 0
+        },
+        {
+          // 시야각 안에 들어왔는지 체크
+          "conditions": [
+            {
+              "type": "NOT_IN_FOV", // 안 들어왔다면
+              "value": 0
+            }
+          ],
+          "target": "MS_TURN", // 근접 공격 상태로 전환
+          "priority": 1
+        },
+        {
+          // 공격 가능, 근접공격 사거리 안 체크
+          "conditions": [
+            {
+              "type": "CAN_ATTACK",
+              "value": 0
+            },
+            {
+              "type": "IN_MELEE_RANGE",
+              "value": 0
+            }
+          ],
+          "target": "MS_ATTACKMELEE0", // 근접 공격 상태로 전환
+          "priority": 2
+        },
+        {
+          // 아무것도 없으면
+          "conditions": [
+          ],
+          "target": "MS_RUN", // 근접 공격 상태로 전환
+          "priority": 3
+        }
+      ]
+      /* BATTLE 상태 BATTLE 상태 BATTLE 상태 BATTLE 상태 */
+    },
+    {
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+      "from": "MS_ATTACKMELEE0",
+      "rules": [
+        {
+          // 애니메이션 종료시 다시 BATTLE허브로 가서 다음 체크
+          "conditions": [
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 0
+        }
+      ]
+      /* MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 MELEE_ATTACK 상태 */
+    },
+    {
+      /* TURN 상태 TURN 상태 TURN 상태 TURN 상태 */
+      "from": "MS_TURN",
+      "rules": [
+        {
+          "conditions": [
+            {
+              "type": "ANIM_FINISHED",
+              "value": 0
+            }
+          ],
+          "target": "MS_BATTLE",
+          "priority": 0
+        }
+      ]
+      /* TURN 상태 TURN 상태 TURN 상태 TURN 상태 */
+    } 
+  ]
+}

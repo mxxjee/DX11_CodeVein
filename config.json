@@ -1,0 +1,42 @@
+{
+  "exclude_folders": [ ".tmp.drivedownload" ],
+  "exclude_files": ["desktop.ini", "Thumbs.db"],
+  "paths": [
+    {
+      "local_path": "C:\\Users\\swkk9\\source\\repos\\02. 팀 프로젝트\\01. 최종팀폴\\DX11_Final_TeamProject\\Resources",
+      "drive_path": "G:\\내 드라이브\\코드 베인   씹덕의 경계\\Resources"
+    },
+    {
+      "local_path": "C:\\Users\\dkfmt\\OneDrive\\바탕 화면\\FinalTeamProject\\Resources",
+      "drive_path": "G:\\.shortcut-targets-by-id\\19tW7u4_mBfkhjXrt3qZrJTtC85xxEJX_\\Resources"
+    },
+    {
+      "local_path": "C:\\Users\\sim\\Desktop\\DX11_Final_TeamProject\\Resources",
+      "drive_path": "G:\\.shortcut-targets-by-id\\19tW7u4_mBfkhjXrt3qZrJTtC85xxEJX_\\Resources"
+    },
+    {
+      "local_path": "C:\\Users\\kmj69\\Documents\\GitHub\\DX11_Final_TeamProject\\Resources",
+      "drive_path": "G:\\.shortcut-targets-by-id\\19tW7u4_mBfkhjXrt3qZrJTtC85xxEJX_\\Resources"
+    },
+    {
+      "local_path": "E:\\Jusin\\Project\\Resources",
+      "drive_path": "G:\\.shortcut-targets-by-id\\19tW7u4_mBfkhjXrt3qZrJTtC85xxEJX_\\Resources"
+    },
+    {
+      "local_path": "C:\\Users\\팀원2\\source\\repos\\DX11_Final_TeamProject\\Resources",
+      "drive_path": "H:\\내 드라이브\\명말   공허의 깃털\\Resources"
+    },
+    {
+      "local_path": "C:\\Users\\user\\OneDrive\\Desktop\\Final_Team\\Resources",
+      "drive_path": "C:\\Users\\user\\OneDrive\\Desktop\\Dirve_Resource\\.shortcut-targets-by-id\\19tW7u4_mBfkhjXrt3qZrJTtC85xxEJX_\\Resources"
+    },
+    {
+      "local_path": "D:\\Jusin\\DX11_Final_TeamProject\\Resources",
+      "drive_path": "G:\\.shortcut-targets-by-id\\19tW7u4_mBfkhjXrt3qZrJTtC85xxEJX_\\Resources"
+    },
+    {
+      "local_path": "D:\\학원\\102. 3D 팀 포폴\\Resources",
+      "drive_path": "G:\\.shortcut-targets-by-id\\19tW7u4_mBfkhjXrt3qZrJTtC85xxEJX_\\Resources"
+    }
+  ]
+}

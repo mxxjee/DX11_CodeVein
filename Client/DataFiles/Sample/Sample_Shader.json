@@ -1,0 +1,23 @@
+{
+    "header": {
+        "createdAt": "2026-01-29T22:41:43",
+        "modifiedAt": "2026-01-29T22:41:43",
+        "toolType": "SHADER_TOOL",
+        "version": "1.0.0"
+    },
+    "data": {
+        "Prototype_GameObject_SampleModel": {
+            "shaderProto": "Prototype_Component_Shader_VTXAnimMesh",
+            "passes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}

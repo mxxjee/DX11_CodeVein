@@ -1,0 +1,2282 @@
+[
+    {
+        "MeshName": "SM_Factory_WallDoor_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 145.70462036132812,
+            "Y": 206.46051025390625,
+            "Z": 689.1554565429688
+        },
+        "Rotation": {
+            "X": -6.478470150308297e-07,
+            "Y": 2.4586078927130244e-07,
+            "Z": 0.9659277562370379,
+            "W": 0.2588118423302953
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 150.03480529785156,
+            "Y": 206.3105010986328,
+            "Z": 691.6550903320312
+        },
+        "Rotation": {
+            "X": -6.478470150308297e-07,
+            "Y": 2.4586078927130244e-07,
+            "Z": 0.9659277562370379,
+            "W": 0.2588118423302953
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 154.36485290527344,
+            "Y": 206.31048583984375,
+            "Z": 694.1552124023438
+        },
+        "Rotation": {
+            "X": -6.478470150308297e-07,
+            "Y": 2.4586078927130244e-07,
+            "Z": 0.9659277562370379,
+            "W": 0.2588118423302953
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 141.37440490722656,
+            "Y": 206.3105010986328,
+            "Z": 686.6552734375
+        },
+        "Rotation": {
+            "X": -6.478470150308297e-07,
+            "Y": 2.4586078927130244e-07,
+            "Z": 0.9659277562370379,
+            "W": 0.2588118423302953
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 144.6571807861328,
+            "Y": 206.29998779296875,
+            "Z": 688.5505981445312
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 142.1572265625,
+            "Y": 206.29998779296875,
+            "Z": 692.880615234375
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 139.65736389160156,
+            "Y": 206.29998779296875,
+            "Z": 697.2109375
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 148.9875030517578,
+            "Y": 206.29998779296875,
+            "Z": 691.0506591796875
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 146.48728942871094,
+            "Y": 206.29998779296875,
+            "Z": 695.3806762695312
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 143.9873504638672,
+            "Y": 206.29998779296875,
+            "Z": 699.7109375
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 153.31759643554688,
+            "Y": 206.29998779296875,
+            "Z": 693.5505981445312
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 150.81747436523438,
+            "Y": 206.29998779296875,
+            "Z": 697.880615234375
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_Marble_07_D'",
+        "Translation": {
+            "X": 148.3175048828125,
+            "Y": 206.29998779296875,
+            "Z": 702.2108154296875
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 140.32711791992188,
+            "Y": 206.29998779296875,
+            "Z": 686.050537109375
+        },
+        "Rotation": {
+            "X": -0.35355204829764714,
+            "Y": 0.6123731834876242,
+            "Z": 0.3535520012193474,
+            "W": 0.6123732650300513
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 137.82704162597656,
+            "Y": 206.29998779296875,
+            "Z": 690.3807373046875
+        },
+        "Rotation": {
+            "X": -0.35355204829764714,
+            "Y": 0.6123731834876242,
+            "Z": 0.3535520012193474,
+            "W": 0.6123732650300513
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 135.32704162597656,
+            "Y": 206.29998779296875,
+            "Z": 694.7109375
+        },
+        "Rotation": {
+            "X": -0.35355204829764714,
+            "Y": 0.6123731834876242,
+            "Z": 0.3535520012193474,
+            "W": 0.6123732650300513
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 137.15736389160156,
+            "Y": 206.29998779296875,
+            "Z": 701.5411376953125
+        },
+        "Rotation": {
+            "X": -0.683012625518303,
+            "Y": 0.1830131444505533,
+            "Z": 0.6830125345696767,
+            "W": 0.18301316882022917
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 141.4874267578125,
+            "Y": 206.29998779296875,
+            "Z": 704.0408325195312
+        },
+        "Rotation": {
+            "X": -0.6830127928408559,
+            "Y": 0.18301267752260234,
+            "Z": 0.6830126109435707,
+            "W": 0.18301272626183301
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 145.81748962402344,
+            "Y": 206.29998779296875,
+            "Z": 706.5408935546875
+        },
+        "Rotation": {
+            "X": 0.6123720464526891,
+            "Y": 0.3535541589375886,
+            "Z": -0.6123718833681701,
+            "W": 0.3535542530947691
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 148.3175048828125,
+            "Y": 206.29998779296875,
+            "Z": 702.2108154296875
+        },
+        "Rotation": {
+            "X": 0.6123720464526891,
+            "Y": 0.3535541589375886,
+            "Z": -0.6123718833681701,
+            "W": 0.3535542530947691
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 150.81747436523438,
+            "Y": 206.29998779296875,
+            "Z": 697.880615234375
+        },
+        "Rotation": {
+            "X": 0.6123720464526891,
+            "Y": 0.3535541589375886,
+            "Z": -0.6123718833681701,
+            "W": 0.3535542530947691
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 144.6571807861328,
+            "Y": 211.29998779296875,
+            "Z": 688.5505981445312
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 142.1572265625,
+            "Y": 211.29998779296875,
+            "Z": 692.880615234375
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 139.65736389160156,
+            "Y": 211.29998779296875,
+            "Z": 697.2109375
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 148.9875030517578,
+            "Y": 211.29998779296875,
+            "Z": 691.0506591796875
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 146.48728942871094,
+            "Y": 211.29998779296875,
+            "Z": 695.3806762695312
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 143.9873504638672,
+            "Y": 211.29998779296875,
+            "Z": 699.7109375
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 153.31759643554688,
+            "Y": 211.29998779296875,
+            "Z": 693.5505981445312
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 150.81747436523438,
+            "Y": 211.29998779296875,
+            "Z": 697.880615234375
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Station_InCeiling_01_C'",
+        "Translation": {
+            "X": 148.3175048828125,
+            "Y": 211.29998779296875,
+            "Z": 702.2108154296875
+        },
+        "Rotation": {
+            "X": 0.1830124900280396,
+            "Y": 0.6830124174863486,
+            "Z": 0.6830130350371675,
+            "W": 0.18301273185903735
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Factory_Wall_01",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_MarbleWall_10_A'",
+        "Translation": {
+            "X": 132.8271942138672,
+            "Y": 206.29998779296875,
+            "Z": 699.0408935546875
+        },
+        "Rotation": {
+            "X": -0.6830127928408559,
+            "Y": 0.18301267752260234,
+            "Z": 0.6830126109435707,
+            "W": 0.18301272626183301
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_BottomB",
+        "ObjectName": "",
+        "Translation": {
+            "X": 141.79852294921875,
+            "Y": 206.92999267578125,
+            "Z": 687.061767578125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_BottomB",
+        "ObjectName": "",
+        "Translation": {
+            "X": 145.15013122558594,
+            "Y": 206.92999267578125,
+            "Z": 688.9968872070312
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FillarA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 141.79852294921875,
+            "Y": 206.44000244140625,
+            "Z": 687.061767578125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.2000000476837158,
+            "Y": 1.5244619846343994,
+            "Z": 1.2000000476837158
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FillarA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 145.14157104492188,
+            "Y": 206.44000244140625,
+            "Z": 688.9917602539062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.2000000476837158,
+            "Y": 1.5244619846343994,
+            "Z": 1.2000000476837158
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarC",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 149.11825561523438,
+            "Y": 206.44000244140625,
+            "Z": 699.9017944335938
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000013261593798,
+            "W": 0.86602463812461
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarD",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 147.53305053710938,
+            "Y": 206.44000244140625,
+            "Z": 703.2474365234375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000013261593798,
+            "W": 0.86602463812461
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarB",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 152.5251922607422,
+            "Y": 206.44000244140625,
+            "Z": 693.820556640625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659262398539213,
+            "W": 0.25881750165254436
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarD",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 151.24789428710938,
+            "Y": 206.44000244140625,
+            "Z": 696.8126220703125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000013261593798,
+            "W": 0.86602463812461
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarC",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 139.52725219726562,
+            "Y": 206.44000244140625,
+            "Z": 702.4352416992188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.25881690678102304,
+            "W": 0.96592639924805
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarD",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 142.615966796875,
+            "Y": 206.44000244140625,
+            "Z": 704.5648803710938
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.25881690678102304,
+            "W": 0.96592639924805
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarD",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 136.1381072998047,
+            "Y": 206.44000244140625,
+            "Z": 700.8248901367188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.25881690678102304,
+            "W": 0.96592639924805
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarB",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 133.57603454589844,
+            "Y": 206.44000244140625,
+            "Z": 698.8383178710938
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588165369959737,
+            "W": 0.9659264983307021
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarC",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 136.92318725585938,
+            "Y": 206.44000244140625,
+            "Z": 692.861083984375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660246714142098,
+            "W": 0.5000012685003008
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarD",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 134.8184356689453,
+            "Y": 206.44000244140625,
+            "Z": 695.9066772460938
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660246714142098,
+            "W": 0.5000012685003008
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarB",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 140.486083984375,
+            "Y": 206.44000244140625,
+            "Z": 686.8699951171875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659257228974697,
+            "W": 0.25881943096491156
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarD",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 138.53343200683594,
+            "Y": 206.44000244140625,
+            "Z": 689.4721069335938
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660246714142098,
+            "W": 0.5000012685003008
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarC",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 146.61863708496094,
+            "Y": 206.44000244140625,
+            "Z": 690.152587890625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659257918252192,
+            "W": 0.25881917372332236
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarD",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 150.00735473632812,
+            "Y": 206.44000244140625,
+            "Z": 691.7623901367188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659257918252192,
+            "W": 0.25881917372332236
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarB",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 145.61526489257812,
+            "Y": 206.44000244140625,
+            "Z": 705.7890625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarPartA",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 141.79852294921875,
+            "Y": 206.1599884033203,
+            "Z": 687.061767578125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_PillarPartA",
+        "ObjectName": "MaterialInstanceConstant'MI_InStructure_WallPillarA_01_B'",
+        "Translation": {
+            "X": 145.14157104492188,
+            "Y": 206.1599884033203,
+            "Z": 688.9917602539062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_TopA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 141.79852294921875,
+            "Y": 210.08999633789062,
+            "Z": 687.061767578125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Pillar_01_TopA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 145.14157104492188,
+            "Y": 210.08999633789062,
+            "Z": 688.9917602539062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 150.32798767089844,
+            "Y": 210.5,
+            "Z": 691.9476318359375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 150.5876007080078,
+            "Y": 210.11000061035156,
+            "Z": 691.5780029296875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 147.12130737304688,
+            "Y": 206.69000244140625,
+            "Z": 690.0614013671875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 147.46145629882812,
+            "Y": 210.5,
+            "Z": 690.2927856445312
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 147.72113037109375,
+            "Y": 210.11000061035156,
+            "Z": 689.9228515625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 145.02549743652344,
+            "Y": 206.69000244140625,
+            "Z": 688.8516235351562
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.7861549854278564,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 143.685546875,
+            "Y": 210.5,
+            "Z": 688.112548828125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 142.5682830810547,
+            "Y": 210.11000061035156,
+            "Z": 686.9480590820312
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 138.92002868652344,
+            "Y": 206.69000244140625,
+            "Z": 685.3264770507812
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 140.7843475341797,
+            "Y": 210.5,
+            "Z": 686.4375610351562
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 140.45506286621094,
+            "Y": 210.11000061035156,
+            "Z": 685.7279052734375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 144.6813507080078,
+            "Y": 210.11000061035156,
+            "Z": 688.16796875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 147.59632873535156,
+            "Y": 206.69000244140625,
+            "Z": 703.2378540039062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 147.36529541015625,
+            "Y": 210.5,
+            "Z": 703.5778198242188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 147.735107421875,
+            "Y": 210.11000061035156,
+            "Z": 703.83740234375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 149.3312225341797,
+            "Y": 206.69000244140625,
+            "Z": 700.2327270507812
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 149.10028076171875,
+            "Y": 210.5,
+            "Z": 700.5726928710938
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 149.4700469970703,
+            "Y": 210.11000061035156,
+            "Z": 700.8321533203125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 151.01629638671875,
+            "Y": 206.69000244140625,
+            "Z": 697.3141479492188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 150.9803466796875,
+            "Y": 210.5,
+            "Z": 697.3164672851562
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 151.4400634765625,
+            "Y": 210.11000061035156,
+            "Z": 697.4202270507812
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 153.12628173828125,
+            "Y": 206.69000244140625,
+            "Z": 693.659423828125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 152.97531127929688,
+            "Y": 210.5,
+            "Z": 693.861083984375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 153.16505432128906,
+            "Y": 210.11000061035156,
+            "Z": 694.4321899414062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.5000017297728714,
+            "W": 0.8660244050973024
+        },
+        "Scale": {
+            "X": -0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 142.5665283203125,
+            "Y": 206.69000244140625,
+            "Z": 704.5708618164062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 142.9364776611328,
+            "Y": 210.5,
+            "Z": 704.749755859375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 142.74620056152344,
+            "Y": 210.11000061035156,
+            "Z": 705.1595458984375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 139.699951171875,
+            "Y": 206.69000244140625,
+            "Z": 702.915771484375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 140.0699462890625,
+            "Y": 210.5,
+            "Z": 703.0949096679688
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 139.87973022460938,
+            "Y": 210.11000061035156,
+            "Z": 703.5044555664062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 136.0885467529297,
+            "Y": 206.69000244140625,
+            "Z": 700.8306884765625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 136.45867919921875,
+            "Y": 210.5,
+            "Z": 701.0098876953125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 136.26841735839844,
+            "Y": 210.11000061035156,
+            "Z": 701.4194946289062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 133.02293395996094,
+            "Y": 206.69000244140625,
+            "Z": 699.0610961914062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 133.39285278320312,
+            "Y": 210.5,
+            "Z": 699.2398071289062
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 133.20262145996094,
+            "Y": 210.11000061035156,
+            "Z": 699.649658203125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588178553598891,
+            "W": 0.9659261450788603
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 134.7952117919922,
+            "Y": 206.69000244140625,
+            "Z": 695.8470458984375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 134.61619567871094,
+            "Y": 210.5,
+            "Z": 696.2171630859375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 134.20632934570312,
+            "Y": 210.11000061035156,
+            "Z": 696.0267333984375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 136.53001403808594,
+            "Y": 206.69000244140625,
+            "Z": 692.8418579101562
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 136.35110473632812,
+            "Y": 210.5,
+            "Z": 693.2119140625
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 135.94139099121094,
+            "Y": 210.11000061035156,
+            "Z": 693.0215454101562
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 138.21510314941406,
+            "Y": 206.69000244140625,
+            "Z": 689.923583984375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 138.23106384277344,
+            "Y": 210.5,
+            "Z": 689.9557495117188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 137.911376953125,
+            "Y": 210.11000061035156,
+            "Z": 689.6094970703125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 140.32493591308594,
+            "Y": 206.69000244140625,
+            "Z": 686.2687377929688
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_WallPillar_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 140.22610473632812,
+            "Y": 210.5,
+            "Z": 686.5003051757812
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_CeilingC",
+        "ObjectName": "",
+        "Translation": {
+            "X": 139.63626098632812,
+            "Y": 210.11000061035156,
+            "Z": 686.6217651367188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660250375995565,
+            "W": 0.5000006342502844
+        },
+        "Scale": {
+            "X": 0.6700000166893005,
+            "Y": 0.6700000166893005,
+            "Z": 0.6700000166893005
+        }
+    },
+    {
+        "MeshName": "SM_InStructure_Rails_01_FloorMoldingA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 149.98779296875,
+            "Y": 206.69000244140625,
+            "Z": 691.716552734375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659261019992443,
+            "W": 0.25881801613594335
+        },
+        "Scale": {
+            "X": -1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Interior_Chair_08",
+        "ObjectName": "",
+        "Translation": {
+            "X": 141.8675079345703,
+            "Y": 206.4499969482422,
+            "Z": 693.7255859375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.953716550333389,
+            "W": 0.3007070694549437
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Interior_Chair_08",
+        "ObjectName": "",
+        "Translation": {
+            "X": 145.73460388183594,
+            "Y": 206.4499969482422,
+            "Z": 695.80810546875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.7660469252913458,
+            "W": 0.6427846515371033
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_Interior_Chair_08",
+        "ObjectName": "",
+        "Translation": {
+            "X": 141.87953186035156,
+            "Y": 206.4499969482422,
+            "Z": 698.1563720703125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.25881209957242335,
+            "W": 0.965927687311485
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_LightProp_Chandelier_04",
+        "ObjectName": "",
+        "Translation": {
+            "X": 146.80743408203125,
+            "Y": 211.15460205078125,
+            "Z": 700.9459838867188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660248045725715,
+            "W": 0.5000010378639621
+        },
+        "Scale": {
+            "X": 0.21743600070476532,
+            "Y": 0.21743600070476532,
+            "Z": 0.21743600070476532
+        }
+    },
+    {
+        "MeshName": "SM_LightProp_Chandelier_04",
+        "ObjectName": "",
+        "Translation": {
+            "X": 143.03575134277344,
+            "Y": 211.15460205078125,
+            "Z": 695.954345703125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 0.21743600070476532,
+            "Y": 0.21743600070476532,
+            "Z": 0.21743600070476532
+        }
+    },
+    {
+        "MeshName": "SM_LightProp_Light_02",
+        "ObjectName": "MaterialInstanceConstant'MI_LightProp_Light_01_A'",
+        "Translation": {
+            "X": 146.80743408203125,
+            "Y": 211.0584259033203,
+            "Z": 700.9459838867188
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.8660248045725715,
+            "W": 0.5000010378639621
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_LightProp_Light_02",
+        "ObjectName": "MaterialInstanceConstant'MI_LightProp_Light_01_A'",
+        "Translation": {
+            "X": 143.03575134277344,
+            "Y": 211.0584259033203,
+            "Z": 695.954345703125
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.9659260330718031,
+            "W": 0.25881827337761515
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SecretRoom_Bookset_01_BookA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 143.32839965820312,
+            "Y": 207.7615966796875,
+            "Z": 695.935546875
+        },
+        "Rotation": {
+            "X": -0.18651781081210575,
+            "Y": 0.04997698021779638,
+            "Z": -0.25394648502123535,
+            "W": 0.9477471131285651
+        },
+        "Scale": {
+            "X": 0.8999999761581421,
+            "Y": 0.8999999761581421,
+            "Z": 0.8999999761581421
+        }
+    },
+    {
+        "MeshName": "SM_SecretRoom_Bookset_01_EmblemA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 143.16070556640625,
+            "Y": 206.4499969482422,
+            "Z": 695.9427490234375
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588177106614341,
+            "W": 0.9659261838504919
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_SecretRoom_Bookset_01_GlassA",
+        "ObjectName": "MaterialInstanceConstant'MI_Tile_GlobalGlass_01_C'",
+        "Translation": {
+            "X": 143.43386840820312,
+            "Y": 207.7020721435547,
+            "Z": 695.8694458007812
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588177106614341,
+            "W": 0.9659261838504919
+        },
+        "Scale": {
+            "X": 0.8999999761581421,
+            "Y": 0.8999999761581421,
+            "Z": 0.8999999761581421
+        }
+    },
+    {
+        "MeshName": "SM_SecretRoom_Bookset_01_ShelfA",
+        "ObjectName": "",
+        "Translation": {
+            "X": 143.44155883789062,
+            "Y": 206.4499969482422,
+            "Z": 695.8670654296875
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": -0.2588177106614341,
+            "W": 0.9659261838504919
+        },
+        "Scale": {
+            "X": 0.8999999761581421,
+            "Y": 0.8999999761581421,
+            "Z": 0.8999999761581421
+        }
+    }
+]

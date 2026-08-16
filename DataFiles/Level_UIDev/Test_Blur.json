@@ -1,0 +1,77 @@
+{
+    "header": {
+        "createdAt": "2026-02-19T15:30:46",
+        "modifiedAt": "2026-02-19T15:30:46",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "UI_Obj_",
+            "BaseType": "BLURUI",
+            "UIType": "DEFAULT",
+            "ZOrder": 2,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "BlurUI": true,
+            "Visible": true,
+            "Active": true,
+            "IsInteratable": true,
+            "ShaderPass": 16,
+            "Transform": {
+                "Pos": [
+                    800.0,
+                    450.0
+                ],
+                "Size": [
+                    1000.0,
+                    1000.0
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                100.0,
+                100.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "UI4_Main/White",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": "",
+                        "RenderMode": "RENDER_BLUR"
+                    }
+                }
+            ],
+            "Children": []
+        }
+    ]
+}

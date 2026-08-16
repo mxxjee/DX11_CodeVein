@@ -1,0 +1,162 @@
+{
+    "header": {
+        "createdAt": "2026-02-08T21:10:26",
+        "modifiedAt": "2026-02-08T21:10:26",
+        "toolType": "UI_TOOL",
+        "version": "1.0.0"
+    },
+    "data": [
+        {
+            "ObjectKey": "Hover_Outline",
+            "BaseType": "NONE",
+            "UIType": "DEFAULT",
+            "ZOrder": 6,
+            "Parent": "",
+            "ShaderName": "Prototype_Component_Shader_VTXPosTex",
+            "Visible": false,
+            "Active": true,
+            "IsInteratable": false,
+            "ShaderPass": 4,
+            "Transform": {
+                "Pos": [
+                    209.37905883789063,
+                    177.21160888671875
+                ],
+                "Size": [
+                    90.0,
+                    94.0
+                ],
+                "RotationZ": 0.0,
+                "Alpha": 1.0,
+                "UVOffset": [
+                    0.0,
+                    0.0
+                ]
+            },
+            "HitBox_Padding": [
+                0.0,
+                0.0
+            ],
+            "HitBox_Size": [
+                90.0,
+                94.0
+            ],
+            "ActiveEvents": {
+                "OnActive": {
+                    "AnimName": "",
+                    "SoundName": ""
+                },
+                "OnDisable": {
+                    "AnimName": "",
+                    "SoundName": ""
+                }
+            },
+            "Components": [
+                {
+                    "ComType": "Prototype_Component_UI_Image",
+                    "ComData": {
+                        "BindExtra": false,
+                        "Color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "ProtoTexture": "Prototype_Component_UITexture_UIResource",
+                        "DiffuseTextureKey": "Textures/SlotOutline",
+                        "NoiseTextureKey": "",
+                        "MaskTextureKey": ""
+                    }
+                },
+                {
+                    "ComType": "Prototype_Component_UI_Animation",
+                    "ComData": {
+                        "AnimClip": [
+                            {
+                                "ClipName": "OnHover",
+                                "Loop": true,
+                                "PingPong": false,
+                                "TotalDuration": 1.0,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "SCALE",
+                                        "StartTime": 0.0,
+                                        "Duration": 0.5,
+                                        "StartValue": [
+                                            90.0,
+                                            94.0,
+                                            1.0
+                                        ],
+                                        "EndValue": [
+                                            95.0,
+                                            99.0,
+                                            1.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    },
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 1.0,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    },
+                                    {
+                                        "AnimType": "SCALE",
+                                        "StartTime": 0.5,
+                                        "Duration": 0.5,
+                                        "StartValue": [
+                                            95.0,
+                                            99.0,
+                                            1.0
+                                        ],
+                                        "EndValue": [
+                                            90.0,
+                                            94.0,
+                                            1.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            },
+                            {
+                                "ClipName": "OnHoverExit",
+                                "Loop": false,
+                                "PingPong": false,
+                                "TotalDuration": 0.30000001192092896,
+                                "AnimTrack": [
+                                    {
+                                        "AnimType": "ALPHA",
+                                        "StartTime": 0.0,
+                                        "Duration": 0.30000001192092896,
+                                        "StartValue": [
+                                            1.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EndValue": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "EaseType": "LINEAR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Children": []
+        }
+    ]
+}
