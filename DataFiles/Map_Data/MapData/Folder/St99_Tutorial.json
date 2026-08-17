@@ -1,0 +1,1102 @@
+[
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0",
+        "Translation": {
+            "X": 1250.0,
+            "Y": -2864.9999618530273,
+            "Z": 89.99999761581421
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.001",
+        "Translation": {
+            "X": 1250.0,
+            "Y": -2864.9999618530273,
+            "Z": 390.00000953674316
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.002",
+        "Translation": {
+            "X": 1250.0,
+            "Y": -2864.9999618530273,
+            "Z": -209.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.003",
+        "Translation": {
+            "X": 1250.0,
+            "Y": -2864.9999618530273,
+            "Z": -509.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.004",
+        "Translation": {
+            "X": 1250.0,
+            "Y": -2864.9999618530273,
+            "Z": 690.0000095367432
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.005",
+        "Translation": {
+            "X": 1550.0,
+            "Y": -2864.9999618530273,
+            "Z": 89.99999761581421
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.006",
+        "Translation": {
+            "X": 1550.0,
+            "Y": -2864.9999618530273,
+            "Z": 390.00000953674316
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.007",
+        "Translation": {
+            "X": 1550.0,
+            "Y": -2864.9999618530273,
+            "Z": -209.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.008",
+        "Translation": {
+            "X": 1550.0,
+            "Y": -2864.9999618530273,
+            "Z": -509.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.009",
+        "Translation": {
+            "X": 1550.0,
+            "Y": -2864.9999618530273,
+            "Z": 690.0000095367432
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.010",
+        "Translation": {
+            "X": 1850.0,
+            "Y": -2864.9999618530273,
+            "Z": 89.99999761581421
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.011",
+        "Translation": {
+            "X": 1850.0,
+            "Y": -2864.9999618530273,
+            "Z": 390.00000953674316
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.012",
+        "Translation": {
+            "X": 1850.0,
+            "Y": -2864.9999618530273,
+            "Z": -209.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.013",
+        "Translation": {
+            "X": 1850.0,
+            "Y": -2864.9999618530273,
+            "Z": -509.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.014",
+        "Translation": {
+            "X": 1850.0,
+            "Y": -2864.9999618530273,
+            "Z": 690.0000095367432
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.015",
+        "Translation": {
+            "X": 2150.0,
+            "Y": -2864.9999618530273,
+            "Z": 89.99999761581421
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.016",
+        "Translation": {
+            "X": 2150.0,
+            "Y": -2864.9999618530273,
+            "Z": 390.00000953674316
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.017",
+        "Translation": {
+            "X": 2150.0,
+            "Y": -2864.9999618530273,
+            "Z": -209.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.018",
+        "Translation": {
+            "X": 2150.0,
+            "Y": -2864.9999618530273,
+            "Z": -509.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.019",
+        "Translation": {
+            "X": 2150.0,
+            "Y": -2864.9999618530273,
+            "Z": 690.0000095367432
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.020",
+        "Translation": {
+            "X": 2450.0,
+            "Y": -2864.9999618530273,
+            "Z": -509.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.021",
+        "Translation": {
+            "X": 2450.0,
+            "Y": -2864.9999618530273,
+            "Z": 690.0000095367432
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.022",
+        "Translation": {
+            "X": 1100.0,
+            "Y": -2864.9999618530273,
+            "Z": 705.0000190734863
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.023",
+        "Translation": {
+            "X": 1268.99995803833,
+            "Y": -2864.9999618530273,
+            "Z": 839.9999618530273
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071065306663513,
+            "Z": 0.0,
+            "W": 0.7071070075035095
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.024",
+        "Translation": {
+            "X": 1568.99995803833,
+            "Y": -2864.9999618530273,
+            "Z": 839.9999618530273
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071065306663513,
+            "Z": 0.0,
+            "W": 0.7071070075035095
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.025",
+        "Translation": {
+            "X": 1868.0000305175781,
+            "Y": -2864.9999618530273,
+            "Z": 839.9999618530273
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071065306663513,
+            "Z": 0.0,
+            "W": 0.7071070075035095
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.026",
+        "Translation": {
+            "X": 2168.000030517578,
+            "Y": -2864.9999618530273,
+            "Z": 839.9999618530273
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071065306663513,
+            "Z": 0.0,
+            "W": 0.7071070075035095
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.027",
+        "Translation": {
+            "X": 2465.999984741211,
+            "Y": -2864.9999618530273,
+            "Z": 839.9999618530273
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071065306663513,
+            "Z": 0.0,
+            "W": 0.7071070075035095
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.028",
+        "Translation": {
+            "X": 1100.0,
+            "Y": -2864.9999618530273,
+            "Z": -494.9999809265137
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.029",
+        "Translation": {
+            "X": 1235.0000381469727,
+            "Y": -2864.9999618530273,
+            "Z": -659.9999904632568
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071065306663513,
+            "Z": -0.0,
+            "W": 0.7071070671081543
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.030",
+        "Translation": {
+            "X": 1535.0000381469727,
+            "Y": -2864.9999618530273,
+            "Z": -659.9999904632568
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071065306663513,
+            "Z": -0.0,
+            "W": 0.7071070671081543
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.031",
+        "Translation": {
+            "X": 1835.0000381469727,
+            "Y": -2864.9999618530273,
+            "Z": -659.9999904632568
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071065306663513,
+            "Z": -0.0,
+            "W": 0.7071070671081543
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.032",
+        "Translation": {
+            "X": 2135.0000381469727,
+            "Y": -2864.9999618530273,
+            "Z": -659.9999904632568
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071065306663513,
+            "Z": -0.0,
+            "W": 0.7071070671081543
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.033",
+        "Translation": {
+            "X": 2435.0000381469727,
+            "Y": -2864.9999618530273,
+            "Z": -659.9999904632568
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071065306663513,
+            "Z": -0.0,
+            "W": 0.7071070671081543
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.034",
+        "Translation": {
+            "X": 2600.0,
+            "Y": -2864.9999618530273,
+            "Z": 675.0
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.035",
+        "Translation": {
+            "X": 2600.0,
+            "Y": -2864.9999618530273,
+            "Z": -525.0
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.036",
+        "Translation": {
+            "X": 2600.0,
+            "Y": -2864.9999618530273,
+            "Z": 375.0
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.037",
+        "Translation": {
+            "X": 2600.0,
+            "Y": -2864.9999618530273,
+            "Z": 75.0
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.038",
+        "Translation": {
+            "X": 2600.0,
+            "Y": -2864.9999618530273,
+            "Z": -225.0
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -1.0,
+            "Z": -0.0,
+            "W": 4.331257628109597e-07
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.039",
+        "Translation": {
+            "X": 950.0,
+            "Y": -2864.9999618530273,
+            "Z": 89.99999761581421
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.040",
+        "Translation": {
+            "X": 950.0,
+            "Y": -2864.9999618530273,
+            "Z": 390.00000953674316
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.041",
+        "Translation": {
+            "X": 950.0,
+            "Y": -2864.9999618530273,
+            "Z": -209.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.042",
+        "Translation": {
+            "X": 2450.0,
+            "Y": -2864.9999618530273,
+            "Z": 89.99999761581421
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.043",
+        "Translation": {
+            "X": 2450.0,
+            "Y": -2864.9999618530273,
+            "Z": 390.00000953674316
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.044",
+        "Translation": {
+            "X": 2450.0,
+            "Y": -2864.9999618530273,
+            "Z": -209.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.045",
+        "Translation": {
+            "X": 935.0000381469727,
+            "Y": -2864.9999618530273,
+            "Z": -359.99999046325684
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071065306663513,
+            "Z": -0.0,
+            "W": 0.7071070671081543
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.046",
+        "Translation": {
+            "X": 964.9999618530273,
+            "Y": -2864.9999618530273,
+            "Z": 540.0000095367432
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071065306663513,
+            "Z": 0.0,
+            "W": 0.7071070075035095
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.047",
+        "Translation": {
+            "X": 650.0,
+            "Y": -2864.9999618530273,
+            "Z": 89.99999761581421
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.048",
+        "Translation": {
+            "X": 650.0,
+            "Y": -2864.9999618530273,
+            "Z": 390.00000953674316
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MEstairs_floor_39fdd8ff",
+        "ObjectName": "StaticMeshComponent0.049",
+        "Translation": {
+            "X": 650.0,
+            "Y": -2864.9999618530273,
+            "Z": -209.99999046325684
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.050",
+        "Translation": {
+            "X": 500.0,
+            "Y": -2864.9999618530273,
+            "Z": -195.00000476837158
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.051",
+        "Translation": {
+            "X": 634.9999904632568,
+            "Y": -2864.9999618530273,
+            "Z": -359.99999046325684
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.7071064114570618,
+            "Z": -0.0,
+            "W": 0.7071071267127991
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.052",
+        "Translation": {
+            "X": 500.0,
+            "Y": -2864.9999618530273,
+            "Z": 405.0000190734863
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.053",
+        "Translation": {
+            "X": 665.0000095367432,
+            "Y": -2864.9999618530273,
+            "Z": 540.0000095367432
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.7071065306663513,
+            "Z": 0.0,
+            "W": 0.7071070075035095
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    },
+    {
+        "MeshName": "SM_MErailing_C_middle_d389f89c",
+        "ObjectName": "StaticMeshComponent0.054",
+        "Translation": {
+            "X": 500.0,
+            "Y": -2864.9999618530273,
+            "Z": 104.99999523162842
+        },
+        "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+        },
+        "Scale": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+        }
+    }
+]

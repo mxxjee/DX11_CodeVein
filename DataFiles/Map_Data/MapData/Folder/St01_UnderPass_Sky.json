@@ -1,0 +1,22 @@
+[
+    {
+        "MeshName": "SM_SkySphere_st05a1_0b13c9d6",
+        "ObjectName": "StaticMeshComponent0.14444",
+        "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        },
+        "Rotation": {
+            "X": -0.0,
+            "Y": -0.9914443492889404,
+            "Z": -0.0,
+            "W": 0.1305302530527115
+        },
+        "Scale": {
+            "X": 0.01,
+            "Y": 0.01,
+            "Z": 0.01
+        }
+    }
+]
