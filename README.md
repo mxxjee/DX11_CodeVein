@@ -1,7 +1,7 @@
 # CODE VEIN 모작
 
 <p align="center">
-  <img src="ReadmeImg/Title.jpg" width="800"/>
+  <img src="https://images.mein-mmo.de/medien/2019/05/header-1024x400.jpg" width=""/>
 </p>
 
 ## 🎮 프로젝트 소개
@@ -17,7 +17,7 @@ Component 기반 UI Framework와 전용 UI Tool을 구현하여 데이터 기반
 ## 📅 개발 기간
 
 2026.01.22 ~ 2026.04.02  
-약 2개월
+약 3개월
 
 ---
 
@@ -67,13 +67,17 @@ Component 기반 UI Framework와 전용 UI Tool을 구현하여 데이터 기반
 
 ## 📷 프로젝트 이미지
 
-| 커스터마이징 | Inventory |
+| 타이틀 | 인게임 스크린샷1 |
 |:---:|:---:|
-| <img src="ReadmeImg/Customizing.gif" width="400"/> | <img src="ReadmeImg/Inventory.gif" width="400"/> |
+| <img src="ReadmeImg/title.png" width="400"/> | <img src="ReadmeImg/ingame1.png" width="400"/> |
 
-| Dialogue | HUD |
+| 인게임 스크린샷2 | 인게임 스크린샷3 |
 |:---:|:---:|
-| <img src="ReadmeImg/Dialogue.gif" width="400"/> | <img src="ReadmeImg/HUD.gif" width="400"/> |
+| <img src="ReadmeImg/ingame2.png" width="400"/> | <img src="ReadmeImg/ingame3.png" width="400"/> |
+
+| 인게임 스크린샷4 | 인게임 스크린샷5 |
+|:---:|:---:|
+| <img src="ReadmeImg/ingame5.png" width="400"/> | <img src="ReadmeImg/ingame6.png" width="400"/> |
 
 ---
 
@@ -116,7 +120,7 @@ Item 선택에 따라 상세 정보를 표시하고, Item 종류에 따라 사�
 ## 3. 선택지 기반 Dialogue System
 
 <p align="center">
-  <img src="ReadmeImg/Dialogue.gif" width="500"/>
+  <img src="ReadmeImg/Shop.gif" width="500"/>
 </p>
 
 ### 개요
@@ -132,7 +136,7 @@ NPC Dialogue 출력과 선택지 UI를 분리하고, Player의 선택에 따라 
 ## 4. Player 상태 데이터 연동 기반 HUD 시스템
 
 <p align="center">
-  <img src="ReadmeImg/HUD.gif" width="500"/>
+  <img src="ReadmeImg/playerhud.gif" width="500"/>
 </p>
 
 ### 개요
@@ -161,10 +165,10 @@ UI의 등록과 갱신, Z-Order 기반 Picking, Window Stack과 Scene / Persiste
 
 # 🛠 Tool
 
-## 1. Data-Driven UI Tool
+## 1. UI Tool
 
 <p align="center">
-  <img src="ReadmeImg/UITool.jpg" width="500"/>
+  <img src="ReadmeImg/AnimTrack.gif" width="500"/>
 </p>
 
 ### 개요
@@ -182,20 +186,20 @@ UI Object의 Transform과 Component, 부모-자식 계층 및 Prefab 정보를 T
 ## Monster AI
 
 <p align="center">
-  <img src="ReadmeImg/Monster.gif" width="450"/>
+  <img src="ReadmeImg/Monster knockdown.gif" width="450"/>
 </p>
 
-**공통 Monster State Machine을 기반으로 SlaveDevil, GiantVampire, DevilMonkey, Slime 총 4종의 AI와 전투 패턴을 구현했습니다. 각 Monster의 Animation과 상태 전환은 공통 구조를 활용하고, Slime의 천장 대기·낙하와 같은 특수 행동은 개별 State를 추가하여 확장했습니다.**
+공통 Monster State Machine을 기반으로 SlaveDevil, GiantVampire, DevilMonkey, Slime 총 4종의 AI와 전투 패턴을 구현했습니다. 각 Monster의 Animation과 상태 전환은 공통 구조를 활용하고, Slime의 천장 대기·낙하와 같은 특수 행동은 개별 State를 추가하여 확장했습니다.
 
 ---
 
 ## Player 중심 회전형 Minimap
 
 <p align="center">
-  <img src="ReadmeImg/Minimap.gif" width="450"/>
+  <img src="ReadmeImg/minimap.gif" width="450"/>
 </p>
 
-**RenderTarget과 World Position → Minimap UV 변환을 이용하여 Player 주변의 지형과 Object Icon을 표시하고, Camera Yaw를 기준으로 Shader에서 UV Sampling 좌표를 회전시키는 중심형 Minimap을 구현했습니다.**
+RenderTarget과 World Position → Minimap UV 변환을 이용하여 Player 주변의 지형과 Object Icon을 표시하고, Camera Yaw를 기준으로 Shader에서 UV Sampling 좌표를 회전시키는 중심형 Minimap을 구현했습니다.
 
 ---
 
@@ -231,6 +235,5 @@ UI Tool에서 제작한 데이터가 Runtime에서도 동일하게 복원되어�
 
 # 🔗 링크
 
-- GitHub : [DX11_CodeVein](https://github.com/mxxjee/DX11_CodeVein)
 - Notion : [프로젝트 및 기술 문서](https://www.notion.so/UI-Gameplay-System-Monster-AI-1e62e3fb387b82ad915b015bf8af6765?source=copy_link)
-- YouTube : [기술 설명 영상](https://youtu.be/ylQe65Ghskw)
+
