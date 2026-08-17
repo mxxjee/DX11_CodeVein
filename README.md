@@ -73,11 +73,11 @@ Component 기반 UI Framework와 전용 UI Tool을 구현하여 데이터 기반
 
 | 인게임 스크린샷2 | 인게임 스크린샷3 |
 |:---:|:---:|
-| <img src="ReadmeImg/ingame2.png" width="400"/> | <img src="ReadmeImg/ingame3.png" width="400"/> |
+| <img src="ReadmeImg/ingame2.png" width="400"/> | <img src="ReadmeImg/Ingame3.png" width="400"/> |
 
 | 인게임 스크린샷4 | 인게임 스크린샷5 |
 |:---:|:---:|
-| <img src="ReadmeImg/ingame5.png" width="400"/> | <img src="ReadmeImg/ingame6.png" width="400"/> |
+| <img src="ReadmeImg/Ingame5.png" width="400"/> | <img src="ReadmeImg/Ingame6.png" width="400"/> |
 
 ---
 
